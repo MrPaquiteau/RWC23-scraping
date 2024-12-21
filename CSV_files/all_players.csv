@@ -1,0 +1,659 @@
+Id,Country,Name,Hometown,Position,Age,Height,Weight,Photo
+Fra-1,France,Antoine Hastoy,,10,26,180 Cm,82 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71078.png
+Fra-2,France,Matthieu Jalibert,,10,25,180 Cm,81 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60484.png
+Fra-3,France,Melvyn Jaminet,,15,24,181 Cm,86 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71755.png
+Fra-4,France,Thomas Ramos,"Mazamet, France",15,28,178 Cm,82 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55625.png
+Fra-5,France,Antoine Dupont,"Lannemazan, France",9,27,175 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55619.png
+Fra-6,France,Baptiste Couilloud,"Lyon, France",9,26,176 Cm,82 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56996.png
+Fra-7,France,Maxime Lucu,,9,30,177 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/68960.png
+Fra-8,France,Gael Fickou,"La Seyne Sur Mer, France",Centre,29,190 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45702.png
+Fra-9,France,Arthur Vincent,,Centre,24,183 Cm,88 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62420.png
+Fra-10,France,Jonathan Danty,"Paris, France",Centre,31,182 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45699.png
+Fra-11,France,Damian Penaud,"Brive La Gaillarde, France",Wing,27,188 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55623.png
+Fra-12,France,Yoram Moefana,,Wing,23,182 Cm,97 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65778.png
+Fra-13,France,Louis Bielle-Biarrey,"La Tronche, France",Wing,20,185 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74043.png
+Fra-14,France,Gabin Villière,,Wing,27,181 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62619.png
+Fra-15,France,Peato Mauvaka,"Noumea, Pacific Islands",2,26,184 Cm,116 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56995.png
+Fra-16,France,Julien Marchand,,2,28,180 Cm,107 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55611.png
+Fra-17,France,Pierre Bourgarit,"Auch, France",2,26,184 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57047.png
+Fra-18,France,Gregory Alldritt,"Toulouse, France",8,26,191 Cm,111 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65538.png
+Fra-19,France,Francois Cros,"Toulouse, France",Flanker,29,191 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48774.png
+Fra-20,France,Sekou Macalou,,Flanker,28,194 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/52697.png
+Fra-21,France,Paul Boudehent,,Flanker,24,192 Cm,107 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65763.png
+Fra-22,France,Anthony Jelonch,,Flanker,27,193 Cm,111 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55618.png
+Fra-23,France,Charles Ollivon,"Bayonne, France",Flanker,30,199 Cm,114 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/54574.png
+Fra-24,France,Bastien Chalureau,,Lock,31,199 Cm,112 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45689.png
+Fra-25,France,Cameron Woki,,Lock,25,197 Cm,109 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59917.png
+Fra-26,France,Romain Taofifenua,"Mont De Marsan, France",Lock,33,201 Cm,136 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/39489.png
+Fra-27,France,Thibaud Flament,,Lock,26,203 Cm,116 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72518.png
+Fra-28,France,Jean-Baptiste Gros,,Prop,24,195 Cm,105 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62406.png
+Fra-29,France,Dorian Aldegheri,,Prop,30,180 Cm,119 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65537.png
+Fra-30,France,Sipili Falatea,,Prop,26,183 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71728.png
+Fra-31,France,Uini Atonio,"Timaru, New Zealand",Prop,33,197 Cm,146 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36970.png
+Fra-32,France,Cyril Baille,"Pau, France",Prop,30,182 Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48741.png
+Fra-33,France,Reda Wardi,,Prop,28,185 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/75596.png
+Nzl-1,New-Zealand,Richie Mo'Unga,"Christchurch, New Zealand",10,29,179 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50413.png
+Nzl-2,New-Zealand,Beauden Barrett,"New Plymouth, New Zealand",15,32,187 Cm,92 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/42625.png
+Nzl-3,New-Zealand,Rieko Ioane,"Auckland, New Zealand",Centre,26,189 Cm,105 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/54731.png
+Nzl-4,New-Zealand,Jordie Barrett,"New Plymouth, New Zealand",Centre,26,194 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57717.png
+Nzl-5,New-Zealand,Anton Lienert-Brown,"Lincoln, New Zealand",Centre,28,187 Cm,101 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50409.png
+Nzl-6,New-Zealand,Damian Mckenzie,,Fiveeighths,28,171 Cm,78 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50410.png
+Nzl-7,New-Zealand,Finlay Christie,,Half Back,28,177 Cm,82 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61112.png
+Nzl-8,New-Zealand,Aaron Smith,"Palmerston North, New Zealand",Half Back,35,171 Cm,82 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/34028.png
+Nzl-9,New-Zealand,Cam Roigard,"Hamilton, New Zealand",Half Back,23,183 Cm,88 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/75794.png
+Nzl-10,New-Zealand,David Havili,,Utility Back,28,188 Cm,84 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50765.png
+Nzl-11,New-Zealand,Will Jordan,,Wing,25,188 Cm,91 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60537.png
+Nzl-12,New-Zealand,Caleb Clarke,,Wing,24,188 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60542.png
+Nzl-13,New-Zealand,Leicester Fainga'Anuku,,Wing,24,188 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/63205.png
+Nzl-14,New-Zealand,Mark Tele'A,"Auckland, New Zealand",Wing,27,186 Cm,94 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/75620.png
+Nzl-15,New-Zealand,Codie Taylor,"Levin, New Zealand",2,32,183 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/42575.png
+Nzl-16,New-Zealand,Samisoni Taukei'Aho,"Tongatapu, Tonga",2,26,183 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71869.png
+Nzl-17,New-Zealand,Dane Coles,"Wellington, New Zealand",2,37,184 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/29607.png
+Nzl-18,New-Zealand,Ardie Savea,"Wellington, New Zealand",8,30,188 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/47998.png
+Nzl-19,New-Zealand,Ethan Blackadder,"Rangiora, New Zealand",Flanker,28, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71646.png
+Nzl-20,New-Zealand,Dalton Papali'I,"Otahuhu, New Zealand",Flanker,26,191 Cm,104 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57734.png
+Nzl-21,New-Zealand,Luke Jacobson,"Te Awamutu, New Zealand",Flanker,26,191 Cm,107 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57723.png
+Nzl-22,New-Zealand,Shannon Frizell,"Tofoa, Tonga",Flanker,29,188 Cm,114 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50136.png
+Nzl-23,New-Zealand,Sam Cane,"Rotorua, New Zealand",Flanker,31,189 Cm,106 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/42605.png
+Nzl-24,New-Zealand,Samuel Whitelock,"Palmerston North, New Zealand",Lock,35,202 Cm,119 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/32482.png
+Nzl-25,New-Zealand,Brodie Retallick,"Rangiora, New Zealand",Lock,32,204 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43512.png
+Nzl-26,New-Zealand,Scott Barrett,"New Plymouth, New Zealand",Lock,30,197 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48044.png
+Nzl-27,New-Zealand,Tupou Vaa'I,,Lock,23,197 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66940.png
+Nzl-28,New-Zealand,Tyrel Lomax,"Canberra, Australia",Prop,27,192 Cm,127 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55796.png
+Nzl-29,New-Zealand,Nepo Laulala,"Faga'Alu, American Samoa",Prop,32,184 Cm,125 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56100.png
+Nzl-30,New-Zealand,Ofa Tuungafasi,"Tofoa, Tonga",Prop,31,193 Cm,125 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43596.png
+Nzl-31,New-Zealand,Ethan De Groot,,Prop,25,190 Cm,135 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71786.png
+Nzl-32,New-Zealand,Fletcher Newell,,Prop,23,186 Cm,112 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66918.png
+Nzl-33,New-Zealand,Tamaiti Williams,,Prop,23,196 Cm,144 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66931.png
+Ita-1,Italy,Tommaso Allan,"Vicenza, Italy",10,30,184 Cm,87 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49561.png
+Ita-2,Italy,Giacomo Da Re,,10,24,183 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65733.png
+Ita-3,Italy,Paolo Garbisi,"Venezia, Italy",10,23,182 Cm,88 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65734.png
+Ita-4,Italy,Ange Capuozzo,,15,24,177 Cm,70 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/67092.png
+Ita-5,Italy,Stephen Varney,"Carmarthen, Wales",9,22,178 Cm,78 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69015.png
+Ita-6,Italy,Alessandro Garbisi,,9,21,178 Cm,84 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/70905.png
+Ita-7,Italy,Martin Page-Relo,,9,24,178 Cm,77 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/df777094-4060-49c1-8361-65c5f2f40ebb.png
+Ita-8,Italy,Paolo Odogwu,,Centre,26,183 Cm,105 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56799.png
+Ita-9,Italy,Juan Ignacio Brex,"Buenos Aires, Argentina",Centre,31,190 Cm,94 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45840.png
+Ita-10,Italy,Luca Morisi,"Milano, Italy",Centre,32,183 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/39867.png
+Ita-11,Italy,Lorenzo Pani,,Utility Back,21,188 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71407.png
+Ita-12,Italy,Alessandro Fusco,,Utility Back,24,183 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62497.png
+Ita-13,Italy,Pierre Bruno,,Wing,27,181 Cm,83 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56873.png
+Ita-14,Italy,Montanna Ioane,"Melbourne, Australia",Wing,29,182 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69902.png
+Ita-15,Italy,Hame Faiva,,2,29,183 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48053.png
+Ita-16,Italy,Giacomo Nicotera,,2,27,183 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72598.png
+Ita-17,Italy,Marco Manfredi,"Fribourg, Germany",2,26,183 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56883.png
+Ita-18,Italy,Lorenzo Cannone,,8,22,188 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69013.png
+Ita-19,Italy,Toa Halafihi,,8,30,185 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72917.png
+Ita-20,Italy,Giovanni Pettinelli,,Flanker,27,193 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56888.png
+Ita-21,Italy,Michele Lamaro,"Roma, Italy",Flanker,25,186 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60008.png
+Ita-22,Italy,Manuel Zuliani,,Flanker,23,186 Cm,109 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65841.png
+Ita-23,Italy,Sebastian Negri,"Marondera, Zimbabwe",Flanker,29,195 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56053.png
+Ita-24,Italy,Federico Ruzza,"Padova, Italy",Lock,29,198 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50391.png
+Ita-25,Italy,David Sisi,"Rinteln, Germany",Lock,30,193 Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45663.png
+Ita-26,Italy,Niccolo Cannone,"Florence, Italy",Lock,25,195 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60323.png
+Ita-27,Italy,Dino Lamb,,Lock,25,197 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60856.png
+Ita-28,Italy,Federico Zani,"Parma, Italy",Prop,34,178 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56054.png
+Ita-29,Italy,Paolo Buonfiglio,,Prop,28, Cm, Kg,https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png
+Ita-30,Italy,Simone Ferrari,"Cernusco Sul Naviglio, Italy",Prop,29,185 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48322.png
+Ita-31,Italy,Ivan Nemer,,Prop,25,180 Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72519.png
+Ita-32,Italy,Pietro Ceccarelli,"Roma, Italy",Prop,31,184 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45573.png
+Ita-33,Italy,Marco Riccioni,"Pescara, Italy",Prop,26,185 Cm,125 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56889.png
+Uru-1,Uruguay,Felipe Etcheverry,"Montevideo, Uruguay",10,27,176 Cm,75 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55335.png
+Uru-2,Uruguay,Rodrigo Silva,"Montevideo, Uruguay",15,31,184 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43074.png
+Uru-3,Uruguay,Santiago Arata,"Montevideo, Uruguay",9,27,174 Cm,78 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62992.png
+Uru-4,Uruguay,Santiago Alvarez,,9,21,183 Cm,88 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71506.png
+Uru-5,Uruguay,Agustin Ormaechea,"Montevideo, Uruguay",9,32,176 Cm,86 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/39181.png
+Uru-6,Uruguay,Juan Manuel Alonso,,Centre,22,183 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69812.png
+Uru-7,Uruguay,Andres Vilaseca,"Montevideo, Uruguay",Centre,32,196 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/39179.png
+Uru-8,Uruguay,Tomas Inciarte,"Montevideo, Uruguay",Centre,27,180 Cm,84 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57453.png
+Uru-9,Uruguay,Felipe Arcos Perez,,Centre,23,185 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/67623.png
+Uru-10,Uruguay,Felipe Berchesi,"Montevideo, Uruguay",Half Back,32,178 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/39180.png
+Uru-11,Uruguay,Nicolas Freitas,"Montevideo, Uruguay",Utility Back,30,179 Cm,92 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48443.png
+Uru-12,Uruguay,Gaston Mieres,"Maldonado, Uruguay",Utility Back,34,181 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36604.png
+Uru-13,Uruguay,Baltazar Amaya,,Utility Back,24,183 Cm,83 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64464.png
+Uru-14,Uruguay,Ignacio Facciolo,,Wing,22,188 Cm,91 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71515.png
+Uru-15,Uruguay,Bautista Basso,,Wing,22,180 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69218.png
+Uru-16,Uruguay,German Kessler,"Montevideo, Uruguay",2,29,184 Cm,105 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50154.png
+Uru-17,Uruguay,Guillermo Pujadas,"Montevideo, Uruguay",2,26,180 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57461.png
+Uru-18,Uruguay,Carlos Deus,,8,22,189 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/67762.png
+Uru-19,Uruguay,Manuel Diana,"Montevideo, Uruguay",8,27,189 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55332.png
+Uru-20,Uruguay,Manuel Ardao,"Montevideo, Uruguay",Flanker,25,177 Cm,92 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62623.png
+Uru-21,Uruguay,Lucas Bianchi,,Flanker,22,190 Cm,107 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69810.png
+Uru-22,Uruguay,Eric Dosantos,,Flanker,28,187 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55333.png
+Uru-23,Uruguay,Santiago Civetta,"Montevideo, Uruguay",Flanker,25,184 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60291.png
+Uru-24,Uruguay,Facundo Gattas,"Montevideo, Uruguay",Forward,28,184 Cm,107 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50170.png
+Uru-25,Uruguay,Ignacio Dotti,"Montevideo, Uruguay",Lock,29,193 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50157.png
+Uru-26,Uruguay,Felipe Aliaga,"Montevideo, Uruguay",Lock,24,183 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64456.png
+Uru-27,Uruguay,Manuel Leindekar,"Montevideo, Uruguay",Lock,26,200 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55337.png
+Uru-28,Uruguay,Juan Manuel Rodríguez,,Lock,26,187 Cm,107 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65172.png
+Uru-29,Uruguay,Mateo Sanguinetti,"Montevideo, Uruguay",Prop,31,185 Cm,105 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43070.png
+Uru-30,Uruguay,Matias Benitez,,Prop,35, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/75283.png
+Uru-31,Uruguay,Diego Arbelo,"Montevideo, Uruguay",Prop,29,190 Cm,114 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48433.png
+Uru-32,Uruguay,Ignacio Peculo,"Caba, Argentina",Prop,24,190 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61317.png
+Uru-33,Uruguay,Reinaldo Piussi,"Mercedes, Uruguay",Prop,24,191 Cm,130 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61655.png
+Nam-1,Namibia,Cliven Loubser,"Rehoboth, Namibia",10,26,176 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60273.png
+Nam-2,Namibia,Andre Van Der Bergh,,10,25,180 Cm,92 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61436.png
+Nam-3,Namibia,Tiaan Swanepoel,,10,27,180 Cm,91 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/be4c4091-11f4-4075-8e0b-33a78a1af7d5.png
+Nam-4,Namibia,Divan Rossouw,"Windhoek, Namibia",15,27,187 Cm,89 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55314.png
+Nam-5,Namibia,Jacques Theron,,9,24,179 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64594.png
+Nam-6,Namibia,Oela Blaauw,,9,22,180 Cm,79 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/73999.png
+Nam-7,Namibia,Helarius Kisting,"Mariental, Namibia",9,29,175 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60270.png
+Nam-8,Namibia,Damian Stevens,"Walvis Bay, Namibia",9,28,175 Cm,70 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55316.png
+Nam-9,Namibia,Alcino Izaacs,,Centre,30,189 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74130.png
+Nam-10,Namibia,Johan Deysel,"Windhoek, Namibia",Centre,32,184 Cm,96 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49604.png
+Nam-11,Namibia,Danco Burger,,Centre,25,189 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72613.png
+Nam-12,Namibia,Lloyd Jacobs,,Utility Back,30, Cm, Kg,https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png
+Nam-13,Namibia,Gerswin Mouton,,Wing,23,186 Cm,89 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64500.png
+Nam-14,Namibia,Jc Greyling,"Okahandja, Namibia",Wing,32,187 Cm,92 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/54471.png
+Nam-15,Namibia,Obert Nortje,"Windhoek, Namibia",2,26,179 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57480.png
+Nam-16,Namibia,Torsten Van Jaarsveld,"Windhoek, Namibia",2,36,173 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/46642.png
+Nam-17,Namibia,Louis Van Der Westhuizen,"Windhoek, Namibia",2,28,178 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49605.png
+Nam-18,Namibia,Adriaan Booysen,"Gobabis, Namibia",8,27,184 Cm,105 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/67232.png
+Nam-19,Namibia,Richard Hardwick,,8,29,188 Cm,88 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61029.png
+Nam-20,Namibia,Max Katjijeko,"Windhoek, Namibia",Flanker,28,196 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55306.png
+Nam-21,Namibia,Johan Retief,"Windhoek, Namibia",Flanker,28,190 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50123.png
+Nam-22,Namibia,Wian Conradie,"Windhoek, Namibia",Flanker,29,185 Cm,104 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48338.png
+Nam-23,Namibia,Prince Gaoseb,"Omaruru, Namibia",Flanker,25,186 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61426.png
+Nam-24,Namibia,Tiaan De Klerk,,Lock,22,204 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/cb9ccb35-086c-4a16-9504-f538e0f2f7af.png
+Nam-25,Namibia,Tjiuee Uanivi,"Otjiwarongo, Namibia",Lock,32,200 Cm,116 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/54470.png
+Nam-26,Namibia,Adriaan Ludick,"Windhoek, Namibia",Lock,25,198 Cm,112 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61428.png
+Nam-27,Namibia,Mahepisa Tjeriko,"Windhoek, Namibia",Lock,30,195 Cm,91 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48352.png
+Nam-28,Namibia,Pieter-Jan Van Lill,"Keetmanshoop, Namibia",Lock,40,192 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/31684.png
+Nam-29,Namibia,Jason Benade,"Rehoboth, Namibia",Prop,28,188 Cm,125 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50117.png
+Nam-30,Namibia,Casper Viviers,"Windhoek, Namibia",Prop,35,185 Cm,125 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/28821.png
+Nam-31,Namibia,Johan Coetzee,"Windhoek, Namibia",Prop,35,186 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/33762.png
+Nam-32,Namibia,Desiderius Sethie,"Walvis Bay, Namibia",Prop,31,178 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61199.png
+Nam-33,Namibia,Haitembu Shikufa,,Prop,25, Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/308b0b06-2eb3-4d79-a18e-4a6068dc81e2.png
+Rsa-1,South-Africa,Manie Libbok,,10,26,182 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57850.png
+Rsa-2,South-Africa,Willie Le Roux,"Strand, South Africa",15,34,186 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49080.png
+Rsa-3,South-Africa,Faf De Klerk,"Mbombela, South Africa",9,32,172 Cm,88 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56104.png
+Rsa-4,South-Africa,Jaden Hendrikse,,9,23,184 Cm,86 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66738.png
+Rsa-5,South-Africa,Cobus Reinach,"Bloemfontein, South Africa",9,33,175 Cm,84 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/53956.png
+Rsa-6,South-Africa,Grant Williams,,9,27,174 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71724.png
+Rsa-7,South-Africa,Andre Esterhuizen,"Durban, South Africa",Centre,29,191 Cm,106 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50446.png
+Rsa-8,South-Africa,Jesse Kriel,"Cape Town, South Africa",Centre,29,186 Cm,96 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49029.png
+Rsa-9,South-Africa,Damian De Allende,"Cape Town, South Africa",Centre,32,189 Cm,101 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50681.png
+Rsa-10,South-Africa,Handre Pollard,"Somerset West, South Africa",Unknown,29,189 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/46392.png
+Rsa-11,South-Africa,Lukhanyo Am,"East London, South Africa",Unknown,30,186 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/58707.png
+Rsa-12,South-Africa,Damian Willemse,"Strand, South Africa",Utility Back,25,183 Cm,86 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60620.png
+Rsa-13,South-Africa,Canan Moodie,,Wing,21,190 Cm,89 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71486.png
+Rsa-14,South-Africa,Cheslin Kolbe,"Cape Town, South Africa",Wing,30,170 Cm,74 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48565.png
+Rsa-15,South-Africa,Kurt-Lee Arendse,,Wing,27,177 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66060.png
+Rsa-16,South-Africa,Deon Fourie,"Pretoria, South Africa",2,37,176 Cm,96 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/29658.png
+Rsa-17,South-Africa,Mbongeni Mbonambi,"Bethlehem, South Africa",2,32,177 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43544.png
+Rsa-18,South-Africa,Jasper Wiese,"Upington, South Africa",8,28,189 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71061.png
+Rsa-19,South-Africa,Duane Vermeulen,"Mbombela, South Africa",8,37,193 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/37137.png
+Rsa-20,South-Africa,Kwagga Smith,"Krugersdorp, South Africa",Flanker,30,181 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48550.png
+Rsa-21,South-Africa,Siya Kolisi,"Port Elizabeth, South Africa",Flanker,32,186 Cm,99 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/39774.png
+Rsa-22,South-Africa,Marco Van Staden,"Krugersdorp, South Africa",Flanker,28,184 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64590.png
+Rsa-23,South-Africa,Pieter-Steph Du Toit,"Riebeeck Kasteel, South Africa",Flanker,31,200 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45550.png
+Rsa-24,South-Africa,Rg Snyman,"Pretoria, South Africa",Lock,28,206 Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55747.png
+Rsa-25,South-Africa,Jean Kleyn,"Johannesburg, South Africa",Lock,30,203 Cm,121 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/67415.png
+Rsa-26,South-Africa,Eben Etzebeth,"Cape Town, South Africa",Lock,32,204 Cm,119 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43559.png
+Rsa-27,South-Africa,Franco Mostert,"Johannesburg, South Africa",Lock,33,198 Cm,112 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/58426.png
+Rsa-28,South-Africa,Marvin Orie,"Johannesburg, South Africa",Lock,30,197 Cm,109 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45532.png
+Rsa-29,South-Africa,Frans Malherbe,"Paarl, South Africa",Prop,32,190 Cm,123 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/47012.png
+Rsa-30,South-Africa,Ox Nche,,Prop,28,173 Cm,105 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55744.png
+Rsa-31,South-Africa,Trevor Nyakane,"Limpopo, South Africa",Prop,34,178 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49081.png
+Rsa-32,South-Africa,Vincent Koch,"Empangeni, South Africa",Prop,33,185 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49037.png
+Rsa-33,South-Africa,Steven Kitshoff,"Somerset West, South Africa",Prop,31,183 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45555.png
+Ire-1,Ireland,Ross Byrne,"Dublin, Ireland",10,28,191 Cm,91 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50482.png
+Ire-2,Ireland,Johnny Sexton,"Dublin, Ireland",10,38, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/26541.png
+Ire-3,Ireland,Jack Crowley,,10,23,183 Cm,82 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69045.png
+Ire-4,Ireland,Hugo Keenan,,15,27,185 Cm,88 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66511.png
+Ire-5,Ireland,Craig Casey,,9,24,166 Cm,76 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65664.png
+Ire-6,Ireland,Conor Murray,"Limerick, Ireland",9,34,190 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36654.png
+Ire-7,Ireland,Jamison Gibson-Park,,9,31,176 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/47498.png
+Ire-8,Ireland,Bundee Aki,"Otahuhu, New Zealand",Centre,33,178 Cm,99 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45276.png
+Ire-9,Ireland,Garry Ringrose,"Dublin, Ireland",Centre,28,187 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50499.png
+Ire-10,Ireland,Stuart Mccloskey,"Newtownards, Ireland",Centre,31,193 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50769.png
+Ire-11,Ireland,Robbie Henshaw,"Galway, Ireland",Centre,30,192 Cm,99 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/47646.png
+Ire-12,Ireland,Jimmy O'Brien,,Wing,27,184 Cm,88 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62927.png
+Ire-13,Ireland,Keith Earls,"Limerick, Ireland",Wing,36,178 Cm,86 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/28999.png
+Ire-14,Ireland,Mack Hansen,,Wing,25,189 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/63165.png
+Ire-15,Ireland,James Lowe,"Nelson, New Zealand",Wing,31,187 Cm,101 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/42642.png
+Ire-16,Ireland,Ronan Kelleher,,2,25,184 Cm,104 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59777.png
+Ire-17,Ireland,Dan Sheehan,,2,25,191 Cm,107 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/63781.png
+Ire-18,Ireland,Rob Herring,"Cape Town, South Africa",2,33,184 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49063.png
+Ire-19,Ireland,Jack Conan,"Dublin, Ireland",8,31,191 Cm,111 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45851.png
+Ire-20,Ireland,Caelan Doris,,8,25,193 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59773.png
+Ire-21,Ireland,Ryan Baird,,Flanker,24,198 Cm,107 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65681.png
+Ire-22,Ireland,Josh Van Der Flier,"Dublin, Ireland",Flanker,30,187 Cm,104 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45944.png
+Ire-23,Ireland,Peter O'Mahony,"Cork, Ireland",Flanker,34,191 Cm,105 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36658.png
+Ire-24,Ireland,Tadhg Beirne,"Dublin, Ireland",Lock,31,198 Cm,112 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45848.png
+Ire-25,Ireland,Iain Henderson,"Craigavon, Northern Ireland",Lock,31,199 Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43494.png
+Ire-26,Ireland,Joe Mccarthy,,Lock,22,196 Cm,121 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69056.png
+Ire-27,Ireland,James Ryan,"Dublin, Ireland",Lock,27,210 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56907.png
+Ire-28,Ireland,Tadhg Furlong,"Wexford, Ireland",Prop,31,185 Cm,125 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43490.png
+Ire-29,Ireland,Dave Kilcoyne,"Limerick, Ireland",Prop,34,181 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/47365.png
+Ire-30,Ireland,Jeremy Loughman,,Prop,28,186 Cm,119 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55701.png
+Ire-31,Ireland,Tom O'Toole,,Prop,25,185 Cm,122 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62373.png
+Ire-32,Ireland,Andrew Porter,"Dublin, Ireland",Prop,27,184 Cm,123 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55709.png
+Ire-33,Ireland,Finlay Bealham,"Canberra, Australia",Prop,32,190 Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43486.png
+Sco-1,Scotland,Ben Healy,,10,24,190 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65669.png
+Sco-2,Scotland,Finn Russell,"Stirling, Scotland",10,31,182 Cm,87 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45928.png
+Sco-3,Scotland,Blair Kinghorn,"Edinburgh, Scotland",15,26,190 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55642.png
+Sco-4,Scotland,Ollie Smith,,15,23,188 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65717.png
+Sco-5,Scotland,Ben White,,9,25,180 Cm,88 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62432.png
+Sco-6,Scotland,George Horne,"Dundee, Scotland",9,28,174 Cm,79 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55641.png
+Sco-7,Scotland,Ali Price,"King'S Lynn, England",9,30,177 Cm,88 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48670.png
+Sco-8,Scotland,Cameron Redpath,,Centre,23,185 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62480.png
+Sco-9,Scotland,Huw Jones,"Edinburgh, Scotland",Centre,29,186 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/58569.png
+Sco-10,Scotland,Sione Tuipulotu,"Carlton, Australia",Centre,26,178 Cm,104 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60435.png
+Sco-11,Scotland,Chris Harris,"Carlisle, England",Centre,32,188 Cm,104 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61993.png
+Sco-12,Scotland,Kyle Steyn,"Roodepoort, South Africa",Wing,29,187 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62621.png
+Sco-13,Scotland,Darcy Graham,"Melrose, Scotland",Wing,26,177 Cm,84 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56855.png
+Sco-14,Scotland,Duhan Van Der Merwe,,Wing,28,192 Cm,96 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50689.png
+Sco-15,Scotland,George Turner,"Edinburgh, Scotland",2,31,180 Cm,105 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45921.png
+Sco-16,Scotland,Ewan Ashman,"Toronto, Canada",2,23,186 Cm,104 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65702.png
+Sco-17,Scotland,Johnny Matthews,"Liverpool, England",2,30, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74079.png
+Sco-18,Scotland,Matt Fagerson,"Perth, Scotland",8,25,186 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64206.png
+Sco-19,Scotland,Jack Dempsey,"Wahroonga, Australia",8,29,190 Cm,92 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48596.png
+Sco-20,Scotland,Jamie Ritchie,"Dundee, Scotland",Flanker,27,190 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50434.png
+Sco-21,Scotland,Hamish Watson,"Manchester, England",Flanker,32,185 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43538.png
+Sco-22,Scotland,Rory Darge,,Flanker,23,185 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62457.png
+Sco-23,Scotland,Luke Crosbie,,Flanker,26,196 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56847.png
+Sco-24,Scotland,Sam Skinner,"Exeter, England",Lock,28,196 Cm,111 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55604.png
+Sco-25,Scotland,Grant Gilchrist,"Stirling, Scotland",Lock,33,198 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36676.png
+Sco-26,Scotland,Scott Cummings,"Glasgow, Scotland",Lock,27,198 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55636.png
+Sco-27,Scotland,Richie Gray,"Rutherglen, Scotland",Lock,34,207 Cm,126 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/34128.png
+Sco-28,Scotland,Javan Sebastian,"Carmarthen, Wales",Prop,29,177 Cm,121 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71576.png
+Sco-29,Scotland,Rory Sutherland,"Melrose, Scotland",Prop,31,180 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56341.png
+Sco-30,Scotland,Pierre Schoeman,,Prop,29,183 Cm,116 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50458.png
+Sco-31,Scotland,Zander Fagerson,"Perth, Scotland",Prop,27,188 Cm,126 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50424.png
+Sco-32,Scotland,Wp Nel,"Loeriesfontein, South Africa",Prop,37,180 Cm,114 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/37061.png
+Sco-33,Scotland,Jamie Bhatti,"Stirling, Scotland",Prop,30,185 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45925.png
+Tga-1,Tonga,Patrick Pellegrini,"Randwick, Australia",10,25,170 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/83a3d68f-7b2e-464e-b70b-d6fc89ad9b6e.png
+Tga-2,Tonga,William Havili,,10,25,185 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74259.png
+Tga-3,Tonga,Salesi Piutau,"Auckland, New Zealand",15,32,186 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/39879.png
+Tga-4,Tonga,Kyren Taumoefolau,,15,20,187 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/75883.png
+Tga-5,Tonga,Augustine Pulu,,9,33,180 Cm,89 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/54499.png
+Tga-6,Tonga,Sonatane Takulua,"Tofoa, Tonga",9,32,180 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50727.png
+Tga-7,Tonga,Manusiu Paea,,9,22, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74258.png
+Tga-8,Tonga,Pita Ahki,,Centre,31,179 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43604.png
+Tga-9,Tonga,George Moala,,Centre,33,187 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36856.png
+Tga-10,Tonga,Malakai Fekitoa,"Hihifo Hp, Tonga",Centre,31,187 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43605.png
+Tga-11,Tonga,Afusipa Taumoepeau,,Utility Back,33,184 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36792.png
+Tga-12,Tonga,Fine Inisi,,Utility Back,25,187 Cm,79 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65609.png
+Tga-13,Tonga,Anzelo Tuitavuki,,Wing,25,187 Cm,78 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74261.png
+Tga-14,Tonga,Solomone Kata,,Wing,29,177 Cm,104 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72537.png
+Tga-15,Tonga,Paula Ngauamo,"Christchurch, New Zealand",2,33,185 Cm,122 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50000.png
+Tga-16,Tonga,Sione Anga'Aelangi,"Sydney, Australia",2,35,180 Cm,106 Kg,https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png
+Tga-17,Tonga,Sam Moli,,2,24,185 Cm,114 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71648.png
+Tga-18,Tonga,Sione Vailanu,"Tofoa, Tonga",8,28,189 Cm,119 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55268.png
+Tga-19,Tonga,Vaea Fifita,"Neiafu, Tonga",8,31,196 Cm,116 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61094.png
+Tga-20,Tonga,Sione Talitui,,Flanker,25,187 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74256.png
+Tga-21,Tonga,Tanginoa Halaifonua,,Flanker,27,187 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55259.png
+Tga-22,Tonga,Penitoa Finau,"Hamilton, New Zealand",Flanker,29, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/d1f59886-5d58-4f89-8bc4-f6eca5607ca3.png
+Tga-23,Tonga,Semisi Paea,,Lock,24,194 Cm,112 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71887.png
+Tga-24,Tonga,Halaleva Fifita,"Neiafu, Tonga",Lock,34,193 Cm,116 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36837.png
+Tga-25,Tonga,Adam Coleman,"Hobart, Tasmania, Australia",Lock,32,204 Cm,122 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45216.png
+Tga-26,Tonga,Sitiveni Mafi,"Fairfield, Australia",Lock,34,196 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/34256.png
+Tga-27,Tonga,Sam Lousi,"Auckland, New Zealand",Lock,32,198 Cm,121 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61135.png
+Tga-28,Tonga,Tau Koloamatangi,,Prop,28,172 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50408.png
+Tga-29,Tonga,Ben Tameifuna,"Otahuhu, New Zealand",Prop,32,188 Cm,151 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43516.png
+Tga-30,Tonga,Siate Tokolahi,"Tofoa, Tonga",Prop,31,182 Cm,118 Kg,https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png
+Tga-31,Tonga,Sosefo Apikotoa,,Prop,27,191 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74254.png
+Tga-32,Tonga,Paula Latu,,Prop,27,187 Cm,123 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/4dc1b102-c8c5-46d9-9238-07d03a5c11bd.png
+Tga-33,Tonga,Siegfried Fisi'Ihoi,"Neiafu, Tonga",Prop,36,184 Cm,125 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/58698.png
+Rou-1,Romania,Luca Nichitean,,10,24, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/fc7b47cd-0ad7-4619-acd2-356b7e30fa26.png
+Rou-2,Romania,Tudor Boldor,,10,26,182 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65095.png
+Rou-3,Romania,Marius Simionescu,,15,26,187 Cm,88 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61105.png
+Rou-4,Romania,Alin Conache,,9,21,170 Cm,75 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72926.png
+Rou-5,Romania,Florin Surugiu,"Bucharest, Romania",9,39,170 Cm,81 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/34284.png
+Rou-6,Romania,Gabriel Rupanu,,9,26,176 Cm,75 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/67312.png
+Rou-7,Romania,Tevita Manumua,,Centre,30,189 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48893.png
+Rou-8,Romania,Mihai Graure,"Bucharest, Romania",Centre,20, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/b95c2cd8-cf18-4999-88b3-d5b45db4ccf3.png
+Rou-9,Romania,Jason Tomane,,Centre,28,186 Cm,111 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72526.png
+Rou-10,Romania,Alexandru Bucur,,Centre,29, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65207.png
+Rou-11,Romania,Nicholas Onutu,,Wing,27,182 Cm,79 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/58326.png
+Rou-12,Romania,Sioeli Lama,,Wing,28,175 Cm,86 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72665.png
+Rou-13,Romania,Fonovai Tangimana,,Wing,34,187 Cm,111 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59460.png
+Rou-14,Romania,Taliauli Sikuea,,Wing,28,189 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55041.png
+Rou-15,Romania,Florin Bardasu,,2,32,173 Cm,91 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/39224.png
+Rou-16,Romania,Ovidiu Cojocaru,,2,27,177 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61132.png
+Rou-17,Romania,Robert Irimescu,,2,27,180 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/76040.png
+Rou-18,Romania,Andre Gorin,,8,36,192 Cm,112 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65800.png
+Rou-19,Romania,Damian Stratila,,8,27,189 Cm,114 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72525.png
+Rou-20,Romania,Cristian Chirica,,8,26,192 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59342.png
+Rou-21,Romania,Florian Rosu,,Flanker,30,193 Cm,106 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71673.png
+Rou-22,Romania,Cristi Boboc,,Flanker,28,188 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/70529.png
+Rou-23,Romania,Vlad Neculau,,Flanker,25,191 Cm,99 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64426.png
+Rou-24,Romania,Dragos Ser,,Flanker,24,187 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64431.png
+Rou-25,Romania,Stefan Iancu,,Lock,25,205 Cm,130 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64423.png
+Rou-26,Romania,Adrian Motoc,,Lock,27,197 Cm,114 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62212.png
+Rou-27,Romania,Marius Iftimiciuc,,Lock,26,202 Cm,127 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65094.png
+Rou-28,Romania,Gheorghe Gajion,,Prop,31,190 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/44815.png
+Rou-29,Romania,Alexandru Gordas,"Bucharest, Romania",Prop,29,183 Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56077.png
+Rou-30,Romania,Costel Burtila,,Prop,32,185 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69106.png
+Rou-31,Romania,Thomas Cretu,,Prop,21,190 Cm,130 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/73249.png
+Rou-32,Romania,Alexandru Savin,,Prop,28,187 Cm,121 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65093.png
+Rou-33,Romania,Iulian Hartig,,Prop,25,179 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64421.png
+Wal-1,Wales,Dan Biggar,"Swansea, Wales",10,34,188 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/33997.png
+Wal-2,Wales,Sam Costelow,"Llantrisant, Wales",10,22,169 Cm,83 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65575.png
+Wal-3,Wales,Gareth Anscombe,"Takapuna, New Zealand",10,32,183 Cm,87 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43506.png
+Wal-4,Wales,Liam Williams,"Swansea, Wales",15,32,185 Cm,87 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43423.png
+Wal-5,Wales,Leigh Halfpenny,"Swansea, Wales",15,34,178 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/32440.png
+Wal-6,Wales,Gareth Davies,"Carmarthen, Wales",9,33,178 Cm,88 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/38914.png
+Wal-7,Wales,Tomos Williams,"Treorchy, Wales",9,28,178 Cm,77 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50478.png
+Wal-8,Wales,Johnny Williams,,Centre,27,189 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57821.png
+Wal-9,Wales,Mason Grady,"Cardiff, Wales",Centre,21,195 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69222.png
+Wal-10,Wales,George North,"King'S Lynn, England",Centre,31,193 Cm,109 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/42052.png
+Wal-11,Wales,Nick Tompkins,,Centre,28,183 Cm,87 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50353.png
+Wal-12,Wales,Louis Rees-Zammit,,Wing,22,191 Cm,87 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/68956.png
+Wal-13,Wales,Rio Dyer,"Newport, Wales",Wing,23,187 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62342.png
+Wal-14,Wales,Josh Adams,"Swansea, Wales",Wing,28,186 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50463.png
+Wal-15,Wales,Ryan Elias,"Carmarthen, Wales",2,28,188 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55677.png
+Wal-16,Wales,Elliot Dee,"Newport, Wales",2,29,185 Cm,106 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48715.png
+Wal-17,Wales,Dewi Lake,,2,24,185 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62334.png
+Wal-18,Wales,Aaron Wainwright,"Cardiff, Wales",8,26,188 Cm,106 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/63868.png
+Wal-19,Wales,Jac Morgan,,Flanker,23,180 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65572.png
+Wal-20,Wales,Dan Lydiate,"Salford, England",Flanker,35,193 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36341.png
+Wal-21,Wales,Tommy Reffell,,Flanker,24,183 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62337.png
+Wal-22,Wales,Taine Basham,,Flanker,24,181 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62326.png
+Wal-23,Wales,Christ Tshiunza,,Forward,21,198 Cm,112 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71378.png
+Wal-24,Wales,Adam Beard,"Swansea, Wales",Lock,27,203 Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55680.png
+Wal-25,Wales,Dafydd Jenkins,"Bridgend, Wales",Lock,21,201 Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71376.png
+Wal-26,Wales,Will Rowlands,,Lock,32,203 Cm,123 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/68955.png
+Wal-27,Wales,Dillon Lewis,"Church Village, Wales",Prop,27,183 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55674.png
+Wal-28,Wales,Nicky Smith,"Swansea, Wales",Prop,29,183 Cm,116 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48713.png
+Wal-29,Wales,Gareth Thomas,,Prop,30,188 Cm,116 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45611.png
+Wal-30,Wales,Tomas Francis,"York, England",Prop,31,185 Cm,135 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56108.png
+Wal-31,Wales,Corey Domachowski,,Prop,27,183 Cm,123 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56817.png
+Wal-32,Wales,Henry Thomas,,Prop,32,85 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43582.png
+Aus-1,Australia,Carter Gordon,,10,22,189 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/c492f469-c69e-49d3-b916-b7f80afd5b5f.png
+Aus-2,Australia,Andrew Kellaway,,15,28,181 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50211.png
+Aus-3,Australia,Max Jorgensen,,15,19,184 Cm,87 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/a3fbed60-014b-4fc7-82e3-61eb8e720847.png
+Aus-4,Australia,Nic White,"Scone, Australia",9,33,175 Cm,78 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36794.png
+Aus-5,Australia,Tate Mcdermott,,9,25,175 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59640.png
+Aus-6,Australia,Issak Fines-Leleiwasa,,9,28,172 Cm,82 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56065.png
+Aus-7,Australia,Lalakai Foketi,,Centre,28,186 Cm,101 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/47947.png
+Aus-8,Australia,Izaia Perese,,Centre,26, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57896.png
+Aus-9,Australia,Samu Kerevi,"Suva, Fiji",Centre,30,186 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45887.png
+Aus-10,Australia,Ben Donaldson,,Fiveeighths,24, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66844.png
+Aus-11,Australia,Mark Nawaqanitawase,"Kogarah, Australia",Wing,23,190 Cm,96 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66843.png
+Aus-12,Australia,Jordan Petaia,"Werribee, Australia",Wing,23,191 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/63173.png
+Aus-13,Australia,Marika Koroibete,"Namosi, Fiji",Wing,31,182 Cm,96 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59442.png
+Aus-14,Australia,Suli Vunivalu,,Wing,28,192 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74575.png
+Aus-15,Australia,Matt Faessler,,2,24,183 Cm,109 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/63162.png
+Aus-16,Australia,David Porecki,,2,31,185 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74268.png
+Aus-17,Australia,Jordan Uelese,"Wellington, Australia",2,26,189 Cm,122 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57899.png
+Aus-18,Australia,Rob Valetini,"Clayton, Australia",8,25, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60450.png
+Aus-19,Australia,Langi Gleeson,,8,22,188 Cm,112 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/73985.png
+Aus-20,Australia,Tom Hooper,,Flanker,22,199 Cm,122 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/b1a871c6-1dbe-46be-8798-96f4519a827e.png
+Aus-21,Australia,Josh Kemeny,,Flanker,25,193 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/63158.png
+Aus-22,Australia,Robert Leota,,Flanker,26, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57683.png
+Aus-23,Australia,Fraser Mcreight,,Flanker,24,184 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/63164.png
+Aus-24,Australia,Nick Frost,,Lock,24,206 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66859.png
+Aus-25,Australia,Matt Philip,,Lock,29,196 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/47912.png
+Aus-26,Australia,Richard Arnold,,Lock,33,208 Cm,127 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/d0cb2762-41a5-46f0-aa2b-458ff8a43dfc.png
+Aus-27,Australia,Will Skelton,"Auckland, New Zealand",Lock,31,203 Cm,140 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43181.png
+Aus-28,Australia,Pone Fa’Amausili,,Prop,26,196 Cm,138 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69731.png
+Aus-29,Australia,Taniela Tupou,"Tofoa, Tonga",Prop,27, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61868.png
+Aus-30,Australia,Blake Schoupp,,Prop,25,180 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/0535e2cf-26d9-4703-a62c-198c0f601634.png
+Aus-31,Australia,Zane Nonggorr,,Prop,22,187 Cm,130 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49f4a0a3-c025-42b7-a63c-7fdbb8405e45.png
+Aus-32,Australia,James Slipper,"Southport, Australia",Prop,34,186 Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36790.png
+Aus-33,Australia,Angus Bell,,Prop,23, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66845.png
+Fij-1,Fiji,Ilaisa Droasese,,15,24, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66904.png
+Fij-2,Fiji,Frank Lomani,"Savusavu, Fiji",9,27,178 Cm,79 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57371.png
+Fij-3,Fiji,Waisea Nayacalevu,"Navua, Fiji",Centre,33,195 Cm,97 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/46441.png
+Fij-4,Fiji,Simione Kuruvoli,,Half Back,24,173 Cm,74 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62276.png
+Fij-5,Fiji,Peni Matawalu,,Half Back,26,175 Cm,78 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57767.png
+Fij-6,Fiji,Emosi Tuqiri,"South Brisbane, Australia",Unknown,22, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66911.png
+Fij-7,Fiji,Vilimoni Botitu,,Utility Back,25,170 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60563.png
+Fij-8,Fiji,Kalaveti Ravouvou,,Utility Back,25,186 Cm,94 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74250.png
+Fij-9,Fiji,Semi Radradra,"Taveuni, Fiji",Utility Back,31,189 Cm,89 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43638.png
+Fij-10,Fiji,Iosefo Masi,,Utility Back,25,190 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/75016.png
+Fij-11,Fiji,Teti Tela,,Utility Back,32,176 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/39720.png
+Fij-12,Fiji,Sireli Maqala,,Utility Back,23,167 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71746.png
+Fij-13,Fiji,Josua Tuisova,"Ba, Fiji",Wing,29,171 Cm,92 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/53366.png
+Fij-14,Fiji,Jiuta Wainiqolo,,Wing,24,187 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64561.png
+Fij-15,Fiji,Vinaya Habosi,,Wing,23,184 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74251.png
+Fij-16,Fiji,Selesitino Ravutaumada,,Wing,23,183 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/833bec67-7833-4139-98f1-495f4b7db5cd.png
+Fij-17,Fiji,Zuriel Togiatama,,2,24,183 Cm,109 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72584.png
+Fij-18,Fiji,Tevita Ikanivere,"Suva, Fiji",2,24,183 Cm,113 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64556.png
+Fij-19,Fiji,Samuel Matavesi,"Truro, England",2,31,182 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48928.png
+Fij-20,Fiji,Viliame Mata,"Suva, Fiji",8,32,196 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/53284.png
+Fij-21,Fiji,Vilive Miramira,,Flanker,24,192 Cm,92 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66907.png
+Fij-22,Fiji,Levani Botia,"Suva, Fiji",Flanker,34,178 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49570.png
+Fij-23,Fiji,Lekima Tagitagivalu,,Flanker,28,190 Cm,99 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55240.png
+Fij-24,Fiji,Meli Derenalagi,,Flanker,25,192 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60627.png
+Fij-25,Fiji,Albert Tuisue,"Suva, Fiji",Lock,30,188 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62612.png
+Fij-26,Fiji,Temo Mayanavanua,,Lock,26,197 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60558.png
+Fij-27,Fiji,Isoa Nasilasila,,Lock,24,197 Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66905.png
+Fij-28,Fiji,Te Ahiwaru Cirikidaveta,,Lock,25,194 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74252.png
+Fij-29,Fiji,Eroni Mawi,"Lautoka, Fiji",Prop,27,189 Cm,116 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55246.png
+Fij-30,Fiji,Mesake Doge,,Prop,30,178 Cm,122 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48797.png
+Fij-31,Fiji,Luke Tagi,"Suva, Fiji",Prop,26,192 Cm,130 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60557.png
+Fij-32,Fiji,Samu Tawake,,Prop,27,183 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50652.png
+Fij-33,Fiji,Peni Ravai,"Ra, Fiji",Prop,33, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49571.png
+Geo-1,Georgia,Tedo Abzhandadze,"Kutaisi, Georgia",10,24,174 Cm,74 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60519.png
+Geo-2,Georgia,Luka Matkava,"Tbilisi, Georgia",10,22,178 Cm,79 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69848.png
+Geo-3,Georgia,Davit Niniashvili,,15,21, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69735.png
+Geo-4,Georgia,Lasha Khmaladze,"Tbilisi, Georgia",15,35,180 Cm,82 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/29298.png
+Geo-5,Georgia,Otar Lashkhi,"Tbilisi, Georgia",15,23,184 Cm,86 Kg,https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png
+Geo-6,Georgia,Tengiz Peranidze,,9,25,176 Cm,73 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/63184.png
+Geo-7,Georgia,Vasil Lobzhanidze,"Tbilisi, Georgia",9,27,175 Cm,75 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/54763.png
+Geo-8,Georgia,Gela Aprasidze,"Bolnisi, Georgia",9,25,175 Cm,74 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57879.png
+Geo-9,Georgia,Merab Sharikadze,"Moscow, Russian Federation",Centre,30,185 Cm,96 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45077.png
+Geo-10,Georgia,Demur Tapladze,,Centre,23,192 Cm,91 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/63188.png
+Geo-11,Georgia,Tornike Kakhoidze,,Centre,20,183 Cm,92 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71463.png
+Geo-12,Georgia,Giorgi Kveseladze,"Tbilisi, Georgia",Centre,26,185 Cm,96 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62879.png
+Geo-13,Georgia,Akaki Tabutsadze,,Wing,26,180 Cm,83 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62885.png
+Geo-14,Georgia,Alexander Todua,"Tbilisi, Georgia",Wing,36,181 Cm,94 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/29288.png
+Geo-15,Georgia,Shalva Mamukashvili,"Tbilisi, Georgia",2,33,180 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/44012.png
+Geo-16,Georgia,Vano Karkadze,"Kutaisi, Georgia",2,23,178 Cm,107 Kg,https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png
+Geo-17,Georgia,Luka Nioradze,,2,24,180 Cm,107 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66710.png
+Geo-18,Georgia,Otari Giorgadze,"Kutaisi, Georgia",8,27,193 Cm,111 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55474.png
+Geo-19,Georgia,Tornike Jalagonia,,8,24,188 Cm,97 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60516.png
+Geo-20,Georgia,Beka Saginadze,"Bolnisi, Georgia",Flanker,25,192 Cm,105 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65802.png
+Geo-21,Georgia,Luka Ivanishvili,,Flanker,22,188 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/73323.png
+Geo-22,Georgia,Giorgi Tsutskiridze,"Tbilisi, Georgia",Flanker,27,187 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55494.png
+Geo-23,Georgia,Mikheil Gachechiladze,,Flanker,32,190 Cm,101 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62489.png
+Geo-24,Georgia,Konstantine Mikautadze,"Sokhumi, Georgia",Lock,32,200 Cm,130 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/40057.png
+Geo-25,Georgia,Mikheili Babunashvili,"Kutaisi, Georgia",Lock,27,195 Cm,115 Kg,https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png
+Geo-26,Georgia,Vladimer Chachanidze,,Lock,23,200 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66712.png
+Geo-27,Georgia,Nodar Cheishvili,"Tbilisi, Georgia",Lock,32,200 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56060.png
+Geo-28,Georgia,Mikheil Nariashvili,"Kutaisi, Georgia",Prop,33,186 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45076.png
+Geo-29,Georgia,Irakli Aptsiauri,,Prop,20, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71447.png
+Geo-30,Georgia,Beka Gigashvili,"Bagdati, Georgia",Prop,31,177 Cm,114 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65097.png
+Geo-31,Georgia,Guram Papidze,,Prop,26,187 Cm,122 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57876.png
+Geo-32,Georgia,Guram Gogichashvili,"Khashuri, Georgia",Prop,25,183 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60508.png
+Geo-33,Georgia,Nika Abuladze,,Prop,28,187 Cm,125 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/70559.png
+Por-1,Portugal,Jerónimo Portela,,10,23,192 Cm,87 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64409.png
+Por-2,Portugal,Joris Moura,,10,23,186 Cm,89 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69040.png
+Por-3,Portugal,Manuel Cardoso Pinto,,15,25,184 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61036.png
+Por-4,Portugal,Nuno Sousa Guedes,,15,29,177 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66621.png
+Por-5,Portugal,Pedro Lucas,,9,23,177 Cm,75 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/67524.png
+Por-6,Portugal,João Belo,,9,28,169 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/54096.png
+Por-7,Portugal,Samuel Marques,,9,35,177 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/47400.png
+Por-8,Portugal,Pedro Bettencourt,,Centre,29,187 Cm,94 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57245.png
+Por-9,Portugal,José Lima,"Coimbra, Portugal",Centre,31,185 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/42117.png
+Por-10,Portugal,Tomás Appleton,,Centre,30,182 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48426.png
+Por-11,Portugal,Raffaele Storti,"Lisbon, Portugal",Wing,22,185 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66622.png
+Por-12,Portugal,Rodrigo Marta,,Wing,24,185 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64406.png
+Por-13,Portugal,Vincent Pinto,,Wing,24,188 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62418.png
+Por-14,Portugal,Simão Bento,,Wing,22,180 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/67525.png
+Por-15,Portugal,Mike Tadjer,"Massy, France",2,34,185 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45063.png
+Por-16,Portugal,Duarte Diniz,,2,28,180 Cm,101 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55373.png
+Por-17,Portugal,Lionel Campergue,,2,36,175 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/39027.png
+Por-18,Portugal,Thibault De Freitas,,8,31,190 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/54981.png
+Por-19,Portugal,João Granate,,Flanker,26,186 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61037.png
+Por-20,Portugal,Rafael Simões,,Flanker,32,195 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43763.png
+Por-21,Portugal,Manuel Picão,,Flanker,26,185 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59911.png
+Por-22,Portugal,David Wallis,,Flanker,26,190 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/218e6c78-1250-4226-b532-dd1f02808bbd.png
+Por-23,Portugal,Nicolas Martins,"Toulouse, France",Flanker,24,196 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74579.png
+Por-24,Portugal,Duarte Torgal,,Lock,25,192 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61398.png
+Por-25,Portugal,Martim Belo,,Lock,23,194 Cm,105 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/67534.png
+Por-26,Portugal,Steevy Cerqueira,,Lock,30,207 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/73193.png
+Por-27,Portugal,José Madeira,,Lock,22,195 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/67530.png
+Por-28,Portugal,Francisco Fernandes,,Prop,38,181 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/38928.png
+Por-29,Portugal,Diogo Hasse Ferreira,,Prop,27,180 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55372.png
+Por-30,Portugal,Anthony Alves,,Prop,34,185 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/42116.png
+Por-31,Portugal,Francisco Bruno,,Prop,28,180 Cm,111 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55370.png
+Por-32,Portugal,António Santos,,Prop,25,186 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/75466.png
+Por-33,Portugal,David Costa,,Prop,24,183 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64398.png
+Eng-1,England,Alex Mitchell,,9,26,180 Cm,89 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59738.png
+Eng-2,England,Ben Youngs,"Cawston, England",9,34,178 Cm,89 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/34189.png
+Eng-3,England,Danny Care,"Leeds, England",9,36,175 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/29159.png
+Eng-4,England,Jonny May,"Swindon, England",Back,33,188 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/38906.png
+Eng-5,England,Owen Farrell,"Billinge, England",Back,32,188 Cm,92 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43573.png
+Eng-6,England,Max Malins,,Back,26,181 Cm,84 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56794.png
+Eng-7,England,Ollie Lawrence,,Back,24,180 Cm,99 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62562.png
+Eng-8,England,Joe Marchant,,Back,27,183 Cm,89 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55598.png
+Eng-9,England,Marcus Smith,"Makati City, Philippines",Back,24,175 Cm,83 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59924.png
+Eng-10,England,Manu Tuilagi,"Apia, Samoa",Back,32,185 Cm,112 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/44193.png
+Eng-11,England,Henry Arundell,,Back,21,183 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/73172.png
+Eng-12,England,Freddie Steward,"Norwich, England",Back,23,196 Cm,104 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/68931.png
+Eng-13,England,Elliot Daly,"Croydon, England",Back,31,184 Cm,94 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43571.png
+Eng-14,England,Sam Underhill,"Dayton, Ohio, United States",Unknown,27,186 Cm,106 Kg,https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png
+Eng-15,England,George Ford,"Oldham, England",Utility Back,30,178 Cm,84 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43574.png
+Eng-16,England,Jack Walker,,2,27,187 Cm,96 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50354.png
+Eng-17,England,Theo Dan,,2,22,179 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/3174b222-67cc-4754-be3c-aac3ab68633c.png
+Eng-18,England,Jamie George,"Welwyn Garden City, England",2,33,183 Cm,109 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36524.png
+Eng-19,England,David Ribbans,"Somerset West, South Africa",Forward,28,202 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69817.png
+Eng-20,England,Lewis Ludlam,"Ipswich, England",Forward,28,190 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55596.png
+Eng-21,England,Billy Vunipola,"Sydney, Australia",Forward,31,188 Cm,126 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/46112.png
+Eng-22,England,Ben Earl,,Forward,25,183 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59733.png
+Eng-23,England,Tom Curry,"Hounslow, England",Forward,25,185 Cm,106 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59731.png
+Eng-24,England,Courtney Lawes,"London, England",Forward,34,200 Cm,119 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/34184.png
+Eng-25,England,Maro Itoje,"London, England",Forward,29,195 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50344.png
+Eng-26,England,Ollie Chessum,,Forward,23,201 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72931.png
+Eng-27,England,George Martin,"Nottingham, England",Forward,22,198 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/68917.png
+Eng-28,England,Will Stuart,,Prop,27,189 Cm,124 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56808.png
+Eng-29,England,Dan Cole,"Leicester, England",Prop,36,191 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/29161.png
+Eng-30,England,Bevan Rodd,,Prop,23,183 Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65787.png
+Eng-31,England,Ellis Genge,"Bristol, England",Prop,28,187 Cm,113 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55592.png
+Eng-32,England,Kyle Sinckler,"London, England",Prop,30,183 Cm,116 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45662.png
+Eng-33,England,Joe Marler,"Eastbourne, England",Prop,33,183 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36527.png
+Jpn-1,Japan,Rikiya Matsuda,"Kyoto, Japan",10,29, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/46008.png
+Jpn-2,Japan,Seungsin Lee,,10,22,176 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74070.png
+Jpn-3,Japan,Jumpei Ogura,,15,31, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/46000.png
+Jpn-4,Japan,Ryohei Yamanaka,"Osaka, Japan",15,35,188 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/34087.png
+Jpn-5,Japan,Kotaro Matsushima,"Pretoria, South Africa",15,30,178 Cm,87 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50605.png
+Jpn-6,Japan,Naoto Saito,,9,26,165 Cm,73 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57136.png
+Jpn-7,Japan,Yutaka Nagare,"Fukuoka, Japan",9,31,166 Cm,69 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45998.png
+Jpn-8,Japan,Kenta Fukuda,,9,26,173 Cm,80 Kg,https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png
+Jpn-9,Japan,Dylan Riley,,Centre,26,186 Cm,101 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60436.png
+Jpn-10,Japan,Tomoki Osada,,Centre,24,179 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/63995.png
+Jpn-11,Japan,Ryoto Nakamura,"Kagoshima, Japan",Centre,32,178 Cm,84 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43047.png
+Jpn-12,Japan,Lomano Lemeki,"Auckland, New Zealand",Wing,34,177 Cm,92 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/51350.png
+Jpn-13,Japan,Siosaia Fifita,,Wing,24,187 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62601.png
+Jpn-14,Japan,Jone Naikabula,,Wing,29,177 Cm,96 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60224.png
+Jpn-15,Japan,Shota Horie,"Osaka, Japan",2,37, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/28439.png
+Jpn-16,Japan,Kosuke Horikoshi,"Gumma, Japan",2,28,174 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49933.png
+Jpn-17,Japan,Atsushi Sakate,"Kyoto, Japan",2,30,180 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45987.png
+Jpn-18,Japan,Kazuki Himeno,"Aichi, Japan",8,29,187 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/47916.png
+Jpn-19,Japan,Pieter Labuschagne,"Pretoria, South Africa",Flanker,34,189 Cm,107 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49079.png
+Jpn-20,Japan,Ben Gunter,,Flanker,26,195 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64886.png
+Jpn-21,Japan,Michael Leitch,"Burwood, New Zealand",Flanker,35,189 Cm,99 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/34085.png
+Jpn-22,Japan,Shota Fukui,,Flanker,24,186 Cm,101 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61328.png
+Jpn-23,Japan,Kanji Shimokawa,,Flanker,24,187 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62594.png
+Jpn-24,Japan,Jack Cornelsen,,Lock,29,195 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71565.png
+Jpn-25,Japan,Amato Fakatava,,Lock,29,195 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/88ba92ab-8db0-403a-8fd9-5f59e93f15bb.png
+Jpn-26,Japan,Amanaki Saumaki,,Lock,26,190 Cm,100 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/73909.png
+Jpn-27,Japan,Warner Dearns,,Lock,21,202 Cm,122 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72580.png
+Jpn-28,Japan,Sione Halasili,,Prop,24,180 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61bc38c7-a1f5-4c44-816d-6697dd93155a.png
+Jpn-29,Japan,Keita Inagaki,"Nigata, Japan",Prop,33,186 Cm,116 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36544.png
+Jpn-30,Japan,Shinnosuke Kakinaga,"Saga, Japan",Prop,31,180 Cm,114 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/54562.png
+Jpn-31,Japan,Asaeli Ai Valu,"Tofoa, Tonga",Prop,34,187 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61912.png
+Jpn-32,Japan,Craig Millar,,Prop,33,185 Cm,116 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64884.png
+Jpn-33,Japan,Jiwon Gu,"Seoul, Korea",Prop,29, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50109.png
+Arg-1,Argentina,Santiago Carreras,"Cordoba, Argentina",10,25,181 Cm,82 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60461.png
+Arg-2,Argentina,Nicolas Sanchez,"San Miguel De Tucumán, Argentina",10,35, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/32114.png
+Arg-3,Argentina,Martín Bogado,,15,25,191 Cm,97 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71714.png
+Arg-4,Argentina,Juan Cruz Mallia,"Cordoba, Argentina",15,27,182 Cm,87 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55655.png
+Arg-5,Argentina,Tomas Cubelli,"Buenos Aires, Argentina",9,34,175 Cm,79 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36719.png
+Arg-6,Argentina,Gonzalo Bertranou,"Mendoza, Argentina",9,29,174 Cm,72 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49501.png
+Arg-7,Argentina,Lautaro Bazan Velez,,9,27, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50319.png
+Arg-8,Argentina,Matías Moroni,"Buenos Aires, Argentina",Centre,32,184 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43443.png
+Arg-9,Argentina,Jeronimo De La Fuente,"Santa Fe, Argentina",Centre,32,183 Cm,93 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43433.png
+Arg-10,Argentina,Santiago Chocobares,,Centre,24,189 Cm,96 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/63147.png
+Arg-11,Argentina,Lucio Cinti,,Centre,23,190 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65383.png
+Arg-12,Argentina,Marcos Kremer,"Entre Ríos, Argentina",Fiveeighths,26,200 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56924.png
+Arg-13,Argentina,Guido Petti Pagadizabal,"Buenos Aires, Argentina",Fiveeighths,29,193 Cm,104 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48633.png
+Arg-14,Argentina,Pedro Rubiolo,,Fiveeighths,20,193 Cm,112 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71539.png
+Arg-15,Argentina,Juan Imhoff,"Rosario, Argentina",Wing,35,186 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36898.png
+Arg-16,Argentina,Emiliano Boffelli,"Santa Fe, Argentina",Wing,28,191 Cm,91 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48640.png
+Arg-17,Argentina,Mateo Carreras,,Wing,23,175 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64279.png
+Arg-18,Argentina,Rodrigo Isgro,,Wing,24, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66776.png
+Arg-19,Argentina,Ignacio Ruiz,,2,22,187 Cm,104 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/67351.png
+Arg-20,Argentina,Julian Montoya,"Buenos Aires, Argentina",2,30,183 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48628.png
+Arg-21,Argentina,Agustín Creevy,"Buenos Aires, Argentina",2,38,182 Cm,106 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/26186.png
+Arg-22,Argentina,Facundo Isa,"Santiago Del Estero, Argentina",8,30,188 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45833.png
+Arg-23,Argentina,Joaquín Oviedo,,Flanker,22,191 Cm,113 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69737.png
+Arg-24,Argentina,Juan Martin Gonzalez,,Flanker,23,192 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66770.png
+Arg-25,Argentina,Rodrigo Bruni,"Buenos Aires, Argentina",Flanker,30,187 Cm,109 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/58952.png
+Arg-26,Argentina,Tomas Lavanini,"Buenos Aires, Argentina",Lock,30,200 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48534.png
+Arg-27,Argentina,Matias Alemanno,"Cordoba, Argentina",Lock,32,198 Cm,112 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/39417.png
+Arg-28,Argentina,Thomas Gallo,,Prop,24,176 Cm,107 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66763.png
+Arg-29,Argentina,Joel Sclavi,,Prop,29,188 Cm,135 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71951.png
+Arg-30,Argentina,Mayco Vivas,"Buenos Aires, Argentina",Prop,25,186 Cm,122 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60477.png
+Arg-31,Argentina,Eduardo Bello,,Prop,28,190 Cm,114 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55669.png
+Arg-32,Argentina,Francisco Gómez Kodela,,Prop,38,185 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/30635.png
+Sam-1,Samoa,Danny Toala,,15,24,178 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/66960.png
+Sam-2,Samoa,Melani Matavao,"Motootua, Samoa",9,28,172 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55087.png
+Sam-3,Samoa,Jonathan Taumateine,,9,27,185 Cm,89 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55847.png
+Sam-4,Samoa,Ereatara Enari,,9,26,178 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57720.png
+Sam-5,Samoa,Ulupano Junior Seuteni,"Bedford Park, Australia",Centre,30,187 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45182.png
+Sam-6,Samoa,Christian Leali'Ifano,"Auckland, New Zealand",Fiveeighths,36,179 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/29273.png
+Sam-7,Samoa,Alai D'Angelo Leuila,"Otahuhu, New Zealand",Fiveeighths,26,175 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57392.png
+Sam-8,Samoa,Lima Sopoaga,"Lower Hutt, New Zealand",Fiveeighths,32,175 Cm,91 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43515.png
+Sam-9,Samoa,Tumua Manu,,Threequarters,30,183 Cm,97 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74147.png
+Sam-10,Samoa,Duncan Paia'Aua,,Threequarters,28,183 Cm,92 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55791.png
+Sam-11,Samoa,Ben Lam,,Wing,32,194 Cm,114 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45252.png
+Sam-12,Samoa,Ed Fidow,"Motootua, Samoa",Wing,30,188 Cm,97 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57162.png
+Sam-13,Samoa,Nigel Ah-Wong,,Wing,33,193 Cm,104 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/47835.png
+Sam-14,Samoa,Neria Fomai,,Wing,31,180 Cm,94 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/52181.png
+Sam-15,Samoa,Ray Niuia,"Otahuhu, New Zealand",2,32,186 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65059.png
+Sam-16,Samoa,Seilala Lam,"Hamilton, New Zealand",2,34,183 Cm,110 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49195.png
+Sam-17,Samoa,Sama Malolo,,2,25,183 Cm,109 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60424.png
+Sam-18,Samoa,Sootala Fa'Aso'O,,8,29,194 Cm,136 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50731.png
+Sam-19,Samoa,Fritz Lee,,8,35,188 Cm,108 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45275.png
+Sam-20,Samoa,Steven Luatua,,Flanker,32,195 Cm,117 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/39688.png
+Sam-21,Samoa,Sa Jordan Taufua,,Flanker,31,182 Cm,105 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43184.png
+Sam-22,Samoa,Miracle Faiilagi,,Flanker,24,188 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69276.png
+Sam-23,Samoa,Alamanda Motuga,"Apia, Samoa",Flanker,29,184 Cm,102 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50538.png
+Sam-24,Samoa,Taleni Junior Agaese Seu,,Lock,29,202 Cm,119 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/58699.png
+Sam-25,Samoa,Sam Slade,,Lock,26,194 Cm,111 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60530.png
+Sam-26,Samoa,Theo Mcfarland,,Lock,28,198 Cm,115 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71622.png
+Sam-27,Samoa,Brian Alainu'U'Ese,"Invercargill, New Zealand",Lock,29,198 Cm,120 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/49105.png
+Sam-28,Samoa,Chris Vui,"Henderson, New Zealand",Lock,30,198 Cm,119 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48619.png
+Sam-29,Samoa,Paul Alo-Emile,"Henderson, New Zealand",Prop,31,181 Cm,130 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/39449.png
+Sam-30,Samoa,James Lay,"Motootua, Samoa",Prop,29,178 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61138.png
+Sam-31,Samoa,Michael Alaalatoa,"Camperdown, Australia",Prop,32,189 Cm,128 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43176.png
+Sam-32,Samoa,Jordan Lay,"Motootua, Samoa",Prop,31, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45254.png
+Sam-33,Samoa,Charlie Faumuina,"Auckland, New Zealand",Prop,36,184 Cm,130 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/47005.png
+Chi-1,Chile,Lukas Carvallo,,9,22,180 Cm,82 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71802.png
+Chi-2,Chile,Marcelo Torrealba,,9,27,169 Cm,79 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/58361.png
+Chi-3,Chile,Nicolas Herreros,,9,33, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/35531.png
+Chi-4,Chile,Matias Garafulic,,Centre,23,183 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69115.png
+Chi-5,Chile,José Ignacio Larenas,,Centre,34,183 Cm,79 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/32191.png
+Chi-6,Chile,Domingo Saavedra,,Centre,25,179 Cm,80 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61374.png
+Chi-7,Chile,Rodrigo Fernandez,,Half Back,27,182 Cm,85 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60241.png
+Chi-8,Chile,Francisco Urroz,,Utility Back,30,190 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45975.png
+Chi-9,Chile,Benjamin Videla,,Utility Back,22,178 Cm,82 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/72190.png
+Chi-10,Chile,Inaki Ayarza,,Utility Back,24, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/67088.png
+Chi-11,Chile,Santiago Videla,,Utility Back,25,175 Cm,75 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61376.png
+Chi-12,Chile,Pablo Casas,,Wing,31, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45972.png
+Chi-13,Chile,Cristobal Game,"Concepción, Chile",Wing,21,193 Cm,89 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71068.png
+Chi-14,Chile,Franco Velarde,,Wing,29, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59828.png
+Chi-15,Chile,Tomas Dussaillant,,2,37, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/57005.png
+Chi-16,Chile,Augusto Bohme,,2,26,177 Cm,97 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61361.png
+Chi-17,Chile,Diego Escobar,,2,23,176 Cm,97 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71801.png
+Chi-18,Chile,Raimundo Martínez,,8,24,179 Cm,99 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/67195.png
+Chi-19,Chile,Martín Sigren,,Flanker,27,190 Cm,90 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62868.png
+Chi-20,Chile,Alfonso Escobar,,Flanker,26,182 Cm,92 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61373.png
+Chi-21,Chile,Thomas Orchard,,Flanker,26,193 Cm,95 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61369.png
+Chi-22,Chile,Ignacio Silva,,Flanker,34,182 Cm,98 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/33687.png
+Chi-23,Chile,Clemente Saavedra,,Flanker,25,191 Cm,96 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61367.png
+Chi-24,Chile,Augusto Sarmiento,,Lock,30, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48403.png
+Chi-25,Chile,Pablo Huete,,Lock,34,199 Cm,107 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/33685.png
+Chi-26,Chile,Javier Eissmann,,Lock,26,200 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61368.png
+Chi-27,Chile,Santiago Pedrero,,Lock,23,193 Cm,111 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69805.png
+Chi-28,Chile,Salvador Lues,,Prop,24,179 Cm,118 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/63564.png
+Chi-29,Chile,Esteban Inostroza,,Prop,29,183 Cm,129 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69804.png
+Chi-30,Chile,Inaki Gurruchaga,,Prop,28, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56701.png
+Chi-31,Chile,Javier Carrasco,,Prop,26,178 Cm,103 Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61360.png
+Chi-32,Chile,Vittorio Lastra,,Prop,27, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/59829.png
+Chi-33,Chile,Matias Dittus,,Prop,30, Cm, Kg,https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65547.png

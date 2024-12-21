@@ -1,0 +1,394 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+        <link rel="stylesheet" href="../style_acceuil.css" />
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Team Scotland</title>
+            <link rel="icon" href="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.6.0/i/elements/team-badges/SCO.png" type=image/x-icon>
+        </head>
+        <body>
+            <label class="switch">
+                <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="#ffd43b"><circle r="5" cy="12" cx="12"></circle><path d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"></path></g></svg></span>
+                <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg></span>
+                <input type="checkbox" onclick="toggleDarkMode()" id="dark-button" class="input">
+                <span class="slider"></span>
+            </label>
+            <div class="button-container">
+                <a class="home-button" href="../main_menu.html">Select Country</a>
+            </div>
+            <div class="grid-container">
+                <h1 class="page-title"><img class="title-icon" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.6.0/i/elements/team-badges/SCO.png" alt="Drapeau National"> Scotland's players </h1>
+                <div class="form-control">
+                    <input type="value" id="searchInput" required="" onkeyup="search()">
+                    <label>
+                        <span style="transition-delay:0ms">P</span>
+                        <span style="transition-delay:50ms">l</span>
+                        <span style="transition-delay:100ms">a</span>
+                        <span style="transition-delay:150ms">y</span>
+                        <span style="transition-delay:200ms">e</span>
+                        <span style="transition-delay:250ms">r</span>
+                        <span style="transition-delay:300ms">-</span>
+                        <span style="transition-delay:350ms">N</span>
+                        <span style="transition-delay:400ms">a</span>
+                        <span style="transition-delay:450ms">m</span>
+                        <span style="transition-delay:500ms">e</span>
+                    </label>
+                </div>
+                <div class="grid-item" data-name="Ben Healy">
+                <a href="Scotland_player_0.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65669.png" alt="Ben Healy"  loading="lazy"></a>
+                <p>Ben Healy</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : 10</p></div>
+                    <div class ="line-info" id="2"><p>Age : 24</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Finn Russell">
+                <a href="Scotland_player_1.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45928.png" alt="Finn Russell"  loading="lazy"></a>
+                <p>Finn Russell</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : 10</p></div>
+                    <div class ="line-info" id="2"><p>Age : 31</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Blair Kinghorn">
+                <a href="Scotland_player_2.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55642.png" alt="Blair Kinghorn"  loading="lazy"></a>
+                <p>Blair Kinghorn</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : 15</p></div>
+                    <div class ="line-info" id="2"><p>Age : 26</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Ollie Smith">
+                <a href="Scotland_player_3.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65717.png" alt="Ollie Smith"  loading="lazy"></a>
+                <p>Ollie Smith</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : 15</p></div>
+                    <div class ="line-info" id="2"><p>Age : 23</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Ben White">
+                <a href="Scotland_player_4.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62432.png" alt="Ben White"  loading="lazy"></a>
+                <p>Ben White</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : 9</p></div>
+                    <div class ="line-info" id="2"><p>Age : 25</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="George Horne">
+                <a href="Scotland_player_5.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55641.png" alt="George Horne"  loading="lazy"></a>
+                <p>George Horne</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : 9</p></div>
+                    <div class ="line-info" id="2"><p>Age : 28</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Ali Price">
+                <a href="Scotland_player_6.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48670.png" alt="Ali Price"  loading="lazy"></a>
+                <p>Ali Price</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : 9</p></div>
+                    <div class ="line-info" id="2"><p>Age : 30</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Cameron Redpath">
+                <a href="Scotland_player_7.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62480.png" alt="Cameron Redpath"  loading="lazy"></a>
+                <p>Cameron Redpath</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Centre</p></div>
+                    <div class ="line-info" id="2"><p>Age : 23</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Huw Jones">
+                <a href="Scotland_player_8.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/58569.png" alt="Huw Jones"  loading="lazy"></a>
+                <p>Huw Jones</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Centre</p></div>
+                    <div class ="line-info" id="2"><p>Age : 29</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Sione Tuipulotu">
+                <a href="Scotland_player_9.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60435.png" alt="Sione Tuipulotu"  loading="lazy"></a>
+                <p>Sione Tuipulotu</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Centre</p></div>
+                    <div class ="line-info" id="2"><p>Age : 26</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Chris Harris">
+                <a href="Scotland_player_10.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/61993.png" alt="Chris Harris"  loading="lazy"></a>
+                <p>Chris Harris</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Centre</p></div>
+                    <div class ="line-info" id="2"><p>Age : 32</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Kyle Steyn">
+                <a href="Scotland_player_11.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62621.png" alt="Kyle Steyn"  loading="lazy"></a>
+                <p>Kyle Steyn</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Wing</p></div>
+                    <div class ="line-info" id="2"><p>Age : 29</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Darcy Graham">
+                <a href="Scotland_player_12.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56855.png" alt="Darcy Graham"  loading="lazy"></a>
+                <p>Darcy Graham</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Wing</p></div>
+                    <div class ="line-info" id="2"><p>Age : 26</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Duhan Van Der Merwe">
+                <a href="Scotland_player_13.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50689.png" alt="Duhan Van Der Merwe"  loading="lazy"></a>
+                <p>Duhan Van Der Merwe</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Wing</p></div>
+                    <div class ="line-info" id="2"><p>Age : 28</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="George Turner">
+                <a href="Scotland_player_14.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45921.png" alt="George Turner"  loading="lazy"></a>
+                <p>George Turner</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : 2</p></div>
+                    <div class ="line-info" id="2"><p>Age : 31</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Ewan Ashman">
+                <a href="Scotland_player_15.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/65702.png" alt="Ewan Ashman"  loading="lazy"></a>
+                <p>Ewan Ashman</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : 2</p></div>
+                    <div class ="line-info" id="2"><p>Age : 23</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Johnny Matthews">
+                <a href="Scotland_player_16.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/74079.png" alt="Johnny Matthews"  loading="lazy"></a>
+                <p>Johnny Matthews</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : 2</p></div>
+                    <div class ="line-info" id="2"><p>Age : 30</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Matt Fagerson">
+                <a href="Scotland_player_17.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/64206.png" alt="Matt Fagerson"  loading="lazy"></a>
+                <p>Matt Fagerson</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : 8</p></div>
+                    <div class ="line-info" id="2"><p>Age : 25</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Jack Dempsey">
+                <a href="Scotland_player_18.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/48596.png" alt="Jack Dempsey"  loading="lazy"></a>
+                <p>Jack Dempsey</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : 8</p></div>
+                    <div class ="line-info" id="2"><p>Age : 29</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Jamie Ritchie">
+                <a href="Scotland_player_19.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50434.png" alt="Jamie Ritchie"  loading="lazy"></a>
+                <p>Jamie Ritchie</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Flanker</p></div>
+                    <div class ="line-info" id="2"><p>Age : 27</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Hamish Watson">
+                <a href="Scotland_player_20.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/43538.png" alt="Hamish Watson"  loading="lazy"></a>
+                <p>Hamish Watson</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Flanker</p></div>
+                    <div class ="line-info" id="2"><p>Age : 32</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Rory Darge">
+                <a href="Scotland_player_21.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/62457.png" alt="Rory Darge"  loading="lazy"></a>
+                <p>Rory Darge</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Flanker</p></div>
+                    <div class ="line-info" id="2"><p>Age : 23</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Luke Crosbie">
+                <a href="Scotland_player_22.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56847.png" alt="Luke Crosbie"  loading="lazy"></a>
+                <p>Luke Crosbie</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Flanker</p></div>
+                    <div class ="line-info" id="2"><p>Age : 26</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Sam Skinner">
+                <a href="Scotland_player_23.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55604.png" alt="Sam Skinner"  loading="lazy"></a>
+                <p>Sam Skinner</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Lock</p></div>
+                    <div class ="line-info" id="2"><p>Age : 28</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Grant Gilchrist">
+                <a href="Scotland_player_24.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36676.png" alt="Grant Gilchrist"  loading="lazy"></a>
+                <p>Grant Gilchrist</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Lock</p></div>
+                    <div class ="line-info" id="2"><p>Age : 33</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Scott Cummings">
+                <a href="Scotland_player_25.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/55636.png" alt="Scott Cummings"  loading="lazy"></a>
+                <p>Scott Cummings</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Lock</p></div>
+                    <div class ="line-info" id="2"><p>Age : 27</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Richie Gray">
+                <a href="Scotland_player_26.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/34128.png" alt="Richie Gray"  loading="lazy"></a>
+                <p>Richie Gray</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Lock</p></div>
+                    <div class ="line-info" id="2"><p>Age : 34</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Javan Sebastian">
+                <a href="Scotland_player_27.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71576.png" alt="Javan Sebastian"  loading="lazy"></a>
+                <p>Javan Sebastian</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Prop</p></div>
+                    <div class ="line-info" id="2"><p>Age : 29</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Rory Sutherland">
+                <a href="Scotland_player_28.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56341.png" alt="Rory Sutherland"  loading="lazy"></a>
+                <p>Rory Sutherland</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Prop</p></div>
+                    <div class ="line-info" id="2"><p>Age : 31</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Pierre Schoeman">
+                <a href="Scotland_player_29.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50458.png" alt="Pierre Schoeman"  loading="lazy"></a>
+                <p>Pierre Schoeman</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Prop</p></div>
+                    <div class ="line-info" id="2"><p>Age : 29</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Zander Fagerson">
+                <a href="Scotland_player_30.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/50424.png" alt="Zander Fagerson"  loading="lazy"></a>
+                <p>Zander Fagerson</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Prop</p></div>
+                    <div class ="line-info" id="2"><p>Age : 27</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Wp Nel">
+                <a href="Scotland_player_31.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/37061.png" alt="Wp Nel"  loading="lazy"></a>
+                <p>Wp Nel</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Prop</p></div>
+                    <div class ="line-info" id="2"><p>Age : 37</p></div>
+                </div>
+                </div>
+                <div class="grid-item" data-name="Jamie Bhatti">
+                <a href="Scotland_player_32.html"><img src="https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/45925.png" alt="Jamie Bhatti"  loading="lazy"></a>
+                <p>Jamie Bhatti</p>
+                <div class="container-infos">
+                    <div class ="line-info" id="1"><p>Position : Prop</p></div>
+                    <div class ="line-info" id="2"><p>Age : 30</p></div>
+                </div>
+                </div>
+            </div>
+            <script>
+                function search() {
+                    var input, filter, grid, items, player, txtValue;
+                    input = document.getElementById("searchInput");
+                    filter = input.value.toUpperCase();
+                    grid = document.querySelector(".grid-container");
+                    items = grid.getElementsByClassName("grid-item");
+
+                    for (var i = 0; i < items.length; i++) {
+                        player = items[i];
+                        txtValue = player.textContent || player.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            player.style.display = "";
+                        } else {
+                            player.style.display = "none";
+                        }
+                    }
+                }
+
+                function toggleDarkMode() {
+                    var element = document.body;
+                    var isDarkMode = !element.classList.contains('dark-mode');
+                    var darkButton = document.getElementById('dark-button');
+
+                    if (isDarkMode) {
+                        element.classList.add('dark-mode');
+                        darkButton.checked = true; // Cocher la case
+                        localStorage.setItem('darkMode', 'enabled');
+                    } else {
+                        element.classList.remove('dark-mode');
+                        darkButton.checked = false; // Décocher la case
+                        localStorage.setItem('darkMode', 'disabled');
+                    }
+                }
+
+                document.addEventListener('DOMContentLoaded', function () {
+                var darkModeState = localStorage.getItem('darkMode');
+
+                    // Vérifiez s'il y a un paramètre de requête pour l'état du mode sombre
+                    var urlParams = new URLSearchParams(window.location.search);
+                    var darkModeQueryParam = urlParams.get('darkModeState');
+        
+                    if (darkModeQueryParam === 'enabled') {
+                        // Appliquez le mode sombre si le paramètre de requête est défini sur "enabled"
+                        document.body.classList.add('dark-mode');
+                        document.getElementById('dark-button').checked = true; // Check the checkbox
+                        localStorage.setItem('darkMode', 'enabled');
+                    } else if (darkModeQueryParam === 'disabled') {
+                        // Appliquez le mode clair si le paramètre de requête est défini sur "disabled"
+                        document.body.classList.remove('dark-mode');
+                        document.getElementById('dark-button').checked = false; // Décocher la case
+                        localStorage.setItem('darkMode', 'disabled');
+                    } else if (darkModeState === 'enabled') {
+                        // Appliquez le mode sombre si localStorage est défini sur "enabled" et aucun paramètre de requête
+                        document.body.classList.add('dark-mode');
+                        document.getElementById('dark-button').checked = true; // Cocher la case
+                    }
+                });
+
+                function toggleDarkMode() {
+                    var element = document.body;
+                    var isDarkMode = !element.classList.contains('dark-mode');
+                    var darkButton = document.getElementById('dark-button');
+
+                    if (isDarkMode) {
+                        element.classList.add('dark-mode');
+                        darkButton.checked = true; // Cocher la case
+                        localStorage.setItem('darkMode', 'enabled');
+                    } else {
+                        element.classList.remove('dark-mode');
+                        darkButton.checked = false; // Décocher la case
+                        localStorage.setItem('darkMode', 'disabled');
+                    }
+                }
+                function goToLegalPage() {
+                    window.location.href = '../../../legal_info.html'; // Adjust the path based on your directory structure
+                }
+            </script>
+            <footer>
+                <div class="footer-buttons">
+                    <button class="ui-btn legal" id="legal" onclick="goToLegalPage()"><span>Legal Notice</span></button>
+                </div>
+                <div class="footer-info">
+                    <p>SAÉ 3.VCOD.01 Collecte automatisée de données web (2023-2024)
+                    <br>Website generated as part of coursework
+                    <br>By : Romain Troillard, Dorian Relave, Moetaz Ben Ahmed, Abder Rhaman Bouaouina</p>
+                </div>
+            </footer>
+        </body>
+    <html>
