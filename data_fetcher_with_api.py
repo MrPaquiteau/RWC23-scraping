@@ -1,7 +1,7 @@
 import requests
 import json
 from concurrent.futures import ThreadPoolExecutor
-from tqdm import tqdm
+import time
 
 # Configuration
 BASE_URL = "https://api.wr-rims-prod.pulselive.com/rugby/v3/"
@@ -81,7 +81,8 @@ def extract_player_info(player_data):
         'age': player['age']['years'],
         'height': player['height'],
         'weight': player['weight'],
-        'hometown': player['pob']
+        'hometown': player['pob'],
+        'photo': f'https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/{player['id']}.png'
     }
 
 def extract_player_stats(player_data):
@@ -149,7 +150,7 @@ def process_team(team):
                 player_info = extract_player_info(data)
                 player_info['stats'] = extract_player_stats(data)
                 players.append(player_info)
-                print(f"Données pour le joueur {player_id} récupérées.")
+                # print(f"Données pour le joueur {player_id} récupérées.")
             except Exception as e:
                 print(f"Erreur pour le joueur {player_id} : {e}")
 
@@ -171,13 +172,16 @@ def main():
         team_futures = {executor.submit(process_team, team): team['name'] for team in teams}
         teams_data = {}
         for future in team_futures:
+            start = time.time()
             team_name = team_futures[future]
             try:
                 teams_data[team_name] = future.result()
             except Exception as e:
                 print(f"Error for team {team_name}: {e}")
+            end = time.time()
+            print(f"Data for team {team_name} fetched. ({end-start:.2f})")
 
-    with open("teams_data_bis.json", "w") as f:
+    with open("data.json", "w") as f:
         json.dump(teams_data, f, indent=4)
 
 if __name__ == '__main__':

@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Ajouter le contenu HTML
                 teamCard.innerHTML = `
-                    <a href="${teamName}/${teamName}_data.html">
+                    <a href="team.html?team=${encodeURIComponent(teamName)}">
                         <img src="${teamData.image}" alt="${teamName}" loading="lazy">
                     </a>
                     <p>${teamName}</p>

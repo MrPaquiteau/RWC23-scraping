@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rugby World Cup 2023</title>
-    <link rel="stylesheet" href="./style_acceuil.css">
-    <script src="./populate_teams.js" defer></script>
-    <script src="./script.js"></script>
+    <title>Team Details</title>
+    <link rel="stylesheet" href="./team.css">
+    <link id="favicon" rel="icon" href="" type="image/x-icon">
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <label class="switch">
@@ -15,7 +15,24 @@
         <input type="checkbox" onclick="toggleDarkMode()" id="dark-button" class="input">
         <span class="slider"></span>
     </label>
-    <h1 class="page-title"><img class="title-icon" src="https://static.wikia.nocookie.net/logopedia/images/3/38/RWC2023_2018-symbol.svg" alt="Rugby World cup 2023 Logo"> 2023's Rugby World cup Teams</h1>
-    <div class="grid-container"></div>
+    <!-- Bouton pour revenir à la sélection des équipes -->
+    <div class="button-container">
+        <a class="home-button" href="teams.html">Select Country</a>
+    </div>
+
+    <!-- Drapeau et nom de l'équipe -->
+    <div class="team-header">
+        <h1 id="teamTitle" class="page-title"><img class="title-icon" src="" alt=""> </h1>
+    </div>
+
+    <!-- Champ de recherche -->
+    <div class="form-control">
+        <input type="text" id="searchInput" onkeyup="searchPlayers()" placeholder="Search for players...">
+    </div>
+
+    <!-- Grille pour afficher les joueurs -->
+    <div class="grid-container" id="player-grid"></div>
+
+    <script src="./populate_team.js" defer></script>
 </body>
 </html>
