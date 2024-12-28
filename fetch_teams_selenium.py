@@ -30,16 +30,12 @@ def build_image_url(country):
 def fetch_teams(driver):
     """
     Fetches the list of teams from the Rugby World Cup website, including their codes and flags.
-
-    Parameters
-    ----------
-    driver : WebDriver
-        The Selenium WebDriver instance.
-
-    Returns
-    -------
-    list
-        A list of Team objects.
+    
+    Args:
+        driver (WebDriver): The Selenium WebDriver instance.
+            
+    Returns:
+        list: A list of Team objects.
     """
     driver.get(f"{BASE_URL}/teams")
     try:
@@ -96,7 +92,7 @@ def fetch_and_save_teams():
         teams = fetch_teams(driver)
         teams_data = {team.country: team.to_dict() for team in teams}
         with open("data/teams_selenium.json", "w") as f:
-            json.dump(teams_data, f, indent=4)
+            json.dump(teams_data, f, ensure_ascii=False, indent=4)
     finally:
         driver.quit()
 

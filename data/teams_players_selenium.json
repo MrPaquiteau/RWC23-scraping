@@ -833,7 +833,58 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "8 September 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "France",
+                "away_team": "New Zealand",
+                "home_score": "27",
+                "away_score": "13"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "14 September 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home_team": "France",
+                "away_team": "Uruguay",
+                "home_score": "27",
+                "away_score": "12"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "21 September 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home_team": "France",
+                "away_team": "Namibia",
+                "home_score": "96",
+                "away_score": "0"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "6 October 2023",
+                "location": "OL Stadium, Lyon",
+                "home_team": "France",
+                "away_team": "Italy",
+                "home_score": "60",
+                "away_score": "7"
+            },
+            {
+                "id": null,
+                "stage": "Quarter-Final",
+                "date": "15 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "France",
+                "away_team": "South Africa",
+                "home_score": "28",
+                "away_score": "29"
+            }
+        ]
     },
     "New Zealand": {
         "id": null,
@@ -1669,7 +1720,78 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "8 September 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "France",
+                "away_team": "New Zealand",
+                "home_score": "27",
+                "away_score": "13"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "15 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home_team": "New Zealand",
+                "away_team": "Namibia",
+                "home_score": "71",
+                "away_score": "3"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "29 September 2023",
+                "location": "OL Stadium, Lyon",
+                "home_team": "New Zealand",
+                "away_team": "Italy",
+                "home_score": "96",
+                "away_score": "17"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "5 October 2023",
+                "location": "OL Stadium, Lyon",
+                "home_team": "New Zealand",
+                "away_team": "Uruguay",
+                "home_score": "73",
+                "away_score": "0"
+            },
+            {
+                "id": null,
+                "stage": "Quarter-Final",
+                "date": "14 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "Ireland",
+                "away_team": "New Zealand",
+                "home_score": "24",
+                "away_score": "28"
+            },
+            {
+                "id": null,
+                "stage": "Semi-Final",
+                "date": "20 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "Argentina",
+                "away_team": "New Zealand",
+                "home_score": "6",
+                "away_score": "44"
+            },
+            {
+                "id": null,
+                "stage": "Final",
+                "date": "28 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "New Zealand",
+                "away_team": "South Africa",
+                "home_score": "11",
+                "away_score": "12"
+            }
+        ]
     },
     "Italy": {
         "id": null,
@@ -2505,7 +2627,48 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "9 September 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home_team": "Italy",
+                "away_team": "Namibia",
+                "home_score": "52",
+                "away_score": "8"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "20 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home_team": "Italy",
+                "away_team": "Uruguay",
+                "home_score": "38",
+                "away_score": "17"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "29 September 2023",
+                "location": "OL Stadium, Lyon",
+                "home_team": "New Zealand",
+                "away_team": "Italy",
+                "home_score": "96",
+                "away_score": "17"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "6 October 2023",
+                "location": "OL Stadium, Lyon",
+                "home_team": "France",
+                "away_team": "Italy",
+                "home_score": "60",
+                "away_score": "7"
+            }
+        ]
     },
     "Uruguay": {
         "id": null,
@@ -3192,7 +3355,7 @@
             },
             {
                 "id": "65172",
-                "name": "Juan Manuel Rodr\u00edguez",
+                "name": "Juan Manuel Rodríguez",
                 "age": "28",
                 "height": "187 Cm",
                 "weight": "107 Kg",
@@ -3341,7 +3504,48 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "14 September 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home_team": "France",
+                "away_team": "Uruguay",
+                "home_score": "27",
+                "away_score": "12"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "20 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home_team": "Italy",
+                "away_team": "Uruguay",
+                "home_score": "38",
+                "away_score": "17"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "27 September 2023",
+                "location": "OL Stadium, Lyon",
+                "home_team": "Uruguay",
+                "away_team": "Namibia",
+                "home_score": "36",
+                "away_score": "26"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "5 October 2023",
+                "location": "OL Stadium, Lyon",
+                "home_team": "New Zealand",
+                "away_team": "Uruguay",
+                "home_score": "73",
+                "away_score": "0"
+            }
+        ]
     },
     "Namibia": {
         "id": null,
@@ -4177,7 +4381,48 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "9 September 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home_team": "Italy",
+                "away_team": "Namibia",
+                "home_score": "52",
+                "away_score": "8"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "15 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home_team": "New Zealand",
+                "away_team": "Namibia",
+                "home_score": "71",
+                "away_score": "3"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "21 September 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home_team": "France",
+                "away_team": "Namibia",
+                "home_score": "96",
+                "away_score": "0"
+            },
+            {
+                "id": null,
+                "stage": "Pool A",
+                "date": "27 September 2023",
+                "location": "OL Stadium, Lyon",
+                "home_team": "Uruguay",
+                "away_team": "Namibia",
+                "home_score": "36",
+                "away_score": "26"
+            }
+        ]
     },
     "South Africa": {
         "id": null,
@@ -5013,7 +5258,78 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "10 September 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home_team": "South Africa",
+                "away_team": "Scotland",
+                "home_score": "18",
+                "away_score": "3"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "17 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home_team": "South Africa",
+                "away_team": "Romania",
+                "home_score": "76",
+                "away_score": "0"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "23 September 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "South Africa",
+                "away_team": "Ireland",
+                "home_score": "8",
+                "away_score": "13"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "1 October 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home_team": "South Africa",
+                "away_team": "Tonga",
+                "home_score": "49",
+                "away_score": "18"
+            },
+            {
+                "id": null,
+                "stage": "Quarter-Final",
+                "date": "15 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "France",
+                "away_team": "South Africa",
+                "home_score": "28",
+                "away_score": "29"
+            },
+            {
+                "id": null,
+                "stage": "Semi-Final",
+                "date": "21 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "England",
+                "away_team": "South Africa",
+                "home_score": "15",
+                "away_score": "16"
+            },
+            {
+                "id": null,
+                "stage": "Final",
+                "date": "28 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "New Zealand",
+                "away_team": "South Africa",
+                "home_score": "11",
+                "away_score": "12"
+            }
+        ]
     },
     "Ireland": {
         "id": null,
@@ -5849,7 +6165,58 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "9 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home_team": "Ireland",
+                "away_team": "Romania",
+                "home_score": "82",
+                "away_score": "8"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "16 September 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home_team": "Ireland",
+                "away_team": "Tonga",
+                "home_score": "59",
+                "away_score": "16"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "23 September 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "South Africa",
+                "away_team": "Ireland",
+                "home_score": "8",
+                "away_score": "13"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "7 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "Ireland",
+                "away_team": "Scotland",
+                "home_score": "36",
+                "away_score": "14"
+            },
+            {
+                "id": null,
+                "stage": "Quarter-Final",
+                "date": "14 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "Ireland",
+                "away_team": "New Zealand",
+                "home_score": "24",
+                "away_score": "28"
+            }
+        ]
     },
     "Scotland": {
         "id": null,
@@ -6685,7 +7052,48 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "10 September 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home_team": "South Africa",
+                "away_team": "Scotland",
+                "home_score": "18",
+                "away_score": "3"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "24 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home_team": "Scotland",
+                "away_team": "Tonga",
+                "home_score": "45",
+                "away_score": "17"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "30 September 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home_team": "Scotland",
+                "away_team": "Romania",
+                "home_score": "84",
+                "away_score": "0"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "7 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "Ireland",
+                "away_team": "Scotland",
+                "home_score": "36",
+                "away_score": "14"
+            }
+        ]
     },
     "Tonga": {
         "id": null,
@@ -7521,7 +7929,48 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "16 September 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home_team": "Ireland",
+                "away_team": "Tonga",
+                "home_score": "59",
+                "away_score": "16"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "24 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home_team": "Scotland",
+                "away_team": "Tonga",
+                "home_score": "45",
+                "away_score": "17"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "1 October 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home_team": "South Africa",
+                "away_team": "Tonga",
+                "home_score": "49",
+                "away_score": "18"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "8 October 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home_team": "Tonga",
+                "away_team": "Romania",
+                "home_score": "45",
+                "away_score": "24"
+            }
+        ]
     },
     "Romania": {
         "id": null,
@@ -8357,7 +8806,48 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "9 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home_team": "Ireland",
+                "away_team": "Romania",
+                "home_score": "82",
+                "away_score": "8"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "17 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home_team": "South Africa",
+                "away_team": "Romania",
+                "home_score": "76",
+                "away_score": "0"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "30 September 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home_team": "Scotland",
+                "away_team": "Romania",
+                "home_score": "84",
+                "away_score": "0"
+            },
+            {
+                "id": null,
+                "stage": "Pool B",
+                "date": "8 October 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home_team": "Tonga",
+                "away_team": "Romania",
+                "home_score": "45",
+                "away_score": "24"
+            }
+        ]
     },
     "Wales": {
         "id": null,
@@ -9168,7 +9658,58 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "10 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home_team": "Wales",
+                "away_team": "Fiji",
+                "home_score": "32",
+                "away_score": "26"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "16 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home_team": "Wales",
+                "away_team": "Portugal",
+                "home_score": "28",
+                "away_score": "8"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "24 September 2023",
+                "location": "OL Stadium, Lyon",
+                "home_team": "Wales",
+                "away_team": "Australia",
+                "home_score": "40",
+                "away_score": "6"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "7 October 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home_team": "Wales",
+                "away_team": "Georgia",
+                "home_score": "43",
+                "away_score": "19"
+            },
+            {
+                "id": null,
+                "stage": "Quarter-Final",
+                "date": "14 October 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home_team": "Wales",
+                "away_team": "Argentina",
+                "home_score": "17",
+                "away_score": "29"
+            }
+        ]
     },
     "Australia": {
         "id": null,
@@ -9855,7 +10396,7 @@
             },
             {
                 "id": "69731",
-                "name": "Pone Fa\u2019Amausili",
+                "name": "Pone Fa’Amausili",
                 "age": "27",
                 "height": "196 Cm",
                 "weight": "138 Kg",
@@ -10004,7 +10545,48 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "9 September 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "Australia",
+                "away_team": "Georgia",
+                "home_score": "35",
+                "away_score": "15"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "17 September 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home_team": "Australia",
+                "away_team": "Fiji",
+                "home_score": "15",
+                "away_score": "22"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "24 September 2023",
+                "location": "OL Stadium, Lyon",
+                "home_team": "Wales",
+                "away_team": "Australia",
+                "home_score": "40",
+                "away_score": "6"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "1 October 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home_team": "Australia",
+                "away_team": "Portugal",
+                "home_score": "34",
+                "away_score": "14"
+            }
+        ]
     },
     "Fiji": {
         "id": null,
@@ -10840,7 +11422,58 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "10 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home_team": "Wales",
+                "away_team": "Fiji",
+                "home_score": "32",
+                "away_score": "26"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "17 September 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home_team": "Australia",
+                "away_team": "Fiji",
+                "home_score": "15",
+                "away_score": "22"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "30 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home_team": "Fiji",
+                "away_team": "Georgia",
+                "home_score": "17",
+                "away_score": "12"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "8 October 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home_team": "Fiji",
+                "away_team": "Portugal",
+                "home_score": "23",
+                "away_score": "24"
+            },
+            {
+                "id": null,
+                "stage": "Quarter-Final",
+                "date": "15 October 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home_team": "England",
+                "away_team": "Fiji",
+                "home_score": "30",
+                "away_score": "24"
+            }
+        ]
     },
     "Georgia": {
         "id": null,
@@ -11676,7 +12309,48 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "9 September 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "Australia",
+                "away_team": "Georgia",
+                "home_score": "35",
+                "away_score": "15"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "23 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home_team": "Georgia",
+                "away_team": "Portugal",
+                "home_score": "18",
+                "away_score": "18"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "30 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home_team": "Fiji",
+                "away_team": "Georgia",
+                "home_score": "17",
+                "away_score": "12"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "7 October 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home_team": "Wales",
+                "away_team": "Georgia",
+                "home_score": "43",
+                "away_score": "19"
+            }
+        ]
     },
     "Portugal": {
         "id": null,
@@ -11688,7 +12362,7 @@
         "players": [
             {
                 "id": "64409",
-                "name": "Jer\u00f3nimo Portela",
+                "name": "Jerónimo Portela",
                 "age": "24",
                 "height": "192 Cm",
                 "weight": "87 Kg",
@@ -11813,7 +12487,7 @@
             },
             {
                 "id": "54096",
-                "name": "Jo\u00e3o Belo",
+                "name": "João Belo",
                 "age": "29",
                 "height": "169 Cm",
                 "weight": "80 Kg",
@@ -12013,7 +12687,7 @@
             },
             {
                 "id": "67525",
-                "name": "Sim\u00e3o Bento",
+                "name": "Simão Bento",
                 "age": "23",
                 "height": "180 Cm",
                 "weight": "80 Kg",
@@ -12138,7 +12812,7 @@
             },
             {
                 "id": "61037",
-                "name": "Jo\u00e3o Granate",
+                "name": "João Granate",
                 "age": "27",
                 "height": "186 Cm",
                 "weight": "102 Kg",
@@ -12163,7 +12837,7 @@
             },
             {
                 "id": "43763",
-                "name": "Rafael Sim\u00f5es",
+                "name": "Rafael Simões",
                 "age": "33",
                 "height": "195 Cm",
                 "weight": "110 Kg",
@@ -12338,7 +13012,7 @@
             },
             {
                 "id": "67530",
-                "name": "Jos\u00e9 Madeira",
+                "name": "José Madeira",
                 "age": "23",
                 "height": "195 Cm",
                 "weight": "115 Kg",
@@ -12512,7 +13186,48 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "16 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home_team": "Wales",
+                "away_team": "Portugal",
+                "home_score": "28",
+                "away_score": "8"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "23 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home_team": "Georgia",
+                "away_team": "Portugal",
+                "home_score": "18",
+                "away_score": "18"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "1 October 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home_team": "Australia",
+                "away_team": "Portugal",
+                "home_score": "34",
+                "away_score": "14"
+            },
+            {
+                "id": null,
+                "stage": "Pool C",
+                "date": "8 October 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home_team": "Fiji",
+                "away_team": "Portugal",
+                "home_score": "23",
+                "away_score": "24"
+            }
+        ]
     },
     "England": {
         "id": null,
@@ -13348,7 +14063,78 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "9 September 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home_team": "England",
+                "away_team": "Argentina",
+                "home_score": "27",
+                "away_score": "10"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "17 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home_team": "England",
+                "away_team": "Japan",
+                "home_score": "34",
+                "away_score": "12"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "23 September 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home_team": "England",
+                "away_team": "Chile",
+                "home_score": "71",
+                "away_score": "0"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "7 October 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home_team": "England",
+                "away_team": "Samoa",
+                "home_score": "18",
+                "away_score": "17"
+            },
+            {
+                "id": null,
+                "stage": "Quarter-Final",
+                "date": "15 October 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home_team": "England",
+                "away_team": "Fiji",
+                "home_score": "30",
+                "away_score": "24"
+            },
+            {
+                "id": null,
+                "stage": "Semi-Final",
+                "date": "21 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "England",
+                "away_team": "South Africa",
+                "home_score": "15",
+                "away_score": "16"
+            },
+            {
+                "id": null,
+                "stage": "Bronze Final",
+                "date": "27 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "Argentina",
+                "away_team": "England",
+                "home_score": "23",
+                "away_score": "26"
+            }
+        ]
     },
     "Japan": {
         "id": null,
@@ -14184,7 +14970,48 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "10 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home_team": "Japan",
+                "away_team": "Chile",
+                "home_score": "42",
+                "away_score": "12"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "17 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home_team": "England",
+                "away_team": "Japan",
+                "home_score": "34",
+                "away_score": "12"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "28 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home_team": "Japan",
+                "away_team": "Samoa",
+                "home_score": "28",
+                "away_score": "22"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "8 October 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home_team": "Japan",
+                "away_team": "Argentina",
+                "home_score": "27",
+                "away_score": "39"
+            }
+        ]
     },
     "Argentina": {
         "id": null,
@@ -14225,7 +15052,7 @@
                 "age": "36",
                 "height": "",
                 "weight": "",
-                "hometown": "San Miguel De Tucum\u00e1n, Argentina",
+                "hometown": "San Miguel De Tucumán, Argentina",
                 "photo": "https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/32114.png",
                 "stats": {
                     "kicks from hand": "24",
@@ -14246,7 +15073,7 @@
             },
             {
                 "id": "71714",
-                "name": "Mart\u00edn Bogado",
+                "name": "Martín Bogado",
                 "age": "26",
                 "height": "191 Cm",
                 "weight": "97 Kg",
@@ -14475,7 +15302,7 @@
                 "age": "27",
                 "height": "",
                 "weight": "",
-                "hometown": "Entre R\u00edos, Argentina",
+                "hometown": "Entre Ríos, Argentina",
                 "photo": "https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56924.png",
                 "stats": {
                     "kicks from hand": "0",
@@ -14696,7 +15523,7 @@
             },
             {
                 "id": "26186",
-                "name": "Agust\u00edn Creevy",
+                "name": "Agustín Creevy",
                 "age": "39",
                 "height": "182 Cm",
                 "weight": "106 Kg",
@@ -14995,7 +15822,78 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "9 September 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home_team": "England",
+                "away_team": "Argentina",
+                "home_score": "27",
+                "away_score": "10"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "22 September 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home_team": "Argentina",
+                "away_team": "Samoa",
+                "home_score": "19",
+                "away_score": "10"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "30 September 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home_team": "Argentina",
+                "away_team": "Chile",
+                "home_score": "59",
+                "away_score": "5"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "8 October 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home_team": "Japan",
+                "away_team": "Argentina",
+                "home_score": "27",
+                "away_score": "39"
+            },
+            {
+                "id": null,
+                "stage": "Quarter-Final",
+                "date": "14 October 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home_team": "Wales",
+                "away_team": "Argentina",
+                "home_score": "17",
+                "away_score": "29"
+            },
+            {
+                "id": null,
+                "stage": "Semi-Final",
+                "date": "20 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "Argentina",
+                "away_team": "New Zealand",
+                "home_score": "6",
+                "away_score": "44"
+            },
+            {
+                "id": null,
+                "stage": "Bronze Final",
+                "date": "27 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home_team": "Argentina",
+                "away_team": "England",
+                "home_score": "23",
+                "away_score": "26"
+            }
+        ]
     },
     "Samoa": {
         "id": null,
@@ -15831,7 +16729,48 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "16 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home_team": "Samoa",
+                "away_team": "Chile",
+                "home_score": "43",
+                "away_score": "10"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "22 September 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home_team": "Argentina",
+                "away_team": "Samoa",
+                "home_score": "19",
+                "away_score": "10"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "28 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home_team": "Japan",
+                "away_team": "Samoa",
+                "home_score": "28",
+                "away_score": "22"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "7 October 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home_team": "England",
+                "away_team": "Samoa",
+                "home_score": "18",
+                "away_score": "17"
+            }
+        ]
     },
     "Chile": {
         "id": null,
@@ -15943,7 +16882,7 @@
             },
             {
                 "id": "32191",
-                "name": "Jos\u00e9 Ignacio Larenas",
+                "name": "José Ignacio Larenas",
                 "age": "35",
                 "height": "183 Cm",
                 "weight": "79 Kg",
@@ -16147,7 +17086,7 @@
                 "age": "22",
                 "height": "193 Cm",
                 "weight": "89 Kg",
-                "hometown": "Concepci\u00f3n, Chile",
+                "hometown": "Concepción, Chile",
                 "photo": "https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/71068.png",
                 "stats": {
                     "kicks from hand": "0",
@@ -16268,7 +17207,7 @@
             },
             {
                 "id": "67195",
-                "name": "Raimundo Mart\u00ednez",
+                "name": "Raimundo Martínez",
                 "age": "25",
                 "height": "179 Cm",
                 "weight": "99 Kg",
@@ -16293,7 +17232,7 @@
             },
             {
                 "id": "62868",
-                "name": "Mart\u00edn Sigren",
+                "name": "Martín Sigren",
                 "age": "28",
                 "height": "190 Cm",
                 "weight": "90 Kg",
@@ -16667,6 +17606,47 @@
                 }
             }
         ],
-        "matches": []
+        "matches": [
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "10 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home_team": "Japan",
+                "away_team": "Chile",
+                "home_score": "42",
+                "away_score": "12"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "16 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home_team": "Samoa",
+                "away_team": "Chile",
+                "home_score": "43",
+                "away_score": "10"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "23 September 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home_team": "England",
+                "away_team": "Chile",
+                "home_score": "71",
+                "away_score": "0"
+            },
+            {
+                "id": null,
+                "stage": "Pool D",
+                "date": "30 September 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home_team": "Argentina",
+                "away_team": "Chile",
+                "home_score": "59",
+                "away_score": "5"
+            }
+        ]
     }
 }

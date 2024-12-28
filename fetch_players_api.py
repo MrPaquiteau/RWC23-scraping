@@ -14,22 +14,18 @@ class RugbyDataFetcher:
         """
         Fetches the list of players for a team.
 
-        Parameters
-        ----------
-        team_id : int
-            The ID of the team.
+        Args:
+            team_id (int): The ID of the team.
 
-        Returns
-        -------
-        list
-            A list of Player objects.
+        Returns:
+            list: A list of Player objects.
         """
         url = f"{cls.BASE_URL}event/1893/squad/{team_id}"
         response = requests.get(url)
         response.raise_for_status()
         return [
             Player(
-                player_id=player_data['player']['id'],
+                id=player_data['player']['id'],
                 name=player_data['player']['name']['display'],
                 age=player_data['player']['age']['years'],
                 height=player_data['player']['height'],
@@ -44,16 +40,12 @@ class RugbyDataFetcher:
     def fetch_player_stats(cls, player_id):
         """
         Fetches statistics for a player.
+        
+        Args:
+            player_id (int): The ID of the player.
 
-        Parameters
-        ----------
-        player_id : int
-            The ID of the player.
-
-        Returns
-        -------
-        dict
-            A dictionary containing the player's statistics.
+        Returns:
+            dict: A dictionary containing the player's statistics.
         """
         url = f"{cls.BASE_URL}stats/player/{player_id}/EVENT?event=1893"
         response = requests.get(url)
@@ -64,15 +56,11 @@ def load_teams_from_json(filename):
     """
     Loads team data from a JSON file.
 
-    Parameters
-    ----------
-    filename : str
-        The name of the JSON file containing team data.
+    Args:
+        filename (str): The name of the JSON file containing team data.
 
-    Returns
-    -------
-    list
-        A list of Team objects.
+    Returns:
+        list: A list of Team objects.
     """
     with open(filename, "r") as f:
         teams_data = json.load(f)
@@ -92,16 +80,12 @@ def load_teams_from_json(filename):
 def fetch_players_for_team(team):
     """
     Fetches the list of players for a specific team.
-
-    Parameters
-    ----------
-    team : Team
-        The Team object for which to fetch players.
-
-    Returns
-    -------
-    list
-        A list of Player objects.
+    
+    Args:
+        team (Team): The Team object for which to fetch players.
+        
+    Returns:
+        list: A list of Player objects.
     """
     try:
         players = RugbyDataFetcher.fetch_team_squad(team.id)
@@ -137,7 +121,10 @@ def main():
     Main function to load team data and fetch players for all teams.
     """
     # Load teams from JSON
-    teams = load_teams_from_json("data/teams_api.json")
+    if os.path.exists("data/teams_matches_api.json"):
+        teams = load_teams_from_json("data/teams_matches_api.json")
+    else:
+        teams = load_teams_from_json("data/teams_api.json")
 
     # Fetch players for all teams
     for team in tqdm(teams, desc="Fetching players for all teams"):
@@ -146,9 +133,12 @@ def main():
 
     # Save updated data for all teams to JSON
     teams_data = {team.country: team.to_dict() for team in teams}
-    with open("data/teams_players_api.json", "w") as f:
-        json.dump(teams_data, f, indent=4)
-    print("Players for all teams saved to teams_players_api.json in data folder")
+    if os.path.exists("data/teams_matches_api.json"):
+        with open("data/teams_players_matches_api.json", "w") as f:
+            json.dump(teams_data, f, ensure_ascii=False, indent=4)
+    else:
+        with open("data/teams_players_api.json", "w") as f:
+            json.dump(teams_data, f, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
     main()

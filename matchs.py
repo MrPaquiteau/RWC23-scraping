@@ -9,7 +9,6 @@ import pandas as pd
 import re
 from unidecode import unidecode
 import locale
-import create_CSS
 import webbrowser
 
 
@@ -434,7 +433,7 @@ def exec():
     if not os.path.exists(r"Choice_3//Web_Files"):
         os.mkdir(r"Choice_3//Web_Files")
 
-    create_CSS.creation_CSS_matchs("Choice_3//Web_Files")
+    # create_CSS.creation_CSS_matchs("Choice_3//Web_Files")
 
     with open(r"Choice_3//Web_Files//rugby_world_cup.html", "w", encoding="utf-8") as f:
         f.write(html_code)

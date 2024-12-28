@@ -14,10 +14,8 @@ class RugbyDataFetcher:
         """
         Fetches the list of teams participating in the 2023 World Cup.
 
-        Returns
-        -------
-        list
-            A list of Team objects.
+        Returns:
+            list: A list of Team objects.
         """
         url = f"{cls.BASE_URL}event/1893/teams"
         response = requests.get(url)
@@ -39,7 +37,7 @@ def fetch_and_save_teams():
     teams = RugbyDataFetcher.fetch_teams()
     teams_data = {team.country: team.to_dict() for team in teams}
     with open("data/teams_api.json", "w") as f:
-        json.dump(teams_data, f, indent=4)
+        json.dump(teams_data, f, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':
     fetch_and_save_teams()

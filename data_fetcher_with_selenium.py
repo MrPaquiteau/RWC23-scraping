@@ -219,8 +219,8 @@ class WorldCupScraper:
         teams = driver.find_elements(By.CSS_SELECTOR, ".card__content")
         return [
             Team(
-                country=team.text.split('\n')[-1],
-                name=team.text.split('\n')[0],
+                country=team.text.split('\n')[-1].title(),
+                name=team.text.split('\n')[0].title(),
                 image=f"https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-{team.text.split('\n')[-1].replace(' ', '-').lower()}.svg"
             )
             for team in teams
@@ -244,7 +244,7 @@ class WorldCupScraper:
         teams = cls.fetch_teams(driver)
         for i, team in enumerate(teams):
             team.fetch_team_data(driver)
-            if i % 2 == 0:
+            if i % 5 == 0:
                 driver.quit()
                 driver = get_driver()
         return teams

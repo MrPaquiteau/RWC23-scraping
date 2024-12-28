@@ -6,22 +6,20 @@ from models import Team, Player
 from tqdm import tqdm
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import os
+
 
 BASE_URL = "https://www.rugbyworldcup.com/2023"
 
 def load_teams_from_json(filename):
     """
     Loads team data from a JSON file.
-
-    Parameters
-    ----------
-    filename : str
-        The name of the JSON file containing team data.
-
-    Returns
-    -------
-    list
-        A list of Team objects.
+    
+    Args:
+        filename (str) : The name of the JSON file containing team data.
+            
+    Returns:
+        list : A list of Team objects.
     """
     with open(filename, "r") as f:
         teams_data = json.load(f)
@@ -40,18 +38,13 @@ def load_teams_from_json(filename):
 def fetch_players_for_team(driver, team):
     """
     Fetches the list of players for a specific team.
-
-    Parameters
-    ----------
-    driver : WebDriver
-        The Selenium WebDriver instance.
-    team : Team
-        The Team object for which to fetch players.
-
-    Returns
-    -------
-    list
-        A list of Player objects.
+    
+    Args:
+        driver (WebDriver): The Selenium WebDriver instance.
+        team (Team): The Team object for which to fetch players.
+        
+    Returns:
+        list: A list of Player objects.
     """
     try:
         url_team = f"{BASE_URL}/teams/{team.country.replace(' ', '-').lower()}"
@@ -92,7 +85,7 @@ def fetch_players_for_team(driver, team):
             stats = fetch_player_stats(driver)
 
             player = Player(
-                player_id=player_id,
+                id=player_id,
                 name=name,
                 age=age,
                 height=height,
@@ -112,16 +105,11 @@ def fetch_players_for_team(driver, team):
 def fetch_player_stats(driver):
     """
     Fetches statistics for a player.
+    Args:
+        driver (WebDriver): The Selenium WebDriver instance.
 
-    Parameters
-    ----------
-    driver : WebDriver
-        The Selenium WebDriver instance.
-
-    Returns
-    -------
-    dict
-        A dictionary containing the player's statistics.
+    Returns:
+        dict: A dictionary containing the player's statistics.
     """
     try:
         WebDriverWait(driver, 10).until(
@@ -146,7 +134,10 @@ def main():
     Main function to load team data and fetch players for all teams.
     """
     # Load teams from JSON
-    teams = load_teams_from_json("data/teams_selenium.json")
+    if os.path.exists("data/teams_matches_selenium.json"):
+        teams = load_teams_from_json("data/teams_matches_selenium.json")
+    else:
+        teams = load_teams_from_json("data/teams_selenium.json")
 
     # Fetch players for all teams
     driver = get_driver()
@@ -157,9 +148,12 @@ def main():
 
         # Save updated data for all teams to JSON
         teams_data = {team.country: team.to_dict() for team in teams}
-        with open("data/teams_players_selenium.json", "w") as f:
-            json.dump(teams_data, f, indent=4)
-        print("Players for all teams saved to teams_players_selenium.json in data folder")
+        if os.path.exists("data/teams_matches_selenium.json"):
+            with open("data/teams_players_matches_selenium.json", "w") as f:
+                json.dump(teams_data, f, ensure_ascii=False, indent=4)
+        else:
+            with open("data/teams_players_selenium.json", "w") as f:
+                json.dump(teams_data, f, ensure_ascii=False, indent=4)
     finally:
         driver.quit()
 
