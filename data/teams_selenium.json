@@ -1,0 +1,202 @@
+{
+    "France": {
+        "id": null,
+        "name": "Les Bleus",
+        "code": "FRA",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-fra.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-france.svg",
+        "country": "France",
+        "players": [],
+        "matches": []
+    },
+    "New Zealand": {
+        "id": null,
+        "name": "The All Blacks",
+        "code": "NZL",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-nzl.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-new-zealand.svg",
+        "country": "New Zealand",
+        "players": [],
+        "matches": []
+    },
+    "Italy": {
+        "id": null,
+        "name": "Gli Azzurri",
+        "code": "ITA",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-ita.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-italy.svg",
+        "country": "Italy",
+        "players": [],
+        "matches": []
+    },
+    "Uruguay": {
+        "id": null,
+        "name": "Los Teros",
+        "code": "URU",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-uru.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-uruguay.svg",
+        "country": "Uruguay",
+        "players": [],
+        "matches": []
+    },
+    "Namibia": {
+        "id": null,
+        "name": "The Welwitschias",
+        "code": "NAM",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-nam.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-namibia.svg",
+        "country": "Namibia",
+        "players": [],
+        "matches": []
+    },
+    "South Africa": {
+        "id": null,
+        "name": "The Springboks",
+        "code": "RSA",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-rsa.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-south-africa.svg",
+        "country": "South Africa",
+        "players": [],
+        "matches": []
+    },
+    "Ireland": {
+        "id": null,
+        "name": "Ireland",
+        "code": "IRE",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-ire.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-ireland.svg",
+        "country": "Ireland",
+        "players": [],
+        "matches": []
+    },
+    "Scotland": {
+        "id": null,
+        "name": "Scotland",
+        "code": "SCO",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-sco.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-scotland.svg",
+        "country": "Scotland",
+        "players": [],
+        "matches": []
+    },
+    "Tonga": {
+        "id": null,
+        "name": "Ikale Tahi",
+        "code": "TGA",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-tga.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-tonga.svg",
+        "country": "Tonga",
+        "players": [],
+        "matches": []
+    },
+    "Romania": {
+        "id": null,
+        "name": "The Oaks",
+        "code": "ROU",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-rou.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-romania.svg",
+        "country": "Romania",
+        "players": [],
+        "matches": []
+    },
+    "Wales": {
+        "id": null,
+        "name": "Wales",
+        "code": "WAL",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-wal.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-wales.svg",
+        "country": "Wales",
+        "players": [],
+        "matches": []
+    },
+    "Australia": {
+        "id": null,
+        "name": "The Wallabies",
+        "code": "AUS",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-aus.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-australia.svg",
+        "country": "Australia",
+        "players": [],
+        "matches": []
+    },
+    "Fiji": {
+        "id": null,
+        "name": "The Flying Fijians",
+        "code": "FIJ",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-fij.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-fiji.svg",
+        "country": "Fiji",
+        "players": [],
+        "matches": []
+    },
+    "Georgia": {
+        "id": null,
+        "name": "The Lelos",
+        "code": "GEO",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-geo.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-georgia.svg",
+        "country": "Georgia",
+        "players": [],
+        "matches": []
+    },
+    "Portugal": {
+        "id": null,
+        "name": "Os Lobos",
+        "code": "POR",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-por.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-portugal.svg",
+        "country": "Portugal",
+        "players": [],
+        "matches": []
+    },
+    "England": {
+        "id": null,
+        "name": "England",
+        "code": "ENG",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-eng.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-england.svg",
+        "country": "England",
+        "players": [],
+        "matches": []
+    },
+    "Japan": {
+        "id": null,
+        "name": "The Brave Blossoms",
+        "code": "JPN",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-jpn.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-japan.svg",
+        "country": "Japan",
+        "players": [],
+        "matches": []
+    },
+    "Argentina": {
+        "id": null,
+        "name": "The Pumas",
+        "code": "ARG",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-arg.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-argentina.svg",
+        "country": "Argentina",
+        "players": [],
+        "matches": []
+    },
+    "Samoa": {
+        "id": null,
+        "name": "Manu Samoa",
+        "code": "SAM",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-sam.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-samoa.svg",
+        "country": "Samoa",
+        "players": [],
+        "matches": []
+    },
+    "Chile": {
+        "id": null,
+        "name": "Los Condores",
+        "code": "CHI",
+        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-chi.svg",
+        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-chile.svg",
+        "country": "Chile",
+        "players": [],
+        "matches": []
+    }
+}
