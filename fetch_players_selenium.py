@@ -2,6 +2,7 @@ import json
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from utils.web_driver import get_driver
+from utils.data_io import load_teams_from_json, save_to_json
 from models import Team, Player
 from tqdm import tqdm
 from selenium.webdriver.support.ui import WebDriverWait
@@ -10,30 +11,6 @@ import os
 
 
 BASE_URL = "https://www.rugbyworldcup.com/2023"
-
-def load_teams_from_json(filename):
-    """
-    Loads team data from a JSON file.
-    
-    Args:
-        filename (str) : The name of the JSON file containing team data.
-            
-    Returns:
-        list : A list of Team objects.
-    """
-    with open(filename, "r") as f:
-        teams_data = json.load(f)
-    
-    for country, data in teams_data.items():
-        Team(
-            id=data["id"],
-            name=data["name"],
-            code=data["code"],
-            flag=data["flag"],
-            image=data["image"],
-            country=data["country"]
-        )
-    return Team.get_teams()
 
 def fetch_players_for_team(driver, team):
     """
@@ -149,11 +126,9 @@ def main():
         # Save updated data for all teams to JSON
         teams_data = {team.country: team.to_dict() for team in teams}
         if os.path.exists("data/teams_matches_selenium.json"):
-            with open("data/teams_players_matches_selenium.json", "w") as f:
-                json.dump(teams_data, f, ensure_ascii=False, indent=4)
+            save_to_json("data/teams_players_matches.json", teams_data)
         else:
-            with open("data/teams_players_selenium.json", "w") as f:
-                json.dump(teams_data, f, ensure_ascii=False, indent=4)
+            save_to_json("data/teams_players_selenium.json", teams_data)
     finally:
         driver.quit()
 

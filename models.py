@@ -80,25 +80,56 @@ class Player:
 
 class Match:
     matches = []
-    def __init__(self, match_id=None, stage=None, date=None, location=None, home_team=None, away_team=None, home_score=None, away_score=None):
-        self.id = match_id
+    
+    def __init__(self, id=None, stage=None, date=None, location=None, home={'team': None, 'image': None, 'score': None}, away={'team': None, 'image': None, 'score': None}):
+        self.id = id
         self.stage = stage
         self.date = date
         self.location = location
-        self.home_team = home_team
-        self.away_team = away_team
-        self.home_score = home_score
-        self.away_score = away_score
+        self.home = home
+        self.away = away
         Match.matches.append(self)
     
     @classmethod
     def get_matches(cls):
         return cls.matches
+
+    @classmethod
+    def get_matches_by_stage(cls):
+        """
+        Organizes matches by their stage and returns them in a specific order.
+        Returns:
+            dict: Matches grouped by stage in the predefined order.
+        """
+        matches_per_stage = {}
+        for match in cls.matches:
+            if match.stage not in matches_per_stage:
+                matches_per_stage[match.stage] = []
+            matches_per_stage[match.stage].append(match)
+        ordered_stages = ["Pool A", "Pool B", "Pool C", "Pool D", "Quarter-Final", "Semi-Final", "Bronze Final", "Final"]
+        return {stage: matches_per_stage.get(stage, []) for stage in ordered_stages}
     
+    @classmethod
+    def get_matches_by_team(cls):
+        """
+        Organizes matches by the teams that played them.
+        Returns:
+            dict: Matches grouped by team.
+        """
+        matches_per_team = {}
+        for match in cls.matches:
+            if match.home['team'] not in matches_per_team:
+                matches_per_team[match.home['team']] = []
+            matches_per_team[match.home['team']].append(match)
+            
+            if match.away['team'] not in matches_per_team:
+                matches_per_team[match.away['team']] = []
+            matches_per_team[match.away['team']].append(match)
+        return dict(sorted(matches_per_team.items()))
+
     def to_dict(self):
         """
         Converts the match data to a dictionary.
-
         Returns:
             dict: A dictionary containing the match's data.
         """
@@ -107,10 +138,8 @@ class Match:
             "stage": self.stage,
             "date": self.date,
             "location": self.location,
-            "home_team": self.home_team,
-            "away_team": self.away_team,
-            "home_score": self.home_score,
-            "away_score": self.away_score
+            "home": self.home,
+            "away": self.away,
         }
     
     def __repr__(self):

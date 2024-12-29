@@ -1,77 +1,52 @@
 import json
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from utils.web_driver import get_driver
+from utils.data_io import load_teams_from_json, save_to_json
 from models import Team, Player, Match
 from tqdm import tqdm
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 import os
-import re 
+import re
 
-def load_teams_from_json(filename):
-    """
-    Loads team data from a JSON file.
-    
-    Args:
-        filename (str): The name of the JSON file containing team data.
-            
-    Returns:
-        list : A list of Team objects.
-    """
-    with open(filename, "r") as f:
-        teams_data = json.load(f)
-    
-    for country, data in teams_data.items():
-        Team(
-            id=data["id"],
-            name=data["name"],
-            code=data["code"],
-            flag=data["flag"],
-            image=data["image"],
-            country=data["country"],
-            players=[Player(**player) for player in data["players"]]
-        )
-    return Team.get_teams()
 
-def fetch_matches(driver):
+def fetch_matches(driver) -> list:
     """
     Fetches the list of matches from the Rugby World Cup website.
     
     Args:
         driver (WebDriver): The Selenium WebDriver instance.
-            
+        teams (list): A list of Team objects.
+
     Returns:
         list: A list of Match objects.
     """
     try:
         matches_elements = driver.find_elements(By.CSS_SELECTOR, ".fixture")
 
-        for match in matches_elements:
+        for match in tqdm(matches_elements, desc="Fetching matches"):
             
-            data = match.text.split('\n')
-            date = f"{data[1]} 2023".title()
-            stage = re.sub(r'\d', '', data[3]).strip().title()   
-            home_team = data[5].title()
-            home_score = data[6]
-            away_team = data[7].title()
-            away_score = data[8]
-            location = data[9]
+            data: list = match.text.split('\n')
+            date: str = f"{data[1]} 2023".title()
+            stage: str = re.sub(r'\d', '', data[3]).strip().title()   
+            home_team: str = data[5].title()
+            home_score = int(data[6])
+            away_team: str = data[7].title()
+            away_score = int(data[8])
+            home_image = f"https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-{home_team.replace(' ', '-').lower()}.svg"
+            away_image = f"https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-{away_team.replace(' ', '-').lower()}.svg"
+            location: str = data[9]
             
             Match(
                 date=date,
                 stage=stage,
-                home_team=home_team,
-                home_score=home_score,
-                away_team=away_team,
-                away_score=away_score,
+                home={'team': home_team, 'score': home_score, 'image': home_image},
+                away={'team': away_team, 'score': away_score, 'image': away_image},
                 location=location
             )
     finally:
         return Match.get_matches()
 
 
-def get_matchs_by_stage(matches):
+def get_matchs_by_stage(matches: list) -> dict:
     """
     Organizes matches by their stage and returns them in a specific order.
     
@@ -84,8 +59,7 @@ def get_matchs_by_stage(matches):
               "Pool A", "Pool B", "Pool C", "Pool D", "Quarter-Final", "Semi-Final", "Bronze Final", "Final".
               If a stage has no matches, it will be included in the dictionary with an empty list.
     """
-    
-    matches_per_stage = {}
+    matches_per_stage: dict = {}
     for match in matches:
         if match.stage not in matches_per_stage:
             matches_per_stage[match.stage] = []
@@ -94,7 +68,8 @@ def get_matchs_by_stage(matches):
     matches_per_stage = {stage: matches_per_stage.get(stage, []) for stage in ordered_stages}
     return matches_per_stage
 
-def get_matches_by_team(matches):
+
+def get_matches_by_team(matches: list) -> dict:
     """
     Organizes matches by the teams that played them.
     
@@ -104,7 +79,7 @@ def get_matches_by_team(matches):
     Returns:
         dict: A dictionary where the keys are team names and the values are lists of matches in which the team played.
     """
-    matches_per_team = {}
+    matches_per_team: dict = {}
     for match in matches:
         if match.home_team not in matches_per_team:
             matches_per_team[match.home_team] = []
@@ -129,24 +104,21 @@ def main():
     driver = get_driver()
     try:
         driver.get("https://www.rugbyworldcup.com/2023/matches")
-        matches = fetch_matches(driver)
-        matches_by_stage = get_matchs_by_stage(matches)
-        matches_by_team = get_matches_by_team(matches)
+        fetch_matches(driver)
+        matches_by_stage: dict = Match.get_matches_by_stage()
+        matches_by_team: dict = Match.get_matches_by_team()
 
         for team in teams:
             team.matches = matches_by_team.get(team.country, [])
-        teams_data = {team.country: team.to_dict() for team in teams}
+        teams_data: dict = {team.country: team.to_dict() for team in teams}
 
         if os.path.exists("data/teams_players_selenium.json"):
-            with open("data/teams_players_selenium.json", "w") as f:
-                json.dump(teams_data, f, ensure_ascii=False, indent=4)
+            save_to_json(teams_data, "data/teams_players_selenium.json")
         else:
-            with open("data/teams_matches_selenium.json", "w") as f:
-                json.dump(teams_data, f, ensure_ascii=False, indent=4)
+            save_to_json(teams_data, "data/teams_matches_selenium.json")
 
         matches_by_stage_data = {stage: [match.to_dict() for match in matches] for stage, matches in matches_by_stage.items()}
-        with open("data/matches_by_stage.json", "w") as f:
-            json.dump(matches_by_stage_data, f, ensure_ascii=False, indent=4)
+        save_to_json(matches_by_stage_data, "data/matches_by_stage.json")
         
     finally:
         driver.quit()

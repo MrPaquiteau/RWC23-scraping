@@ -1,8 +1,8 @@
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from utils.web_driver import get_driver
+from utils.data_io import save_to_json
 from models import Team
-import json
 from tqdm import tqdm
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -68,14 +68,12 @@ def fetch_teams(driver):
         driver.get(team_url)
 
         try:
-            # Récupérer le code de l'équipe
             code_element = driver.find_element(By.CSS_SELECTOR, "span.widget__title--short.u-show-phablet")
             code = driver.execute_script("return arguments[0].textContent;", code_element).strip()
         except NoSuchElementException:
             print(f"Could not find code for team {team.country}")
             code = None
 
-        # Mettre à jour les attributs de l'équipe
         team.code = code
         team.flag = build_flag_url(code)
         team.image = build_image_url(team.country)
@@ -83,7 +81,7 @@ def fetch_teams(driver):
     return Team.get_teams()
 
 
-def fetch_and_save_teams():
+def main():
     """
     Fetches team data and saves it to a JSON file.
     """
@@ -91,11 +89,10 @@ def fetch_and_save_teams():
     try:
         teams = fetch_teams(driver)
         teams_data = {team.country: team.to_dict() for team in teams}
-        with open("data/teams_selenium.json", "w") as f:
-            json.dump(teams_data, f, ensure_ascii=False, indent=4)
+        save_to_json(teams_data, "data/teams_selenium.json")
     finally:
         driver.quit()
 
 
 if __name__ == '__main__':
-    fetch_and_save_teams()
+    main()
