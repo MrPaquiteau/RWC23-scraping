@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const favicon = document.getElementById('favicon');
     document.title = `Team ${teamName}`;
 
-    fetch("data.json")
+    fetch("../../data/teams_players_api.json")
         .then(response => response.json())
         .then(data => {
             const teamData = data[teamName];
@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Ajouter les informations de l'équipe
             teamTitle.innerHTML = `<img class="title-icon" src="${teamData.flag}" alt="Drapeau National"> ${teamName}'s players`;
             favicon.href = teamData.flag;
+            console.log("Image path:", teamData.flag); // Debugging line to check the image path
 
             // Ajouter les joueurs
             teamData.players.forEach(player => {
@@ -25,10 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 playerCard.innerHTML = `
                     <img src="${player.photo}" alt="${player.name}">
                     <p>${player.name}</p>
-                    <div class="container-infos">
-                        <p>Age: ${player.age}</p>
-                        <p>Hometown: ${player.hometown}</p>
-                    </div>
                 `;
 
                 playerGrid.appendChild(playerCard);

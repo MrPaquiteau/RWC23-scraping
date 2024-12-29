@@ -1,16 +1,16 @@
 class Team:
     teams = []
-    def __init__(self, id=None, name=None, code=None, flag=None, image=None, country=None, players=[], matches=[]):
+
+    def __init__(self, id=None, name=None, code=None, images=None, country=None, players=None, matches=None):
         self.id = id
         self.name = name
         self.code = code
-        self.flag = flag
-        self.image = image
+        self.images = images or {'flag': None, 'shape': None, 'logo': {'light': None, 'dark': None}}
         self.country = country
-        self.players = players
-        self.matches = matches
+        self.players = players or []
+        self.matches = matches or []
         Team.teams.append(self)
-        
+
     @classmethod
     def get_teams(cls):
         return cls.teams
@@ -26,9 +26,8 @@ class Team:
             "id": self.id,
             "name": self.name,
             "code": self.code,
-            "flag": self.flag,
-            "image": self.image,
             "country": self.country,
+            "images": self.images,
             "players": [player.to_dict() for player in self.players],
             "matches": [match.to_dict() for match in self.matches]
         }
@@ -40,9 +39,10 @@ class Team:
 
 class Player:
     players = []
-    def __init__(self, id=None, name=None, age=None, height=None, weight=None, hometown=None, photo=None, stats=None):
+    def __init__(self, id=None, name=None, age=None, height=None, weight=None, hometown=None, photo=None, stats=None, position=None):
         self.id = id
         self.name = name
+        self.position = position
         self.age = age
         self.height = height
         self.weight = weight
@@ -62,6 +62,7 @@ class Player:
             "id": self.id,
             "name": self.name,
             "age": self.age,
+            "position": self.position,
             "height": self.height,
             "weight": self.weight,
             "hometown": self.hometown,
@@ -80,14 +81,14 @@ class Player:
 
 class Match:
     matches = []
-    
-    def __init__(self, id=None, stage=None, date=None, location=None, home={'team': None, 'image': None, 'score': None}, away={'team': None, 'image': None, 'score': None}):
+
+    def __init__(self, id=None, stage=None, date=None, location=None, home=None, away=None):
         self.id = id
         self.stage = stage
         self.date = date
         self.location = location
-        self.home = home
-        self.away = away
+        self.home = home or {'team': None, 'score': None}
+        self.away = away or {'team': None, 'score': None}
         Match.matches.append(self)
     
     @classmethod

@@ -1,6 +1,3 @@
-import requests
-import json
-from models import Team, Player, Match
 from utils.api_fetcher import RugbyDataFetcher
 from utils.data_io import load_teams_from_json, save_to_json
 from tqdm import tqdm
@@ -66,9 +63,9 @@ def main():
     # Save updated data for all teams to JSON
     teams_data = {team.country: team.to_dict() for team in teams}
     if os.path.exists("data/teams_matches_api.json"):
-        save_to_json(teams_data, "data/teams_players_api.json")
+        save_to_json(teams_data, "data/teams_matches_players.json")
     else:
-        save_to_json(teams_data, "data/teams_matches_api.json")
+        save_to_json(teams_data, "data/teams_players_api.json")
 
 if __name__ == '__main__':
     main()

@@ -134,10 +134,9 @@ body {
     border-radius: 0.5em;
     background: #fff;
     border: 1px solid #e8e8e8;
-    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
     position: absolute;
-    top: 10px;
-    left: 50%;
+    top: 30px;
+    left: 6%;
     transform: translateX(-50%);
     text-decoration: none;
     transition: all 0.3s;
@@ -148,7 +147,6 @@ body {
     color: #fff;
     background: #1a1a1a;
     border: 1px solid #292929;
-    box-shadow: 10px 10px 20px #0d0d0d, -10px -10px 20px #272727;
 }
 
 .dark-mode .home-button:hover {
@@ -158,7 +156,6 @@ body {
 
 .dark-mode .home-button:active {
     color: #aaa;
-    box-shadow: inset 6px 6px 12px #0d0d0d, inset -6px -6px 12px #272727;
 }
 /* ---------- Style DARKMODE ---------- */
 .dark-mode  {
@@ -178,7 +175,7 @@ body {
 
 .dark-mode .grid-item {
     border: none;
-    background-color: #001225;
+    background-color: #343434;
 }
 /* ------------------------------------ */
 

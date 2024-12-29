@@ -1,4 +1,4 @@
-from models import Team, Player, Match
+from models import Match
 from utils.api_fetcher import RugbyDataFetcher
 from utils.data_io import load_teams_from_json, save_to_json
 

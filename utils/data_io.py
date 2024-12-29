@@ -20,8 +20,7 @@ def load_teams_from_json(filename: str) -> list:
             id=data["id"],
             name=data["name"],
             code=data["code"],
-            flag=data["flag"],
-            image=data["image"],
+            images=data["images"],
             country=data["country"],
             players=[Player(**player) for player in data["players"]],
             matches=[Match(**match) for match in data["matches"]]

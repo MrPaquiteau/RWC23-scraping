@@ -3,9 +3,15 @@
         "id": "39",
         "name": null,
         "code": "RSA",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-RSA.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-south-africa.svg",
         "country": "South Africa",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-rsa.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-south-africa.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -13,9 +19,15 @@
         "id": "37",
         "name": null,
         "code": "NZL",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-NZL.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-new-zealand.svg",
         "country": "New Zealand",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-nzl.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-new-zealand.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -23,9 +35,15 @@
         "id": "34",
         "name": null,
         "code": "ENG",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-ENG.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-england.svg",
         "country": "England",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-eng.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-england.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -33,9 +51,15 @@
         "id": "33",
         "name": null,
         "code": "WAL",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-WAL.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-wales.svg",
         "country": "Wales",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-wal.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-wales.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -43,9 +67,15 @@
         "id": "36",
         "name": null,
         "code": "IRE",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-IRE.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-ireland.svg",
         "country": "Ireland",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-ire.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-ireland.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -53,9 +83,15 @@
         "id": "42",
         "name": null,
         "code": "FRA",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-FRA.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-france.svg",
         "country": "France",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-fra.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-france.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -63,9 +99,15 @@
         "id": "38",
         "name": null,
         "code": "AUS",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-AUS.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-australia.svg",
         "country": "Australia",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-aus.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-australia.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -73,9 +115,15 @@
         "id": "49",
         "name": null,
         "code": "JPN",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-JPN.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-japan.svg",
         "country": "Japan",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-jpn.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-japan.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -83,9 +131,15 @@
         "id": "35",
         "name": null,
         "code": "SCO",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-SCO.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-scotland.svg",
         "country": "Scotland",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-sco.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-scotland.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -93,9 +147,15 @@
         "id": "40",
         "name": null,
         "code": "ARG",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-ARG.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-argentina.svg",
         "country": "Argentina",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-arg.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-argentina.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -103,9 +163,15 @@
         "id": "46",
         "name": null,
         "code": "FIJ",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-FIJ.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-fiji.svg",
         "country": "Fiji",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-fij.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-fiji.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -113,9 +179,15 @@
         "id": "41",
         "name": null,
         "code": "ITA",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-ITA.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-italy.svg",
         "country": "Italy",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-ita.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-italy.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -123,9 +195,15 @@
         "id": "45",
         "name": null,
         "code": "SAM",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-SAM.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-samoa.svg",
         "country": "Samoa",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-sam.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-samoa.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -133,9 +211,15 @@
         "id": "68",
         "name": null,
         "code": "URU",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-URU.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-uruguay.svg",
         "country": "Uruguay",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-uru.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-uruguay.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -143,9 +227,15 @@
         "id": "720",
         "name": null,
         "code": "GEO",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-GEO.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-georgia.svg",
         "country": "Georgia",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-geo.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-georgia.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -153,9 +243,15 @@
         "id": "52",
         "name": null,
         "code": "ROU",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-ROU.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-romania.svg",
         "country": "Romania",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-rou.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-romania.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -163,9 +259,15 @@
         "id": "58",
         "name": null,
         "code": "NAM",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-NAM.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-namibia.svg",
         "country": "Namibia",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-nam.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-namibia.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -173,9 +275,15 @@
         "id": "708",
         "name": null,
         "code": "CHI",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-CHI.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-chile.svg",
         "country": "Chile",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-chi.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-chile.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -183,9 +291,15 @@
         "id": "47",
         "name": null,
         "code": "TGA",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-TGA.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-tonga.svg",
         "country": "Tonga",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-tga.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-tonga.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg"
+            }
+        },
         "players": [],
         "matches": []
     },
@@ -193,9 +307,15 @@
         "id": "44",
         "name": null,
         "code": "POR",
-        "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-POR.svg",
-        "image": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-portugal.svg",
         "country": "Portugal",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-por.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-portugal.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal-alt.svg"
+            }
+        },
         "players": [],
         "matches": []
     }

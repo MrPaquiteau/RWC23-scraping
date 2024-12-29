@@ -1,0 +1,2454 @@
+{
+    "South Africa": {
+        "id": "39",
+        "name": null,
+        "code": "RSA",
+        "country": "South Africa",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-rsa.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-south-africa.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28772",
+                "stage": "Pool B",
+                "date": "10 September 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home": {
+                    "team": "South Africa",
+                    "score": 18,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Scotland",
+                    "score": 3,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28779",
+                "stage": "Pool B",
+                "date": "17 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home": {
+                    "team": "South Africa",
+                    "score": 76,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Romania",
+                    "score": 0,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg"
+                    }
+                }
+            },
+            {
+                "id": "28787",
+                "stage": "Pool B",
+                "date": "23 September 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "South Africa",
+                    "score": 8,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Ireland",
+                    "score": 13,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28797",
+                "stage": "Pool B",
+                "date": "01 October 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home": {
+                    "team": "South Africa",
+                    "score": 49,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Tonga",
+                    "score": 18,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg"
+                    }
+                }
+            },
+            {
+                "id": "28809",
+                "stage": "Quarter-Final",
+                "date": "15 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "France",
+                    "score": 28,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "South Africa",
+                    "score": 29,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28811",
+                "stage": "Semi-Final",
+                "date": "21 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "England",
+                    "score": 15,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "South Africa",
+                    "score": 16,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28813",
+                "stage": "Final",
+                "date": "28 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "New Zealand",
+                    "score": 11,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "South Africa",
+                    "score": 12,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "New Zealand": {
+        "id": "37",
+        "name": null,
+        "code": "NZL",
+        "country": "New Zealand",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-nzl.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-new-zealand.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28766",
+                "stage": "Pool A",
+                "date": "08 September 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "France",
+                    "score": 27,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "New Zealand",
+                    "score": 13,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28775",
+                "stage": "Pool A",
+                "date": "15 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home": {
+                    "team": "New Zealand",
+                    "score": 71,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Namibia",
+                    "score": 3,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28792",
+                "stage": "Pool A",
+                "date": "29 September 2023",
+                "location": "OL Stadium, Lyon",
+                "home": {
+                    "team": "New Zealand",
+                    "score": 96,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Italy",
+                    "score": 17,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28798",
+                "stage": "Pool A",
+                "date": "05 October 2023",
+                "location": "OL Stadium, Lyon",
+                "home": {
+                    "team": "New Zealand",
+                    "score": 73,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Uruguay",
+                    "score": 0,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28807",
+                "stage": "Quarter-Final",
+                "date": "14 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "Ireland",
+                    "score": 24,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "New Zealand",
+                    "score": 28,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28810",
+                "stage": "Semi-Final",
+                "date": "20 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "Argentina",
+                    "score": 6,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "New Zealand",
+                    "score": 44,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28813",
+                "stage": "Final",
+                "date": "28 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "New Zealand",
+                    "score": 11,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "South Africa",
+                    "score": 12,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "England": {
+        "id": "34",
+        "name": null,
+        "code": "ENG",
+        "country": "England",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-eng.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-england.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28770",
+                "stage": "Pool D",
+                "date": "09 September 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home": {
+                    "team": "England",
+                    "score": 27,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Argentina",
+                    "score": 10,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28781",
+                "stage": "Pool D",
+                "date": "17 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home": {
+                    "team": "England",
+                    "score": 34,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Japan",
+                    "score": 12,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg"
+                    }
+                }
+            },
+            {
+                "id": "28786",
+                "stage": "Pool D",
+                "date": "23 September 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home": {
+                    "team": "England",
+                    "score": 71,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Chile",
+                    "score": 0,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg"
+                    }
+                }
+            },
+            {
+                "id": "28801",
+                "stage": "Pool D",
+                "date": "07 October 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home": {
+                    "team": "England",
+                    "score": 18,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Samoa",
+                    "score": 17,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28808",
+                "stage": "Quarter-Final",
+                "date": "15 October 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home": {
+                    "team": "England",
+                    "score": 30,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Fiji",
+                    "score": 24,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28811",
+                "stage": "Semi-Final",
+                "date": "21 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "England",
+                    "score": 15,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "South Africa",
+                    "score": 16,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28812",
+                "stage": "Bronze Final",
+                "date": "27 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "Argentina",
+                    "score": 23,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "England",
+                    "score": 26,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Wales": {
+        "id": "33",
+        "name": null,
+        "code": "WAL",
+        "country": "Wales",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-wal.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-wales.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28773",
+                "stage": "Pool C",
+                "date": "10 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home": {
+                    "team": "Wales",
+                    "score": 32,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Fiji",
+                    "score": 26,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28777",
+                "stage": "Pool C",
+                "date": "16 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home": {
+                    "team": "Wales",
+                    "score": 28,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Portugal",
+                    "score": 8,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28789",
+                "stage": "Pool C",
+                "date": "24 September 2023",
+                "location": "OL Stadium, Lyon",
+                "home": {
+                    "team": "Wales",
+                    "score": 40,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Australia",
+                    "score": 6,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28800",
+                "stage": "Pool C",
+                "date": "07 October 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home": {
+                    "team": "Wales",
+                    "score": 43,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Georgia",
+                    "score": 19,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28806",
+                "stage": "Quarter-Final",
+                "date": "14 October 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home": {
+                    "team": "Wales",
+                    "score": 17,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Argentina",
+                    "score": 29,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Ireland": {
+        "id": "36",
+        "name": null,
+        "code": "IRE",
+        "country": "Ireland",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-ire.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-ireland.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28768",
+                "stage": "Pool B",
+                "date": "09 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home": {
+                    "team": "Ireland",
+                    "score": 82,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Romania",
+                    "score": 8,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg"
+                    }
+                }
+            },
+            {
+                "id": "28778",
+                "stage": "Pool B",
+                "date": "16 September 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home": {
+                    "team": "Ireland",
+                    "score": 59,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Tonga",
+                    "score": 16,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg"
+                    }
+                }
+            },
+            {
+                "id": "28787",
+                "stage": "Pool B",
+                "date": "23 September 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "South Africa",
+                    "score": 8,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Ireland",
+                    "score": 13,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28802",
+                "stage": "Pool B",
+                "date": "07 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "Ireland",
+                    "score": 36,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Scotland",
+                    "score": 14,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28807",
+                "stage": "Quarter-Final",
+                "date": "14 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "Ireland",
+                    "score": 24,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "New Zealand",
+                    "score": 28,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "France": {
+        "id": "42",
+        "name": null,
+        "code": "FRA",
+        "country": "France",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-fra.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-france.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28766",
+                "stage": "Pool A",
+                "date": "08 September 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "France",
+                    "score": 27,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "New Zealand",
+                    "score": 13,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28774",
+                "stage": "Pool A",
+                "date": "14 September 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home": {
+                    "team": "France",
+                    "score": 27,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Uruguay",
+                    "score": 12,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28783",
+                "stage": "Pool A",
+                "date": "21 September 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home": {
+                    "team": "France",
+                    "score": 96,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Namibia",
+                    "score": 0,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28799",
+                "stage": "Pool A",
+                "date": "06 October 2023",
+                "location": "OL Stadium, Lyon",
+                "home": {
+                    "team": "France",
+                    "score": 60,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Italy",
+                    "score": 7,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28809",
+                "stage": "Quarter-Final",
+                "date": "15 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "France",
+                    "score": 28,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "South Africa",
+                    "score": 29,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Australia": {
+        "id": "38",
+        "name": null,
+        "code": "AUS",
+        "country": "Australia",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-aus.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-australia.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28769",
+                "stage": "Pool C",
+                "date": "09 September 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "Australia",
+                    "score": 35,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Georgia",
+                    "score": 15,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28780",
+                "stage": "Pool C",
+                "date": "17 September 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home": {
+                    "team": "Australia",
+                    "score": 15,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Fiji",
+                    "score": 22,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28789",
+                "stage": "Pool C",
+                "date": "24 September 2023",
+                "location": "OL Stadium, Lyon",
+                "home": {
+                    "team": "Wales",
+                    "score": 40,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Australia",
+                    "score": 6,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28796",
+                "stage": "Pool C",
+                "date": "01 October 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home": {
+                    "team": "Australia",
+                    "score": 34,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Portugal",
+                    "score": 14,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Japan": {
+        "id": "49",
+        "name": null,
+        "code": "JPN",
+        "country": "Japan",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-jpn.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-japan.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28771",
+                "stage": "Pool D",
+                "date": "10 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home": {
+                    "team": "Japan",
+                    "score": 42,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg"
+                    }
+                },
+                "away": {
+                    "team": "Chile",
+                    "score": 12,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg"
+                    }
+                }
+            },
+            {
+                "id": "28781",
+                "stage": "Pool D",
+                "date": "17 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home": {
+                    "team": "England",
+                    "score": 34,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Japan",
+                    "score": 12,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg"
+                    }
+                }
+            },
+            {
+                "id": "28791",
+                "stage": "Pool D",
+                "date": "28 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home": {
+                    "team": "Japan",
+                    "score": 28,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg"
+                    }
+                },
+                "away": {
+                    "team": "Samoa",
+                    "score": 22,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28803",
+                "stage": "Pool D",
+                "date": "08 October 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home": {
+                    "team": "Japan",
+                    "score": 27,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg"
+                    }
+                },
+                "away": {
+                    "team": "Argentina",
+                    "score": 39,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Scotland": {
+        "id": "35",
+        "name": null,
+        "code": "SCO",
+        "country": "Scotland",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-sco.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-scotland.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28772",
+                "stage": "Pool B",
+                "date": "10 September 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home": {
+                    "team": "South Africa",
+                    "score": 18,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Scotland",
+                    "score": 3,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28788",
+                "stage": "Pool B",
+                "date": "24 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home": {
+                    "team": "Scotland",
+                    "score": 45,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Tonga",
+                    "score": 17,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg"
+                    }
+                }
+            },
+            {
+                "id": "28795",
+                "stage": "Pool B",
+                "date": "30 September 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home": {
+                    "team": "Scotland",
+                    "score": 84,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Romania",
+                    "score": 0,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg"
+                    }
+                }
+            },
+            {
+                "id": "28802",
+                "stage": "Pool B",
+                "date": "07 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "Ireland",
+                    "score": 36,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Scotland",
+                    "score": 14,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Argentina": {
+        "id": "40",
+        "name": null,
+        "code": "ARG",
+        "country": "Argentina",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-arg.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-argentina.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28770",
+                "stage": "Pool D",
+                "date": "09 September 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home": {
+                    "team": "England",
+                    "score": 27,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Argentina",
+                    "score": 10,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28784",
+                "stage": "Pool D",
+                "date": "22 September 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home": {
+                    "team": "Argentina",
+                    "score": 19,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Samoa",
+                    "score": 10,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28793",
+                "stage": "Pool D",
+                "date": "30 September 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home": {
+                    "team": "Argentina",
+                    "score": 59,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Chile",
+                    "score": 5,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg"
+                    }
+                }
+            },
+            {
+                "id": "28803",
+                "stage": "Pool D",
+                "date": "08 October 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home": {
+                    "team": "Japan",
+                    "score": 27,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg"
+                    }
+                },
+                "away": {
+                    "team": "Argentina",
+                    "score": 39,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28806",
+                "stage": "Quarter-Final",
+                "date": "14 October 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home": {
+                    "team": "Wales",
+                    "score": 17,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Argentina",
+                    "score": 29,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28810",
+                "stage": "Semi-Final",
+                "date": "20 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "Argentina",
+                    "score": 6,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "New Zealand",
+                    "score": 44,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28812",
+                "stage": "Bronze Final",
+                "date": "27 October 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "Argentina",
+                    "score": 23,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "England",
+                    "score": 26,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Fiji": {
+        "id": "46",
+        "name": null,
+        "code": "FIJ",
+        "country": "Fiji",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-fij.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-fiji.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28773",
+                "stage": "Pool C",
+                "date": "10 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home": {
+                    "team": "Wales",
+                    "score": 32,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Fiji",
+                    "score": 26,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28780",
+                "stage": "Pool C",
+                "date": "17 September 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home": {
+                    "team": "Australia",
+                    "score": 15,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Fiji",
+                    "score": 22,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28794",
+                "stage": "Pool C",
+                "date": "30 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home": {
+                    "team": "Fiji",
+                    "score": 17,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Georgia",
+                    "score": 12,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28805",
+                "stage": "Pool C",
+                "date": "08 October 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home": {
+                    "team": "Fiji",
+                    "score": 23,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Portugal",
+                    "score": 24,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28808",
+                "stage": "Quarter-Final",
+                "date": "15 October 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home": {
+                    "team": "England",
+                    "score": 30,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Fiji",
+                    "score": 24,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Italy": {
+        "id": "41",
+        "name": null,
+        "code": "ITA",
+        "country": "Italy",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-ita.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-italy.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28767",
+                "stage": "Pool A",
+                "date": "09 September 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home": {
+                    "team": "Italy",
+                    "score": 52,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Namibia",
+                    "score": 8,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28782",
+                "stage": "Pool A",
+                "date": "20 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home": {
+                    "team": "Italy",
+                    "score": 38,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Uruguay",
+                    "score": 17,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28792",
+                "stage": "Pool A",
+                "date": "29 September 2023",
+                "location": "OL Stadium, Lyon",
+                "home": {
+                    "team": "New Zealand",
+                    "score": 96,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Italy",
+                    "score": 17,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28799",
+                "stage": "Pool A",
+                "date": "06 October 2023",
+                "location": "OL Stadium, Lyon",
+                "home": {
+                    "team": "France",
+                    "score": 60,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Italy",
+                    "score": 7,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Samoa": {
+        "id": "45",
+        "name": null,
+        "code": "SAM",
+        "country": "Samoa",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-sam.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-samoa.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28776",
+                "stage": "Pool D",
+                "date": "16 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home": {
+                    "team": "Samoa",
+                    "score": 43,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Chile",
+                    "score": 10,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg"
+                    }
+                }
+            },
+            {
+                "id": "28784",
+                "stage": "Pool D",
+                "date": "22 September 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home": {
+                    "team": "Argentina",
+                    "score": 19,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Samoa",
+                    "score": 10,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28791",
+                "stage": "Pool D",
+                "date": "28 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home": {
+                    "team": "Japan",
+                    "score": 28,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg"
+                    }
+                },
+                "away": {
+                    "team": "Samoa",
+                    "score": 22,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28801",
+                "stage": "Pool D",
+                "date": "07 October 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home": {
+                    "team": "England",
+                    "score": 18,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Samoa",
+                    "score": 17,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Uruguay": {
+        "id": "68",
+        "name": null,
+        "code": "URU",
+        "country": "Uruguay",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-uru.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-uruguay.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28774",
+                "stage": "Pool A",
+                "date": "14 September 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home": {
+                    "team": "France",
+                    "score": 27,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Uruguay",
+                    "score": 12,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28782",
+                "stage": "Pool A",
+                "date": "20 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home": {
+                    "team": "Italy",
+                    "score": 38,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Uruguay",
+                    "score": 17,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28790",
+                "stage": "Pool A",
+                "date": "27 September 2023",
+                "location": "OL Stadium, Lyon",
+                "home": {
+                    "team": "Uruguay",
+                    "score": 36,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Namibia",
+                    "score": 26,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28798",
+                "stage": "Pool A",
+                "date": "05 October 2023",
+                "location": "OL Stadium, Lyon",
+                "home": {
+                    "team": "New Zealand",
+                    "score": 73,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Uruguay",
+                    "score": 0,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Georgia": {
+        "id": "720",
+        "name": null,
+        "code": "GEO",
+        "country": "Georgia",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-geo.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-georgia.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28769",
+                "stage": "Pool C",
+                "date": "09 September 2023",
+                "location": "Stade de France, Saint-Denis",
+                "home": {
+                    "team": "Australia",
+                    "score": 35,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Georgia",
+                    "score": 15,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28785",
+                "stage": "Pool C",
+                "date": "23 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home": {
+                    "team": "Georgia",
+                    "score": 18,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Portugal",
+                    "score": 18,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28794",
+                "stage": "Pool C",
+                "date": "30 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home": {
+                    "team": "Fiji",
+                    "score": 17,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Georgia",
+                    "score": 12,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28800",
+                "stage": "Pool C",
+                "date": "07 October 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home": {
+                    "team": "Wales",
+                    "score": 43,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Georgia",
+                    "score": 19,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Romania": {
+        "id": "52",
+        "name": null,
+        "code": "ROU",
+        "country": "Romania",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-rou.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-romania.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28768",
+                "stage": "Pool B",
+                "date": "09 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home": {
+                    "team": "Ireland",
+                    "score": 82,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Romania",
+                    "score": 8,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg"
+                    }
+                }
+            },
+            {
+                "id": "28779",
+                "stage": "Pool B",
+                "date": "17 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home": {
+                    "team": "South Africa",
+                    "score": 76,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Romania",
+                    "score": 0,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg"
+                    }
+                }
+            },
+            {
+                "id": "28795",
+                "stage": "Pool B",
+                "date": "30 September 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home": {
+                    "team": "Scotland",
+                    "score": 84,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Romania",
+                    "score": 0,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg"
+                    }
+                }
+            },
+            {
+                "id": "28804",
+                "stage": "Pool B",
+                "date": "08 October 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home": {
+                    "team": "Tonga",
+                    "score": 45,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg"
+                    }
+                },
+                "away": {
+                    "team": "Romania",
+                    "score": 24,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Namibia": {
+        "id": "58",
+        "name": null,
+        "code": "NAM",
+        "country": "Namibia",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-nam.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-namibia.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28767",
+                "stage": "Pool A",
+                "date": "09 September 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home": {
+                    "team": "Italy",
+                    "score": 52,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Namibia",
+                    "score": 8,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28775",
+                "stage": "Pool A",
+                "date": "15 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home": {
+                    "team": "New Zealand",
+                    "score": 71,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Namibia",
+                    "score": 3,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28783",
+                "stage": "Pool A",
+                "date": "21 September 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home": {
+                    "team": "France",
+                    "score": 96,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Namibia",
+                    "score": 0,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28790",
+                "stage": "Pool A",
+                "date": "27 September 2023",
+                "location": "OL Stadium, Lyon",
+                "home": {
+                    "team": "Uruguay",
+                    "score": 36,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Namibia",
+                    "score": 26,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia-alt.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Chile": {
+        "id": "708",
+        "name": null,
+        "code": "CHI",
+        "country": "Chile",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-chi.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-chile.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28771",
+                "stage": "Pool D",
+                "date": "10 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home": {
+                    "team": "Japan",
+                    "score": 42,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg"
+                    }
+                },
+                "away": {
+                    "team": "Chile",
+                    "score": 12,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg"
+                    }
+                }
+            },
+            {
+                "id": "28776",
+                "stage": "Pool D",
+                "date": "16 September 2023",
+                "location": "Stade de Bordeaux, Bordeaux",
+                "home": {
+                    "team": "Samoa",
+                    "score": 43,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Chile",
+                    "score": 10,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg"
+                    }
+                }
+            },
+            {
+                "id": "28786",
+                "stage": "Pool D",
+                "date": "23 September 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home": {
+                    "team": "England",
+                    "score": 71,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Chile",
+                    "score": 0,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg"
+                    }
+                }
+            },
+            {
+                "id": "28793",
+                "stage": "Pool D",
+                "date": "30 September 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home": {
+                    "team": "Argentina",
+                    "score": 59,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Chile",
+                    "score": 5,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Tonga": {
+        "id": "47",
+        "name": null,
+        "code": "TGA",
+        "country": "Tonga",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-tga.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-tonga.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28778",
+                "stage": "Pool B",
+                "date": "16 September 2023",
+                "location": "Stade de la Beaujoire, Nantes",
+                "home": {
+                    "team": "Ireland",
+                    "score": 59,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Tonga",
+                    "score": 16,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg"
+                    }
+                }
+            },
+            {
+                "id": "28788",
+                "stage": "Pool B",
+                "date": "24 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home": {
+                    "team": "Scotland",
+                    "score": 45,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Tonga",
+                    "score": 17,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg"
+                    }
+                }
+            },
+            {
+                "id": "28797",
+                "stage": "Pool B",
+                "date": "01 October 2023",
+                "location": "Stade de Marseille, Marseille",
+                "home": {
+                    "team": "South Africa",
+                    "score": 49,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Tonga",
+                    "score": 18,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg"
+                    }
+                }
+            },
+            {
+                "id": "28804",
+                "stage": "Pool B",
+                "date": "08 October 2023",
+                "location": "Stade Pierre-Mauroy, Lille",
+                "home": {
+                    "team": "Tonga",
+                    "score": 45,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg"
+                    }
+                },
+                "away": {
+                    "team": "Romania",
+                    "score": 24,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg"
+                    }
+                }
+            }
+        ]
+    },
+    "Portugal": {
+        "id": "44",
+        "name": null,
+        "code": "POR",
+        "country": "Portugal",
+        "images": {
+            "flag": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-por.png",
+            "shape": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-portugal.svg",
+            "logo": {
+                "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal.svg",
+                "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal-alt.svg"
+            }
+        },
+        "players": [],
+        "matches": [
+            {
+                "id": "28777",
+                "stage": "Pool C",
+                "date": "16 September 2023",
+                "location": "Stade de Nice, Nice",
+                "home": {
+                    "team": "Wales",
+                    "score": 28,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Portugal",
+                    "score": 8,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28785",
+                "stage": "Pool C",
+                "date": "23 September 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home": {
+                    "team": "Georgia",
+                    "score": 18,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Portugal",
+                    "score": 18,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28796",
+                "stage": "Pool C",
+                "date": "01 October 2023",
+                "location": "Stade Geoffroy-Guichard, Saint-Étienne",
+                "home": {
+                    "team": "Australia",
+                    "score": 34,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Portugal",
+                    "score": 14,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal-alt.svg"
+                    }
+                }
+            },
+            {
+                "id": "28805",
+                "stage": "Pool C",
+                "date": "08 October 2023",
+                "location": "Stadium de Toulouse, Toulouse",
+                "home": {
+                    "team": "Fiji",
+                    "score": 23,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji-alt.svg"
+                    }
+                },
+                "away": {
+                    "team": "Portugal",
+                    "score": 24,
+                    "images": {
+                        "light": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal.svg",
+                        "dark": "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal-alt.svg"
+                    }
+                }
+            }
+        ]
+    }
+}

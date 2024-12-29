@@ -1,8 +1,7 @@
-import json
 from selenium.webdriver.common.by import By
 from utils.web_driver import get_driver
 from utils.data_io import load_teams_from_json, save_to_json
-from models import Team, Player, Match
+from models import Match
 from tqdm import tqdm
 import os
 import re
@@ -31,15 +30,14 @@ def fetch_matches(driver) -> list:
             home_score = int(data[6])
             away_team: str = data[7].title()
             away_score = int(data[8])
-            home_image = f"https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-{home_team.replace(' ', '-').lower()}.svg"
-            away_image = f"https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-{away_team.replace(' ', '-').lower()}.svg"
+
             location: str = data[9]
             
             Match(
                 date=date,
                 stage=stage,
-                home={'team': home_team, 'score': home_score, 'image': home_image},
-                away={'team': away_team, 'score': away_score, 'image': away_image},
+                home={'team': home_team, 'score': home_score},
+                away={'team': away_team, 'score': away_score},
                 location=location
             )
     finally:

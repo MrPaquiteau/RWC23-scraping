@@ -1,4 +1,3 @@
-import json
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from utils.web_driver import get_driver
@@ -26,7 +25,7 @@ def fetch_players_for_team(driver, team):
     try:
         url_team = f"{BASE_URL}/teams/{team.country.replace(' ', '-').lower()}"
         driver.get(url_team)
-
+        
         # Get players
         player_elements = driver.find_elements(By.CSS_SELECTOR, "a.squad-list__player")
         player_ids = [player_element.get_attribute("href").split('/')[-1] for player_element in player_elements]
@@ -54,9 +53,14 @@ def fetch_players_for_team(driver, team):
             height = identity_data.get('height')
             weight = identity_data.get('weight')
             hometown = identity_data.get('hometown')
+            positon = identity_data.get('position')
 
-            # Player photo
-            photo = f"https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/{player_id}.png"
+            tag_photo = driver.find_elements(By.CSS_SELECTOR, ".player-headshot__img")
+            if tag_photo:
+                photo = driver.execute_script("return arguments[0].getAttribute('src');", tag_photo[0])
+            else:
+                photo = "https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png"  # Default photo
+
 
             # Player stats
             stats = fetch_player_stats(driver)
@@ -65,6 +69,7 @@ def fetch_players_for_team(driver, team):
                 id=player_id,
                 name=name,
                 age=age,
+                position=positon,
                 height=height,
                 weight=weight,
                 hometown=hometown,

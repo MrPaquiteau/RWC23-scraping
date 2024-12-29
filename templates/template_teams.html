@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rugby World Cup 2023</title>
+    <link rel="icon" href="https://static.wikia.nocookie.net/logopedia/images/3/38/RWC2023_2018-symbol.svg" type="image/x-icon">
     <link rel="stylesheet" href="./style_acceuil.css">
-    <script src="./populate_teams.js" defer></script>
     <script src="./script.js"></script>
 </head>
 <body>
@@ -16,6 +16,16 @@
         <span class="slider"></span>
     </label>
     <h1 class="page-title"><img class="title-icon" src="https://static.wikia.nocookie.net/logopedia/images/3/38/RWC2023_2018-symbol.svg" alt="Rugby World cup 2023 Logo"> 2023's Rugby World cup Teams</h1>
-    <div class="grid-container"></div>
+    <div class="grid-container">
+        {% for team in teams.values() %}
+            <div class="grid-item" data-name="{{ team.country }}">
+                <a href="team.html?team={{ team.country }}">
+                    <img class="lightLogo" src="{{ team.images.logo.light }}" alt="{{ team.country }}" loading="lazy">
+                    <img class="darkLogo" src="{{ team.images.logo.dark }}" alt="{{ team.country }}" loading="lazy" style="display: none;">
+                </a>
+                <p>{{ team.country }}</p>
+            </div>
+        {% endfor %}
+    </div>
 </body>
 </html>

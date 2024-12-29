@@ -2,12 +2,12 @@ import requests
 import re
 from datetime import datetime
 from models import Team, Player, Match
+from utils.images_builder import build_flag_url, build_shape_url, build_logo_url, is_url_valid
+
 
 class RugbyDataFetcher:
     # Configuration
     BASE_URL = "https://api.wr-rims-prod.pulselive.com/rugby/v3/"
-    TEAM_FLAG_URL_PATTERN = "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-{}.svg"
-    TEAM_IMAGE_URL_PATTERN = "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-{}.svg"
     
     @classmethod
     def fetch_teams(cls):
@@ -20,13 +20,24 @@ class RugbyDataFetcher:
         url = f"{cls.BASE_URL}event/1893/teams"
         response = requests.get(url)
         response.raise_for_status()
+
         for team_data in response.json()["teams"]:
+            
+            logo = build_logo_url(team_data['name'])
+            flag = build_flag_url(team_data['abbreviation'])
+            shape = build_shape_url(team_data['name'])
+            logo_light = logo[0] if is_url_valid(logo[0]) else logo[1]
+            logo_dark = logo[1] if is_url_valid(logo[1]) else logo[0]
+            
             Team(
                 id=team_data['id'],
                 country=team_data['name'],
                 code=team_data['abbreviation'],
-                flag=cls.TEAM_FLAG_URL_PATTERN.format(team_data['abbreviation']),
-                image=cls.TEAM_IMAGE_URL_PATTERN.format(team_data['name'].replace(' ', '-').lower())
+                images={'flag': flag,
+                        'shape': shape,
+                        'logo': {'light': logo_light,
+                                 'dark': logo_dark}
+                }
             )
         return Team.get_teams()
 
@@ -46,13 +57,13 @@ class RugbyDataFetcher:
         response.raise_for_status()
         return [
             Player(
-                id=player_data['player']['id'],
-                name=player_data['player']['name']['display'],
-                age=player_data['player']['age']['years'],
-                height=player_data['player']['height'],
-                weight=player_data['player']['weight'],
-                hometown=player_data['player']['pob'],
-                photo=f'https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/{player_data["player"]["id"]}.png'
+            id=player_data['player']['id'],
+            name=player_data['player']['name']['display'],
+            age=player_data['player']['age']['years'],
+            height=player_data['player']['height'],
+            weight=player_data['player']['weight'],
+            hometown=player_data['player']['pob'],
+            photo=f'https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/{player_data["player"]["id"]}.png' if player_data["player"]["id"] else 'https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png'
             )
             for player_data in response.json()["players"]
         ]
@@ -86,24 +97,22 @@ class RugbyDataFetcher:
         response.raise_for_status()
 
         for match_data in response.json()["matches"]:
-            match_date = datetime.strptime(match_data["time"]['label'], '%Y-%m-%d')
-            date = match_date.strftime("%d %B %Y")
+            numeric_date = datetime.strptime(match_data["time"]['label'], '%Y-%m-%d')
+            date = numeric_date.strftime("%d %B %Y")
             id = match_data["matchId"]
             location = f'{match_data["venue"]["name"]}, {match_data["venue"]["city"]}'
             home_team = match_data["teams"][0]["name"]
             away_team = match_data["teams"][1]["name"]
             home_score = match_data["scores"][0]
             away_score = match_data["scores"][1]
-            home_image = cls.TEAM_IMAGE_URL_PATTERN.format(home_team.replace(' ', '-').lower())
-            away_image = cls.TEAM_IMAGE_URL_PATTERN.format(away_team.replace(' ', '-').lower())
             stage = re.sub(r'\d', '', match_data["eventPhase"]).strip().title()
             
             Match(
                 id=id,
-                location=location,
                 date=date,
-                home={'team': home_team, 'score': home_score, 'image': home_image},
-                away={'team': away_team, 'score': away_score, 'image': away_image},
-                stage=stage
+                stage=stage,
+                home={'team': home_team, 'score': home_score},
+                away={'team': away_team, 'score': away_score},
+                location=location
             )
         return Match.get_matches()

@@ -2,29 +2,11 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from utils.web_driver import get_driver
 from utils.data_io import save_to_json
+from utils.images_builder import build_team_url, build_flag_url, build_shape_url, build_logo_url, is_url_valid
 from models import Team
 from tqdm import tqdm
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
-BASE_URL = "https://www.rugbyworldcup.com/2023"
-TEAM_FLAG_URL_PATTERN = "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-{}.svg"
-TEAM_IMAGE_URL_PATTERN = "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-{}.svg"
-
-
-def build_team_url(country):
-    """Construit l'URL de la page de l'équipe."""
-    return f"{BASE_URL}/teams/{country.replace(' ', '-').lower()}"
-
-
-def build_flag_url(code):
-    """Construit l'URL du drapeau de l'équipe."""
-    return TEAM_FLAG_URL_PATTERN.format(code.lower()) if code else None
-
-
-def build_image_url(country):
-    """Construit l'URL de l'image de l'équipe."""
-    return TEAM_IMAGE_URL_PATTERN.format(country.replace(' ', '-').lower())
 
 
 def fetch_teams(driver):
@@ -37,7 +19,7 @@ def fetch_teams(driver):
     Returns:
         list: A list of Team objects.
     """
-    driver.get(f"{BASE_URL}/teams")
+    driver.get("https://www.rugbyworldcup.com/2023/teams")
     try:
         WebDriverWait(driver, 10).until(
             EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".card__content"))
@@ -74,10 +56,17 @@ def fetch_teams(driver):
             print(f"Could not find code for team {team.country}")
             code = None
 
+        logo = build_logo_url(team.country)
         team.code = code
-        team.flag = build_flag_url(code)
-        team.image = build_image_url(team.country)
-
+        team.images = {
+            'flag': build_flag_url(code),
+            'shape': build_shape_url(team.country),
+            'logo': {
+                'light': logo[0] if is_url_valid(logo[0]) else logo[1],
+                'dark': logo[1] if is_url_valid(logo[1]) else logo[0]
+            }
+        }
+        
     return Team.get_teams()
 
 
