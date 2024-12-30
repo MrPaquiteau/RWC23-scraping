@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const playerGrid = document.getElementById("player-grid");
     const teamTitle = document.getElementById('teamTitle');
     const favicon = document.getElementById('favicon');
+    const teamNavList = document.getElementById('team-nav-list');
     document.title = `Team ${teamName}`;
 
     fetch("../../data/teams_players_api.json")
@@ -15,6 +16,13 @@ document.addEventListener("DOMContentLoaded", () => {
             // Ajouter les informations de l'équipe
             teamTitle.innerHTML = `<img class="title-icon" src="${teamData['images']['flag']}" alt="Drapeau National"> ${teamName}'s players`;
             favicon.href = teamData['images']['flag'];
+
+            // Ajouter les liens de navigation pour chaque équipe
+            Object.keys(data).forEach(team => {
+                const navItem = document.createElement("li");
+                navItem.innerHTML = `<a href="team.html?team=${team}">${team}</a>`;
+                teamNavList.appendChild(navItem);
+            });
 
             // Ajouter les joueurs
             teamData.players.forEach(player => {

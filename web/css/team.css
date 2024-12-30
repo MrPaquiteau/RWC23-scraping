@@ -117,45 +117,33 @@ body {
   transform: translateY(-45px);
 }
 /* ------------------------------------ */
-.home-button:hover, .navigation-button-previous:hover, .navigation-button-next:hover {
-    box-shadow: none;
-    color: #292929;
-}
-
-.home-button:active, .navigation-button-previous:active, .navigation-button-next:active {
-    color: #666;
-    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
-}
 
 .home-button {
-    color: #111;
-    padding: 0.7em 1.7em;
-    font-size: 18px;
-    border-radius: 0.5em;
-    background: #fff;
-    border: 1px solid #e8e8e8;
-    position: absolute;
-    top: 30px;
-    left: 6%;
-    transform: translateX(-50%);
-    text-decoration: none;
-    transition: all 0.3s;
-    z-index: 2;
+  position: fixed;
+  top: 70px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgb(16, 16, 16);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
 }
 
 .dark-mode .home-button {
-    color: #fff;
-    background: #1a1a1a;
-    border: 1px solid #292929;
+  background-color: #fff;
+  color: black;
 }
 
 .dark-mode .home-button:hover {
-    color: #fff;
-    box-shadow: none;
-}
-
-.dark-mode .home-button:active {
-    color: #aaa;
+  background-color: yellow;
 }
 /* ---------- Style DARKMODE ---------- */
 .dark-mode  {
@@ -177,4 +165,48 @@ body {
     border: none;
     background-color: #343434;
 }
-/* ------------------------------------ */
+
+/* Styles pour la barre de navigation */
+.team-nav {
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.team-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-nav li {
+  margin: 0 10px;
+}
+
+.team-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.team-nav a:hover {
+  background-color: #555;
+}
+
+.dark-mode .team-nav {
+  background-color: #1a1a1a;
+}
+
+.dark-mode .team-nav a {
+  color: #f4f4f4;
+}
+
+.dark-mode .team-nav a:hover {
+  background-color: #333;
+}
