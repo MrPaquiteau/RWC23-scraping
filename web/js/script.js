@@ -16,6 +16,10 @@ for (var i = 0; i < items.length; i++) {{
 }}
 }}
 
+function goBack() {
+    window.history.back();
+}
+
 function toggleDarkMode() {
     var element = document.body;
     var isDarkMode = !element.classList.contains('dark-mode');

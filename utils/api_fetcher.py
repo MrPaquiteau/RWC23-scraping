@@ -2,7 +2,7 @@ import requests
 import re
 from datetime import datetime
 from models import Team, Player, Match
-from utils.images_builder import build_flag_url, build_shape_url, build_logo_url, is_url_valid
+from utils.images_builder import build_flag_url, build_shape_url, build_logo_url, is_url_valid, build_phto_url
 
 
 class RugbyDataFetcher:
@@ -63,7 +63,7 @@ class RugbyDataFetcher:
             height=player_data['player']['height'],
             weight=player_data['player']['weight'],
             hometown=player_data['player']['pob'],
-            photo=f'https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/{player_data["player"]["id"]}.png' if player_data["player"]["id"] else 'https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png'
+            photo=build_phto_url(player_data['player']['id']),
             )
             for player_data in response.json()["players"]
         ]

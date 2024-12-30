@@ -13,21 +13,27 @@ document.addEventListener("DOMContentLoaded", () => {
             const teamData = data[teamName];
 
             // Ajouter les informations de l'équipe
-            teamTitle.innerHTML = `<img class="title-icon" src="${teamData.flag}" alt="Drapeau National"> ${teamName}'s players`;
-            favicon.href = teamData.flag;
-            console.log("Image path:", teamData.flag); // Debugging line to check the image path
+            teamTitle.innerHTML = `<img class="title-icon" src="${teamData['images']['flag']}" alt="Drapeau National"> ${teamName}'s players`;
+            favicon.href = teamData['images']['flag'];
 
             // Ajouter les joueurs
             teamData.players.forEach(player => {
                 const playerCard = document.createElement("div");
                 playerCard.className = "grid-item";
                 playerCard.dataset.name = player.name;
-                
+            
+                // Chemin de l'image de substitution
+                const fallbackImage = "https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png";
+            
                 playerCard.innerHTML = `
-                    <img src="${player.photo}" alt="${player.name}">
-                    <p>${player.name}</p>
+                    <div>
+                        <a href="player.html?team=${teamName}&player=${player.id}">
+                            <img src="${player.photo}" alt="${player.name}" onerror="this.src='${fallbackImage}'">
+                        </a>
+                        <p>${player.name}</p>
+                    </div>
                 `;
-
+            
                 playerGrid.appendChild(playerCard);
             });
         })

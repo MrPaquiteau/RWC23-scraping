@@ -4,7 +4,7 @@ import json
 with open('../data/teams_api.json') as f:
     teams = json.load(f)
 
-env = Environment(loader=FileSystemLoader('./templates'))
+env = Environment(loader=FileSystemLoader('../templates'))
 template = env.get_template('template_teams.html')
 
 output = template.render(teams=teams)

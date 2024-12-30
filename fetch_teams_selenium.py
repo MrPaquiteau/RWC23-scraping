@@ -76,8 +76,9 @@ def main():
     """
     driver = get_driver()
     try:
-        teams = fetch_teams(driver)
-        teams_data = {team.country: team.to_dict() for team in teams}
+        fetch_teams(driver)
+        
+        teams_data = {team.country: team.to_dict() for team in sorted(Team.get_teams(), key=lambda x: x.country)}
         save_to_json(teams_data, "data/teams_selenium.json")
     finally:
         driver.quit()

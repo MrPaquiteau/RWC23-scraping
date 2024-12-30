@@ -2,7 +2,7 @@ import requests
 
 
 BASE_URL = "https://www.rugbyworldcup.com/2023"
-TEAM_FLAG_URL_PATTERN = "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/flag-{}.png"
+TEAM_FLAG_URL_PATTERN = "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/elements/team-badges/{}.png"
 TEAM_SHAPE_URL_PATTERN = "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/country-{}.svg"
 TEAM_LOGO_URL_PATTERN = "https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-{}.svg"
 
@@ -12,7 +12,7 @@ def build_team_url(country):
 
 def build_flag_url(code):
     """Construit l'URL du drapeau de l'équipe."""
-    return TEAM_FLAG_URL_PATTERN.format(code.lower()) if code else None
+    return TEAM_FLAG_URL_PATTERN.format(code.upper()) if code else None
 
 def build_shape_url(country):
     """Construit l'URL de l'image de l'équipe."""
@@ -21,6 +21,10 @@ def build_shape_url(country):
 def build_logo_url(country):
     """Construit l'URL du logo de l'équipe."""
     return TEAM_LOGO_URL_PATTERN.format(country.replace(' ', '-').lower()), TEAM_LOGO_URL_PATTERN.format(f"{country.replace(' ', '-').lower()}-alt")
+
+def build_phto_url(player_id):
+    """Construit l'URL de la photo du joueur."""
+    return f'https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/{player_id}.png'
 
 def is_url_valid(url):
     try:
