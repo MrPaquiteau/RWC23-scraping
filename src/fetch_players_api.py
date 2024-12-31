@@ -1,5 +1,6 @@
-from utils.api_fetcher import RugbyDataFetcher
-from utils.data_io import load_teams_from_json, save_to_json
+from src.utils.api_fetcher import RugbyDataFetcher
+from src.utils.data_io import load_teams_from_json, save_to_json
+from src.utils.models import Team
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
 import os
@@ -28,7 +29,7 @@ def fetch_players_for_team(team):
                         'Runs': stats['extendedStats']['Runs'],
                         'Passes': stats['extendedStats']['Passes'],
                         'Offload': stats['extendedStats']['Offload'],
-                        'Tackles': f"{stats['extendedStats']['Tackles']} ({stats['extendedStats']['TackleSuccess']*100}%)",
+                        'Tackles': f"{int(stats['extendedStats']['Tackles'])} ({stats['extendedStats']['TackleSuccess']*100}%)",
                         'Carries': stats['extendedStats']['Carries'],
                         'Metres made': stats['extendedStats']['Metres'],
                         'Defenders beaten': stats['extendedStats']['DefendersBeaten'],
@@ -45,27 +46,23 @@ def fetch_players_for_team(team):
         return []
 
 
-def main():
+def run():
     """
     Main function to load team data and fetch players for all teams.
     """
-    # Load teams from JSON
-    if os.path.exists("data/teams_matches_api.json"):
-        teams = load_teams_from_json("data/teams_matches_api.json")
-    else:
-        teams = load_teams_from_json("data/teams_api.json")
-
+    # Load team data from JSON if not already loaded
+    if len(Team.get_teams()) != 20:
+        Team.clear_registry()
+        load_teams_from_json("data/teams_selenium.json")
+    
     # Fetch players for all teams
-    for team in tqdm(teams, desc="Fetching players for all teams"):
+    for team in tqdm(Team.get_teams(), desc="Fetching players for all teams"):
         players = fetch_players_for_team(team)
         team.players = players
 
     # Save updated data for all teams to JSON
-    teams_data = {team.country: team.to_dict() for team in teams}
-    if os.path.exists("data/teams_matches_api.json"):
-        save_to_json(teams_data, "data/teams_matches_players.json")
-    else:
-        save_to_json(teams_data, "data/teams_players_api.json")
+    teams_data = {team.country: team.to_dict() for team in Team.get_teams()}
+    save_to_json(teams_data, "data/teams_players_api.json")
 
 if __name__ == '__main__':
-    main()
+    run()

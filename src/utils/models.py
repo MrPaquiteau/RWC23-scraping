@@ -1,5 +1,5 @@
 class Team:
-    teams = []
+    _teams = []
 
     def __init__(self, id=None, name=None, code=None, images=None, country=None, players=None, matches=None):
         self.id = id
@@ -9,11 +9,11 @@ class Team:
         self.country = country
         self.players = players or []
         self.matches = matches or []
-        Team.teams.append(self)
+        Team._teams.append(self)
 
     @classmethod
     def get_teams(cls):
-        return cls.teams
+        return cls._teams
 
     def to_dict(self):
         """
@@ -32,13 +32,17 @@ class Team:
             "matches": [match.to_dict() for match in self.matches]
         }
 
+    @classmethod
+    def clear_registry(cls):
+        cls._teams.clear()
+        
     def __repr__(self):
         """Return a string representation of the Passenger instance."""
         return f"Team({self.code})"
 
 
 class Player:
-    players = []
+    _players = []
     def __init__(self, id=None, name=None, age=None, height=None, weight=None, hometown=None, photo=None, stats=None, position=None):
         self.id = id
         self.name = name
@@ -49,7 +53,7 @@ class Player:
         self.hometown = hometown
         self.photo = photo
         self.stats = stats or {}
-        Player.players.append(self)
+        Player._players.append(self)
 
     def to_dict(self):
         """
@@ -72,7 +76,7 @@ class Player:
         
     @classmethod
     def get_players(cls):
-        return cls.players
+        return cls._players
     
     def __repr__(self):
         """Return a string representation of the Passenger instance."""

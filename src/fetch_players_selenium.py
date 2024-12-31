@@ -1,12 +1,11 @@
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
-from utils.web_driver import get_driver
-from utils.data_io import load_teams_from_json, save_to_json
-from models import Team, Player
+from src.utils.web_driver import get_driver
+from src.utils.data_io import load_teams_from_json, save_to_json
+from src.utils.models import Team, Player
 from tqdm import tqdm
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import os
 
 
 BASE_URL = "https://www.rugbyworldcup.com/2023"
@@ -111,31 +110,28 @@ def fetch_player_stats(driver):
         for text in text_stats if '\n' in text
     }
 
-def main():
+def run():
     """
     Main function to load team data and fetch players for all teams.
     """
-    # Load teams from JSON
-    if os.path.exists("data/teams_matches_selenium.json"):
-        teams = load_teams_from_json("data/teams_matches_selenium.json")
-    else:
-        teams = load_teams_from_json("data/teams_selenium.json")
-
+    # Load team data from JSON if not already loaded
+    if len(Team.get_teams()) != 20:
+        Team.clear_registry()
+        load_teams_from_json("data/teams_selenium.json")
+    
     # Fetch players for all teams
     driver = get_driver()
     try:
-        for team in tqdm(teams, desc="Fetching players for all teams"):
+        for team in tqdm(Team.get_teams(), desc="Fetching players for all teams"):
             players = fetch_players_for_team(driver, team)
             team.players = players
 
         # Save updated data for all teams to JSON
-        teams_data = {team.country: team.to_dict() for team in teams}
-        if os.path.exists("data/teams_matches_selenium.json"):
-            save_to_json("data/teams_players_matches.json", teams_data)
-        else:
-            save_to_json("data/teams_players_selenium.json", teams_data)
+        teams_data = {team.country: team.to_dict() for team in Team.get_teams()}
+        save_to_json(teams_data, "data/teams_players_selenium.json")
+    
     finally:
         driver.quit()
 
 if __name__ == '__main__':
-    main()
+    run()

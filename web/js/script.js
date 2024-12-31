@@ -36,10 +36,10 @@ function toggleDarkMode() {
     }
 
     // Mettre à jour les images dynamiquement
-    updateTeamLogos();
+    updateLogos();
 }
 
-function updateTeamLogos() {
+function updateLogos() {
     const isDarkMode = document.body.classList.contains('dark-mode');
     const darkLogos = document.querySelectorAll(".darkLogo");
     const lightLogos = document.querySelectorAll(".lightLogo");
@@ -84,6 +84,6 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('dark-button').checked = true; // Cocher la case
     }
 
-    // Mettre à jour les logos des équipes après le chargement de la page
-    updateTeamLogos();
+    // Mettre à jour les logos après le chargement de la page
+    updateLogos();
 });

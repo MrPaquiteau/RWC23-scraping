@@ -1,9 +1,9 @@
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
-from utils.web_driver import get_driver
-from utils.data_io import save_to_json
-from utils.images_builder import build_team_url, build_flag_url, build_shape_url, build_logo_url, is_url_valid
-from models import Team
+from src.utils.web_driver import get_driver
+from src.utils.data_io import save_to_json
+from src.utils.images_builder import build_team_url, build_flag_url, build_shape_url, build_logo_url, is_url_valid
+from src.utils.models import Team
 from tqdm import tqdm
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -30,7 +30,7 @@ def fetch_teams(driver):
 
     try:
         teams_elements = driver.find_elements(By.CSS_SELECTOR, ".card__content")
-        for element in teams_elements:
+        for element in tqdm(teams_elements, desc="Fetching teams"):
             try:
                 country = element.text.split('\n')[-1].title()
                 name = element.text.split('\n')[0].title()
@@ -70,7 +70,7 @@ def fetch_teams(driver):
     return Team.get_teams()
 
 
-def main():
+def run():
     """
     Fetches team data and saves it to a JSON file.
     """
@@ -85,4 +85,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    run()

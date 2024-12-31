@@ -1,9 +1,8 @@
 from selenium.webdriver.common.by import By
-from utils.web_driver import get_driver
-from utils.data_io import load_teams_from_json, save_to_json
-from models import Match
+from src.utils.web_driver import get_driver
+from src.utils.data_io import load_teams_from_json, save_to_json
+from src.utils.models import Match, Team
 from tqdm import tqdm
-import os
 import re
 
 
@@ -90,13 +89,12 @@ def get_matches_by_team(matches: list) -> dict:
     return matches_per_team
 
 
-def main():
+def run():
     
-    # Load teams from JSON file
-    if os.path.exists("data/teams_players_selenium.json"):
-        teams = load_teams_from_json("data/teams_players_selenium.json")
-    else:
-        teams = load_teams_from_json("data/teams_selenium.json")
+    # Load team data from JSON if not already loaded
+    if len(Team.get_teams()) != 20:
+        Team.clear_registry()
+        load_teams_from_json("data/teams_players_selenium.json")
     
     # fetch matches
     driver = get_driver()
@@ -106,15 +104,11 @@ def main():
         matches_by_stage: dict = Match.get_matches_by_stage()
         matches_by_team: dict = Match.get_matches_by_team()
 
-        for team in teams:
+        for team in Team.get_teams():
             team.matches = matches_by_team.get(team.country, [])
-        teams_data: dict = {team.country: team.to_dict() for team in teams}
-
-        if os.path.exists("data/teams_players_selenium.json"):
-            save_to_json(teams_data, "data/teams_players_selenium.json")
-        else:
-            save_to_json(teams_data, "data/teams_matches_selenium.json")
-
+        teams_data: dict = {team.country: team.to_dict() for team in Team.get_teams()}
+        save_to_json(teams_data, "data/teams_players_matches.json")
+        
         matches_by_stage_data = {stage: [match.to_dict() for match in matches] for stage, matches in matches_by_stage.items()}
         save_to_json(matches_by_stage_data, "data/matches_by_stage.json")
         
@@ -122,5 +116,5 @@ def main():
         driver.quit()
 
 if __name__ == '__main__':
-    main()
+    run()
     

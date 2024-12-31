@@ -1,8 +1,8 @@
-from utils.api_fetcher import RugbyDataFetcher
-from utils.data_io import save_to_json
-from models import Team
+from src.utils.api_fetcher import RugbyDataFetcher
+from src.utils.data_io import save_to_json
+from src.utils.models import Team
 
-def main():
+def run():
     """
     Fetches team data and saves it to a JSON file.
     """
@@ -11,4 +11,4 @@ def main():
     save_to_json(teams_data, "data/teams_api.json")
 
 if __name__ == '__main__':
-    main()
+    run()

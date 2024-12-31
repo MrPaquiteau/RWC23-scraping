@@ -11,24 +11,21 @@ document.addEventListener("DOMContentLoaded", () => {
     const teamNavList = document.getElementById('team-nav-list');
 
 
-    fetch("../../data/teams_players_api.json")
+    fetch("../../data/teams_players_matches.json")
         .then(response => response.json())
         .then(data => {
             const teamData = data[teamName];
             const playerData = teamData.players.find(player => player.id === playerId);
-
-            // Ajouter les liens de navigation pour chaque équipe
-            Object.keys(data).forEach(team => {
-                const navItem = document.createElement("li");
-                navItem.innerHTML = `<a href="team.html?team=${team}">${team}</a>`;
-                teamNavList.appendChild(navItem);
-            });
-
+            
             if (playerData) {
                 // Photo et nom du joueur
                 playerPhoto.src = playerData.photo;
                 playerNameElement.textContent = playerData.name;
-
+                const fallbackImage = "https://www.pngkit.com/png/full/349-3499519_person1-placeholder-imagem-de-perfil-anonimo.png";
+                playerPhoto.onerror = () => {
+                    playerPhoto.src = fallbackImage;
+                };
+                
                 // Informations générales
                 const infoKeys = {
                     age: "Age",

@@ -1,4 +1,4 @@
-from models import Team, Player, Match
+from src.utils.models import Team, Player, Match
 import json
 
 

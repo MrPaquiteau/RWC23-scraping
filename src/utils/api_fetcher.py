@@ -1,12 +1,15 @@
 import requests
 import re
 from datetime import datetime
-from models import Team, Player, Match
-from utils.images_builder import build_flag_url, build_shape_url, build_logo_url, is_url_valid, build_phto_url
-
+from src.utils.models import Team, Player, Match
+from src.utils.images_builder import build_flag_url, build_shape_url, build_logo_url, is_url_valid, build_phto_url
+from tqdm import tqdm
 
 class RugbyDataFetcher:
-    # Configuration
+    """
+    A class to fetch data from the Rugby World Cup 'API'.
+    """
+    
     BASE_URL = "https://api.wr-rims-prod.pulselive.com/rugby/v3/"
     
     @classmethod
@@ -21,7 +24,7 @@ class RugbyDataFetcher:
         response = requests.get(url)
         response.raise_for_status()
 
-        for team_data in response.json()["teams"]:
+        for team_data in tqdm(response.json()["teams"], desc="Fetching teams"):
             
             logo = build_logo_url(team_data['name'])
             flag = build_flag_url(team_data['abbreviation'])
@@ -96,7 +99,7 @@ class RugbyDataFetcher:
         response = requests.get(url)
         response.raise_for_status()
 
-        for match_data in response.json()["matches"]:
+        for match_data in tqdm(response.json()["matches"], desc="Fetching matches"):
             numeric_date = datetime.strptime(match_data["time"]['label'], '%Y-%m-%d')
             date = numeric_date.strftime("%d %B %Y")
             id = match_data["matchId"]
