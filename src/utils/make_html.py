@@ -1,12 +1,8 @@
 from jinja2 import Environment, FileSystemLoader
 import json
+import os
 
-
-env = Environment(loader=FileSystemLoader('web/templates'))
-with open('data/teams_players_matches.json') as f:
-    data = json.load(f)
-
-def make_teams_html():
+def make_teams_html(env, data):
     template = env.get_template('template_teams.html')
     output = template.render(teams=data)
 
@@ -14,7 +10,7 @@ def make_teams_html():
         f.write(output)
     print("Teams HTML created")
 
-def make_matches_html():
+def make_matches_html(env, data):
     with open('data/matches_by_stage.json') as f:
         matches_by_stage = json.load(f)
 
@@ -25,3 +21,13 @@ def make_matches_html():
         f.write(output)
     print("Matches HTML created")
 
+def build():
+    env = Environment(loader=FileSystemLoader('web/templates'))
+    if os.path.exists('data/teams_players_matches.json'):
+        with open('data/teams_players_matches.json') as f:
+            data = json.load(f)
+        make_teams_html(env, data)
+        make_matches_html(env, data)
+    else:
+        print("Data file not found. Run fetch_data_from_api() or fetch_data_from_selenium() first.")
+        return

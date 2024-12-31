@@ -1,4 +1,3 @@
-import os
 import webbrowser
 from socketserver import TCPServer
 from http.server import SimpleHTTPRequestHandler
@@ -8,8 +7,7 @@ from src.fetch_players_api import run as fetch_players_api
 from src.fetch_matches_selenium import run as fetch_matches_selenium
 from src.fetch_players_selenium import run as fetch_players_selenium
 from src.fetch_teams_selenium import run as fetch_teams_selenium
-from src.utils.make_html import make_teams_html, make_matches_html
-
+from src.utils.make_html import build
 
 def fetch_data_from_api():
     fetch_teams_api()
@@ -22,9 +20,7 @@ def fetch_data_from_selenium():
     fetch_matches_selenium()
 
 def make_html():
-    make_teams_html()
-    make_matches_html()
-    
+    build()
     choice = input("Which site do you want to view? (1) Teams, (2) Matches: ").strip()
     
     if choice == "1":
