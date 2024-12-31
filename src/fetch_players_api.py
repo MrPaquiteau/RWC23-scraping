@@ -17,7 +17,7 @@ def fetch_players_for_team(team):
         list: A list of Player objects.
     """
     try:
-        players = RugbyDataFetcher.fetch_team_squad(team.id)
+        players = RugbyDataFetcher.fetch_team_squad(team)
         with ThreadPoolExecutor(max_workers=os.cpu_count()) as executor:
             player_stats_futures = {executor.submit(RugbyDataFetcher.fetch_player_stats, player.id): player for player in players}
             for future in player_stats_futures:
@@ -61,7 +61,7 @@ def run():
         team.players = players
 
     # Save updated data for all teams to JSON
-    teams_data = {team.country: team.to_dict() for team in Team.get_teams()}
+    teams_data = {team.country: team.to_dict() for team in sorted(Team.get_teams(), key=lambda t: t.country)}
     save_to_json(teams_data, "data/teams_players_api.json")
 
 if __name__ == '__main__':

@@ -127,7 +127,7 @@ def run():
             team.players = players
 
         # Save updated data for all teams to JSON
-        teams_data = {team.country: team.to_dict() for team in Team.get_teams()}
+        teams_data = {team.country: team.to_dict() for team in sorted(Team.get_teams(), key=lambda t: t.country)}
         save_to_json(teams_data, "data/teams_players_selenium.json")
     
     finally:

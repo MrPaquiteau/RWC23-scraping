@@ -106,7 +106,7 @@ def run():
 
         for team in Team.get_teams():
             team.matches = matches_by_team.get(team.country, [])
-        teams_data: dict = {team.country: team.to_dict() for team in Team.get_teams()}
+        teams_data = {team.country: team.to_dict() for team in sorted(Team.get_teams(), key=lambda t: t.country)}
         save_to_json(teams_data, "data/teams_players_matches.json")
         
         matches_by_stage_data = {stage: [match.to_dict() for match in matches] for stage, matches in matches_by_stage.items()}

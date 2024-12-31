@@ -45,7 +45,7 @@ class RugbyDataFetcher:
         return Team.get_teams()
 
     @classmethod
-    def fetch_team_squad(cls, team_id):
+    def fetch_team_squad(cls, team):
         """
         Fetches the list of players for a team.
 
@@ -55,7 +55,7 @@ class RugbyDataFetcher:
         Returns:
             list: A list of Player objects.
         """
-        url = f"{cls.BASE_URL}event/1893/squad/{team_id}"
+        url = f"{cls.BASE_URL}event/1893/squad/{team.id}"
         response = requests.get(url)
         response.raise_for_status()
         return [

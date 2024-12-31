@@ -28,7 +28,7 @@ class Team:
             "code": self.code,
             "country": self.country,
             "images": self.images,
-            "players": [player.to_dict() for player in self.players],
+            "players": [player.to_dict() for player in sorted(self.players, key=lambda p: p.name)],
             "matches": [match.to_dict() for match in self.matches]
         }
 

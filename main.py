@@ -59,3 +59,6 @@ def main():
         make_html()
     else:
         print("Invalid action")
+
+if __name__ == '__main__':
+    main()
