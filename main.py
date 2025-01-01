@@ -1,3 +1,4 @@
+import os
 import webbrowser
 from socketserver import TCPServer
 from http.server import SimpleHTTPRequestHandler
@@ -46,6 +47,8 @@ def make_html():
 
 
 def main():
+    if not os.path.exists("data"):
+        os.makedirs("data")
     action = input("What do you want to do? (1) Fetch data from API, (2) Fetch data from Selenium, (3) Make HTML: ")
     if action == "1":
         fetch_data_from_api()
