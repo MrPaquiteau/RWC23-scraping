@@ -1,3 +1,31 @@
 **/.DS_Store
 **/.history
 **/__pycache__/
+
+# Xcode
+**/*.xcuserdata/
+**/*.xcuserdatad/
+**/DerivedData/
+**/Build/
+
+# Swift Package Manager
+**/.build/
+**/Packages/
+**/swiftpm/
+
+# Logs
+**/*.log
+
+# Pods (si vous utilisez CocoaPods)
+**/Pods/
+
+# Carthage
+**/Carthage/Build/
+
+# Fastlane
+**/fastlane/report.xml
+**/fastlane/screenshots/
+**/fastlane/test_output/
+
+# Environment variables
+**/*.env
