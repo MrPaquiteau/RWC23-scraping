@@ -16,7 +16,7 @@
 # Logs
 **/*.log
 
-# Pods (si vous utilisez CocoaPods)
+# Pods
 **/Pods/
 
 # Carthage

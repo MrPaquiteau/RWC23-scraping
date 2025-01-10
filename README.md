@@ -14,7 +14,6 @@
   - [1. Run the Program](#1-run-the-program)
   - [2. Fetch Data or Generate HTML](#2-fetch-data-or-generate-html)
   - [3. View the Results](#3-view-the-results)
-- [Upcoming Features](#upcoming-features)
 - [Contributing](#contributing)
 - [Author](#author)
 - [Contributors](#contributors)
@@ -160,11 +159,6 @@ When you run the program, you will be prompted to choose one of the following op
 
 ### 3. View the Results
 Once the HTML pages are generated, you can view them in your browser. You will be prompted to choose which page to view (Teams or Matches).
-
-## Upcoming Features
-- **iOS Application**
-    - Develop a little iOS application using Swift.
-    - Display match results, team details, and player statistics.
   
 ## Contributing
 If you would like to contribute to this project, please follow these steps:
@@ -179,9 +173,9 @@ If you would like to contribute to this project, please follow these steps:
 Romain TROILLARD | [MrPaquiteau](https://github.com/MrPaquiteau)
 
 ## Contributors
-- Dorian RELAVE | [Legolaswash](https://github.com/Legolaswash) - Contributed to the first commit (v1.0)
-- Moetaz BEN-AMHED - Contributed to the first commit (v1.0)
-- Abder-Rahman BOUAOUINA - Contributed to the first commit (v1.0)
+- Dorian RELAVE | [Legolaswash](https://github.com/Legolaswash) - Contributed to the first commit [(v1.0)](https://github.com/MrPaquiteau/RWC23-scraping/releases/tag/v1.0)
+- Moetaz BEN-AMHED - Contributed to the first commit [(v1.0)](https://github.com/MrPaquiteau/RWC23-scraping/releases/tag/v1.0)
+- Abder-Rahman BOUAOUINA - Contributed to the first commit [(v1.0)](https://github.com/MrPaquiteau/RWC23-scraping/releases/tag/v1.0)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
