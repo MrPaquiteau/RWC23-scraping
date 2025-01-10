@@ -7,40 +7,43 @@
 
 import SwiftUI
 
+// MARK: - PlayerStatsView
+// View to display detailed statistics for a selected player.
 struct PlayerStatsView: View {
-    var player: Player // Le joueur sélectionné
+    var player: Player // The selected player
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                // Section 1 : Photo et informations générales
+                // Section 1: Player photo and general information
                 HStack(alignment: .top, spacing: 20) {
-                    // Photo du joueur (en haut à gauche)
+                    // Player photo (top left)
                     if let photoURL = URL(string: player.photo ?? "") {
                         AsyncImage(url: photoURL) { phase in
                             switch phase {
                             case .empty:
                                 ProgressView()
-                                    .frame(width: 100)
+                                    .frame(width: 100) // Show a loading indicator
                             case .success(let image):
                                 image
                                     .resizable()
                                     .scaledToFill()
                                     .clipped()
                                     .frame(width: 100)
-                                    .cornerRadius(10)
+                                    .cornerRadius(10) // Display the player's photo
                             case .failure:
                                 Image(systemName: "person.crop.circle.fill")
                                     .resizable()
                                     .scaledToFill()
                                     .frame(width: 100)
                                     .clipped()
-                                    .cornerRadius(10)
+                                    .cornerRadius(10) // Fallback image if photo fails to load
                             @unknown default:
                                 EmptyView()
                             }
                         }
                     } else {
+                        // Fallback image if no photo URL is provided
                         Image(systemName: "person.crop.circle.fill")
                             .resizable()
                             .scaledToFill()
@@ -53,34 +56,34 @@ struct PlayerStatsView: View {
                             )
                     }
 
-                    // Informations générales (à droite de la photo)
+                    // General information (right of the photo)
                     VStack(alignment: .leading, spacing: 8) {
                         Text(player.name)
                             .font(.title)
-                            .fontWeight(.bold)
+                            .fontWeight(.bold) // Display the player's name
 
                         if let age = player.age {
-                            InfoRow(label: "Age", value: "\(age)")
+                            InfoRow(label: "Age", value: "\(age)") // Display age if available
                         }
                         if let position = player.position {
-                            InfoRow(label: "Position", value: position)
+                            InfoRow(label: "Position", value: position) // Display position if available
                         }
                         if let height = player.height {
-                            InfoRow(label: "Height", value: "\(height) cm")
+                            InfoRow(label: "Height", value: "\(height) cm") // Display height if available
                         }
                         if let weight = player.weight {
-                            InfoRow(label: "Weight", value: "\(weight) kg")
+                            InfoRow(label: "Weight", value: "\(weight) kg") // Display weight if available
                         }
                     }
                 }
 
-                // Section 2 : Statistiques (en bas)
+                // Section 2: Player statistics (bottom section)
                 VStack(alignment: .leading, spacing: 10) {
-                    Text("Statistiques")
+                    Text("Statistics")
                         .font(.title2)
-                        .fontWeight(.bold)
+                        .fontWeight(.bold) // Section title
 
-                    // Liste des statistiques
+                    // List of statistics
                     VStack(alignment: .leading, spacing: 8) {
                         StatRow(label: "Kick from hand", value: "\(player.stats.kickFromHand)")
                         StatRow(label: "Runs", value: "\(player.stats.runs)")
@@ -107,12 +110,11 @@ struct PlayerStatsView: View {
             }
             .padding()
         }
-//        .navigationTitle(player.name)
-//        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
-// Vue pour afficher une ligne d'information
+// MARK: - InfoRow
+// View to display a row of general information (e.g., age, position).
 struct InfoRow: View {
     var label: String
     var value: String
@@ -121,11 +123,11 @@ struct InfoRow: View {
         HStack {
             Text(label)
                 .font(.headline)
-                .foregroundColor(.secondary)
+                .foregroundColor(.secondary) // Label text
             Spacer()
             Text(value)
                 .font(.body)
-                .fontWeight(.medium)
+                .fontWeight(.medium) // Value text
         }
         .padding(.vertical, 4)
         .overlay(
@@ -137,7 +139,8 @@ struct InfoRow: View {
     }
 }
 
-// Vue pour afficher une ligne de statistique
+// MARK: - StatRow
+// View to display a row of statistics (e.g., runs, tackles).
 struct StatRow: View {
     var label: String
     var value: String
@@ -146,11 +149,11 @@ struct StatRow: View {
         HStack {
             Text(label)
                 .font(.body)
-                .foregroundColor(.primary)
+                .foregroundColor(.primary) // Label text
             Spacer()
             Text(value)
                 .font(.body)
-                .fontWeight(.medium)
+                .fontWeight(.medium) // Value text
         }
         .padding(.vertical, 4)
         .overlay(

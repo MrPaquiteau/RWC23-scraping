@@ -11,7 +11,7 @@ import SwiftUI
 struct RWC23App: App {
     var body: some Scene {
         WindowGroup {
-            TeamsView()
+            ContentView()
         }
     }
 }

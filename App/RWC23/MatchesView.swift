@@ -7,34 +7,52 @@
 
 import SwiftUI
 
+// MARK: - MatchesView
+// Main view to display Rugby World Cup matches.
 struct MatchesView: View {
-    @State private var selectedMatch: Match?
-    @State private var selectedFilter: String = "All Matchs"
+    @State private var selectedMatch: Match? // Selected match to show details
+    @State private var selectedFilter: String = "All Matchs" // Selected filter to display matches
     
-    // Charger les matchs depuis le fichier JSON
+    // Load matches from JSON file
     var matchesByStage = Match.loadJSON(from: "matches_by_stage")
     
-    // Charger les équipes
+    // Load teams from JSON file
     var teams = Team.loadJSON(from: "teams_players_matches")
     
-    // Convertir les matchs en une seule liste
+    // Convert matches into a single list
     var allMatches: [Match] {
         matchesByStage.values.flatMap { $0 }
     }
     
-    // Filtrer les matchs en fonction de l'étape sélectionnée
+    // Filter matches based on the selected stage
     var filteredMatches: [Match] {
+        let matches: [Match]
         if selectedFilter == "All Matchs" {
-            return allMatches
+            matches = allMatches
         } else {
-            return matchesByStage[selectedFilter] ?? []
+            matches = matchesByStage[selectedFilter] ?? []
+        }
+        // Order matches by date
+        return matches.sorted { match1, match2 in
+            let date1 = dateFormatter.date(from: match1.date) ?? Date.distantPast
+            let date2 = dateFormatter.date(from: match2.date) ?? Date.distantPast
+            return date1 < date2
         }
     }
+    
+    // Date formatter for match dates
+    private let dateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "d MMMM yyyy"
+        formatter.locale = Locale(identifier: "en_US")
+        return formatter
+    }()
     
     var body: some View {
         NavigationView {
             Form {
                 Section {
+                    // Picker to filter matches by stage
                     Picker("Filter By", selection: $selectedFilter) {
                         Text("All Matchs").tag("All Matchs")
                         Text("Pool A").tag("Pool A")
@@ -50,9 +68,11 @@ struct MatchesView: View {
                     .padding()
                 }
                 
+                // List of filtered matches
                 List {
                     ForEach(filteredMatches) { match in
                         Section {
+                            // Display a match row
                             MatchRow(match: match, teams: teams)
                                 .contentShape(Rectangle())
                                 .onTapGesture {
@@ -64,6 +84,7 @@ struct MatchesView: View {
                 .listSectionSpacing(15)
             }
             .navigationTitle("Matches")
+            // Show details of the selected match in a modal sheet
             .sheet(item: $selectedMatch) { match in
                 MatchDetailsView(match: match)
                     .presentationDetents([.height(250)])
@@ -72,6 +93,8 @@ struct MatchesView: View {
     }
 }
 
+// MARK: - MatchRow
+// View to display a single match row with home and away teams.
 struct MatchRow: View {
     let match: Match
     let teams: [String: Team]
@@ -84,6 +107,8 @@ struct MatchRow: View {
     }
 }
 
+// MARK: - TeamRow
+// View to display a team row with flag, name, and score.
 struct TeamRow: View {
     let teamName: String
     let score: Int
@@ -122,6 +147,8 @@ struct TeamRow: View {
     }
 }
 
+// MARK: - MatchDetailsView
+// View to display detailed information about a selected match.
 struct MatchDetailsView: View {
     let match: Match
     var teams = Team.loadJSON(from: "teams_players_matches")
@@ -137,11 +164,11 @@ struct MatchDetailsView: View {
                 .padding()
             
             HStack {
-                // Afficher l'équipe "home" avec son drapeau
+                // Display the home team with its flag
                 ZStack {
                     Rectangle()
                         .frame(width: 120, height: 120)
-                        .opacity(0) // Rectangle invisible pour aligner le contenu
+                        .opacity(0) // Invisible rectangle to align content
                     VStack(alignment: .center) {
                         AsyncImage(url: URL(string: homeTeam!.images.flag)) { image in
                             image
@@ -149,7 +176,7 @@ struct MatchDetailsView: View {
                                 .frame(width: 50, height: 60)
                                 .cornerRadius(5)
                         } placeholder: {
-                            ProgressView() // Affiche un indicateur de chargement pendant le téléchargement
+                            ProgressView() // Show a loading indicator while downloading
                         }
                         Text(homeTeam!.country.capitalized)
                             .bold()
@@ -196,6 +223,8 @@ struct MatchDetailsView: View {
     }
 }
 
+// MARK: - MatchesView_Previews
+// Preview provider for MatchesView.
 struct MatchesView_Previews: PreviewProvider {
     static var previews: some View {
         MatchesView()

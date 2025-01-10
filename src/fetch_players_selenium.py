@@ -48,11 +48,12 @@ def fetch_players_for_team(driver, team):
             name_element = driver.find_element(By.CSS_SELECTOR, ".player-hero__player-name")
             name = name_element.text.replace("\n", "").title()
 
-            age = identity_data.get('age')
-            height = identity_data.get('height')
-            weight = identity_data.get('weight')
+            age = ''.join(filter(str.isdigit, identity_data.get('age', '')))
+            height = ''.join(filter(str.isdigit, identity_data.get('height', '')))
+            weight = ''.join(filter(str.isdigit, identity_data.get('weight', '')))
             hometown = identity_data.get('hometown')
             positon = identity_data.get('position')
+            print(age, height, weight, hometown, positon)
 
             tag_photo = driver.find_elements(By.CSS_SELECTOR, ".player-headshot__img")
             if tag_photo:

@@ -8,51 +8,62 @@
 import Foundation
 import UIKit
 
+// MARK: - Team Structure
+// Represents a rugby team with identifiable and codable properties.
 struct Team: Identifiable, Codable {
-    var id: String?
-    var code: String
-    var country: String
-    var images: TeamImages
-    var players: [Player]
+    var id: String? // Optional unique identifier for the team
+    var code: String // Team code (e.g., "FRA" for France)
+    var country: String // Country name of the team
+    var images: TeamImages // Images associated with the team (flag, shape, logo)
+    var players: [Player] // List of players in the team
 }
 
+// MARK: - TeamImages Structure
+// Represents the images associated with a team.
 struct TeamImages: Codable {
-    var flag: String
-    var shape: String
-    var logo: TeamLogo
+    var flag: String // URL or path to the team's flag image
+    var shape: String // URL or path to the team's shape image
+    var logo: TeamLogo // Team logo with light and dark variants
 }
 
+// MARK: - TeamLogo Structure
+// Represents the team's logo with light and dark variants.
 struct TeamLogo: Codable {
-    var light: String
-    var dark: String
+    var light: String // URL or path to the light version of the logo
+    var dark: String // URL or path to the dark version of the logo
 }
 
+// MARK: - Player Structure
+// Represents a rugby player with identifiable and codable properties.
 struct Player: Identifiable, Codable {
-    var id: String
-    var name: String
-    var age: Int?
-    var position: String?
-    var height: Int?
-    var weight: Int?
-    var hometown: String?
-    var photo: String?
-    var stats: PlayerStats
+    var id: String // Unique identifier for the player
+    var name: String // Player's name
+    var age: Int? // Optional age of the player
+    var position: String? // Optional position of the player (e.g., "Flyhalf")
+    var height: Int? // Optional height of the player in centimeters
+    var weight: Int? // Optional weight of the player in kilograms
+    var hometown: String? // Optional hometown of the player
+    var photo: String? // URL or path to the player's photo
+    var stats: PlayerStats // Player's statistics
 }
 
+// MARK: - PlayerStats Structure
+// Represents the statistics of a rugby player.
 struct PlayerStats: Codable {
-    var kickFromHand: Int
-    var runs: Int
-    var passes: Int
-    var offload: Int
-    var tackles: String
-    var carries: Int
-    var metresMade: Int
-    var defendersBeaten: Int
-    var cleanBreaks: Int
-    var handlingError: Int
-    var redCards: Int
-    var yellowCards: Int
+    var kickFromHand: Int // Number of kicks from hand
+    var runs: Int // Number of runs
+    var passes: Int // Number of passes
+    var offload: Int // Number of offloads
+    var tackles: String // Number of tackles (stored as a string)
+    var carries: Int // Number of carries
+    var metresMade: Int // Metres made by the player
+    var defendersBeaten: Int // Number of defenders beaten
+    var cleanBreaks: Int // Number of clean breaks
+    var handlingError: Int // Number of handling errors
+    var redCards: Int // Number of red cards received
+    var yellowCards: Int // Number of yellow cards received
 
+    // Custom coding keys to map JSON keys to Swift properties
     enum CodingKeys: String, CodingKey {
         case kickFromHand = "Kick from hand"
         case runs = "Runs"
@@ -69,45 +80,51 @@ struct PlayerStats: Codable {
     }
 }
 
-// Structure pour représenter un match
+// MARK: - Match Structure
+// Represents a rugby match with identifiable and codable properties.
 struct Match: Identifiable, Codable {
-    var id: String
-    var stage: String
-    var date: String
-    var location: String
-    var home: TeamScore
-    var away: TeamScore
+    var id: String // Unique identifier for the match
+    var stage: String // Stage of the match (e.g., "Group Stage")
+    var date: String // Date of the match
+    var location: String // Location of the match
+    var home: TeamScore // Home team's score
+    var away: TeamScore // Away team's score
 }
 
-// Structure pour représenter le score d'une équipe dans un match
+// MARK: - TeamScore Structure
+// Represents the score of a team in a match.
 struct TeamScore: Codable {
-    var team: String
-    var score: Int
+    var team: String // Team name or code
+    var score: Int // Team's score in the match
 }
 
+// MARK: - Team Extension
+// Extension to provide methods for loading team data from JSON.
 extension Team {
+    // Loads team data from a JSON file in the app bundle.
     static func loadJSON(from jsonName: String) -> [String: Team] {
-        // 1. Localiser le fichier JSON dans le bundle
+        // 1. Locate the JSON file in the bundle
         guard let url = Bundle.main.url(forResource: jsonName, withExtension: "json") else {
-            print("Fichier JSON introuvable : \(jsonName)")
+            print("JSON file not found: \(jsonName)")
             return [:]
         }
         
         do {
-            // 2. Charger les données du fichier JSON
+            // 2. Load the data from the JSON file
             let data = try Data(contentsOf: url)
             
-            // 3. Décoder les données JSON en utilisant JSONDecoder
+            // 3. Decode the JSON data using JSONDecoder
             let decoder = JSONDecoder()
             let teams = try decoder.decode([String: Team].self, from: data)
             
             return teams
         } catch {
-            print("Erreur lors du décodage JSON : \(error)")
+            print("Error decoding JSON: \(error)")
             return [:]
         }
     }
     
+    // Loads team data from a remote URL.
     static func loadJSONURL(from url: URL, completionHandler: @escaping ([Team]?, Error?) -> Void) {
         URLSession.shared.dataTask(with: url) { data, response, error in
             if let error = error {
@@ -131,26 +148,28 @@ extension Team {
     }
 }
 
-
+// MARK: - Match Extension
+// Extension to provide methods for loading match data from JSON.
 extension Match {
+    // Loads match data from a JSON file in the app bundle.
     static func loadJSON(from jsonName: String) -> [String: [Match]] {
-        // 1. Localiser le fichier JSON dans le bundle
+        // 1. Locate the JSON file in the bundle
         guard let url = Bundle.main.url(forResource: jsonName, withExtension: "json") else {
-            print("Fichier JSON introuvable : \(jsonName)")
+            print("JSON file not found: \(jsonName)")
             return [:]
         }
         
         do {
-            // 2. Charger les données du fichier JSON
+            // 2. Load the data from the JSON file
             let data = try Data(contentsOf: url)
             
-            // 3. Décoder les données JSON en utilisant JSONDecoder
+            // 3. Decode the JSON data using JSONDecoder
             let decoder = JSONDecoder()
             let matchesByStage = try decoder.decode([String: [Match]].self, from: data)
             
             return matchesByStage
         } catch {
-            print("Erreur lors du décodage JSON : \(error)")
+            print("Error decoding JSON: \(error)")
             return [:]
         }
     }
