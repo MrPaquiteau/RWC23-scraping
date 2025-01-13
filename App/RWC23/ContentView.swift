@@ -26,7 +26,7 @@ struct ContentView: View {
             // Matches tab
             MatchesView()
                 .tabItem {
-                    Label("Matchs", systemImage: "sportscourt")
+                    Label("Matches", systemImage: "sportscourt")
                 }
                 .tag(2) // Unique identifier for the tab
                 .transition(.slide) // Slide transition when switching tabs

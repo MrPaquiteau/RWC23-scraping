@@ -11,7 +11,7 @@ import SwiftUI
 // Main view to display Rugby World Cup matches.
 struct MatchesView: View {
     @State private var selectedMatch: Match? // Selected match to show details
-    @State private var selectedFilter: String = "All Matchs" // Selected filter to display matches
+    @State private var selectedFilter: String = "All Matches" // Selected filter to display matches
     
     // Load matches from JSON file
     var matchesByStage = Match.loadJSON(from: "matches_by_stage")
@@ -27,7 +27,7 @@ struct MatchesView: View {
     // Filter matches based on the selected stage
     var filteredMatches: [Match] {
         let matches: [Match]
-        if selectedFilter == "All Matchs" {
+        if selectedFilter == "All Matches" {
             matches = allMatches
         } else {
             matches = matchesByStage[selectedFilter] ?? []
@@ -54,7 +54,7 @@ struct MatchesView: View {
                 Section {
                     // Picker to filter matches by stage
                     Picker("Filter By", selection: $selectedFilter) {
-                        Text("All Matchs").tag("All Matchs")
+                        Text("All Matches").tag("All Matches")
                         Text("Pool A").tag("Pool A")
                         Text("Pool B").tag("Pool B")
                         Text("Pool C").tag("Pool C")
@@ -117,14 +117,10 @@ struct TeamRow: View {
     var body: some View {
         if let team = teams.first(where: { $0.value.country.uppercased() == teamName.uppercased() })?.value {
             HStack {
-                AsyncImage(url: URL(string: team.images.flag)) { image in
-                    image
-                        .resizable()
-                        .frame(width: 30, height: 35)
-                        .cornerRadius(5)
-                } placeholder: {
-                    ProgressView()
-                }
+                Image("\(team.code)-flag")
+                    .resizable()
+                    .frame(width: 30, height: 40)
+                    .cornerRadius(5)
                 Text(teamName)
                     .bold()
                 Spacer()
@@ -170,14 +166,10 @@ struct MatchDetailsView: View {
                         .frame(width: 120, height: 120)
                         .opacity(0) // Invisible rectangle to align content
                     VStack(alignment: .center) {
-                        AsyncImage(url: URL(string: homeTeam!.images.flag)) { image in
-                            image
-                                .resizable()
-                                .frame(width: 50, height: 60)
-                                .cornerRadius(5)
-                        } placeholder: {
-                            ProgressView() // Show a loading indicator while downloading
-                        }
+                        Image("\(homeTeam!.code)-flag")
+                            .resizable()
+                            .frame(width: 60, height: 80)
+                            .cornerRadius(5)
                         Text(homeTeam!.country.capitalized)
                             .bold()
                             .font(.system(size: 14))
@@ -199,14 +191,10 @@ struct MatchDetailsView: View {
                         .frame(width: 120, height: 120)
                         .opacity(0)
                     VStack(alignment: .center) {
-                        AsyncImage(url: URL(string: awayTeam!.images.flag)) { image in
-                            image
-                                .resizable()
-                                .frame(width: 50, height: 60)
-                                .cornerRadius(5)
-                        } placeholder: {
-                            ProgressView()
-                        }
+                        Image("\(awayTeam!.code)-flag")
+                            .resizable()
+                            .frame(width: 60, height: 80)
+                            .cornerRadius(5)
                         Text(awayTeam!.country.capitalized)
                             .bold()
                             .font(.system(size: 14))
@@ -222,7 +210,6 @@ struct MatchDetailsView: View {
         }
     }
 }
-
 // MARK: - MatchesView_Previews
 // Preview provider for MatchesView.
 struct MatchesView_Previews: PreviewProvider {
