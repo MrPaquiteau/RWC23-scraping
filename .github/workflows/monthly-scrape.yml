@@ -5,6 +5,9 @@ on:
     - cron: '0 0 1 * *' # Tous les 1er du mois à minuit UTC
   workflow_dispatch: # Permet de lancer manuellement si besoin
 
+permissions:
+  contents: write
+
 jobs:
   scrape-and-build:
     runs-on: ubuntu-latest
