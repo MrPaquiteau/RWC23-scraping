@@ -11,7 +11,7 @@ def make_teams_html(env, data):
     print("Teams HTML created")
 
 def make_matches_html(env, data):
-    with open('data/matches_by_stage.json') as f:
+    with open('web/data/matches_by_stage.json') as f:
         matches_by_stage = json.load(f)
 
     template = env.get_template('template_matches.html')
@@ -23,8 +23,8 @@ def make_matches_html(env, data):
 
 def build():
     env = Environment(loader=FileSystemLoader('web/templates'))
-    if os.path.exists('data/teams_players_matches.json'):
-        with open('data/teams_players_matches.json') as f:
+    if os.path.exists('web/data/teams_players_matches.json'):
+        with open('web/data/teams_players_matches.json') as f:
             data = json.load(f)
         make_teams_html(env, data)
         make_matches_html(env, data)

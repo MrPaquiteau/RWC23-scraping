@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const teamNavList = document.getElementById('team-nav-list');
 
 
-    fetch("../../data/teams_players_matches.json")
+    fetch("data/teams_players_matches.json")
         .then(response => response.json())
         .then(data => {
             const teamData = data[teamName];

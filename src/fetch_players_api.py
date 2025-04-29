@@ -53,7 +53,7 @@ def run():
     # Load team data from JSON if not already loaded
     if len(Team.get_teams()) != 20:
         Team.clear_registry()
-        load_teams_from_json("data/teams_selenium.json")
+        load_teams_from_json("web/data/teams_selenium.json")
     
     # Fetch players for all teams
     for team in tqdm(Team.get_teams(), desc="Fetching players for all teams"):
@@ -62,7 +62,7 @@ def run():
 
     # Save updated data for all teams to JSON
     teams_data = {team.country: team.to_dict() for team in sorted(Team.get_teams(), key=lambda t: t.country)}
-    save_to_json(teams_data, "data/teams_players_api.json")
+    save_to_json(teams_data, "web/data/teams_players_api.json")
 
 if __name__ == '__main__':
     run()

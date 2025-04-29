@@ -79,7 +79,7 @@ def run():
         fetch_teams(driver)
         
         teams_data = {team.country: team.to_dict() for team in sorted(Team.get_teams(), key=lambda t: t.country)}
-        save_to_json(teams_data, "data/teams_selenium.json")
+        save_to_json(teams_data, "web/data/teams_selenium.json")
     finally:
         driver.quit()
 
