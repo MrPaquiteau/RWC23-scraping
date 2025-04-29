@@ -34,7 +34,6 @@ body {
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .grid-item:hover {
@@ -118,16 +117,6 @@ body {
   transform: translateY(-45px);
 }
 /* ------------------------------------ */
-.home-button:hover, .navigation-button-previous:hover, .navigation-button-next:hover {
-    box-shadow: none;
-    color: #292929;
-}
-
-.home-button:active, .navigation-button-previous:active, .navigation-button-next:active {
-    color: #666;
-    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
-}
-
 .home-button {
     color: #111;
     padding: 0.7em 1.7em;
@@ -136,19 +125,29 @@ body {
     background: #fff;
     border: 1px solid #e8e8e8;
     box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: absolute; /* Ensure this is set to fixed */
+    top: 30px; /* Adjusted top position */
+    left: 40px; /* Positioned to the left */
     text-decoration: none;
     transition: all 0.3s;
-    z-index: 2;
+    z-index: 6; /* Ensure it has a high z-index */
+}
+
+.home-button:hover {
+    box-shadow: none;
+    color: #292929;
+}
+
+.home-button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
 }
 
 .dark-mode .home-button {
     color: #fff;
     background: #1a1a1a;
     border: 1px solid #292929;
+    box-shadow: 6px 6px 12px #111, -6px -6px 12px #232323; /* Adjusted dark mode shadow */
 }
 
 .dark-mode .home-button:hover {
@@ -158,6 +157,7 @@ body {
 
 .dark-mode .home-button:active {
     color: #aaa;
+    box-shadow: inset 4px 4px 12px #111, inset -4px -4px 12px #232323; /* Adjusted dark mode active shadow */
 }
 /* ---------- Style DARKMODE ---------- */
 .dark-mode  {
@@ -179,3 +179,7 @@ body {
     border: none;
     background-color: #343434;
 }
+
+/* --------- BOUTTON DARKMODE --------- */
+
+/* ------------------------------------ */

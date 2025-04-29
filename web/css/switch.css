@@ -1,8 +1,8 @@
 .switch {
-    position: fixed;
+    position: absolute; /* Ensure this is set to fixed */
     top: 40px;
     right: 40px;
-    z-index: 6;
+    z-index: 6; /* Ensure it has a high z-index */
     font-size: 17px;
     display: inline-block;
     width: 64px;

@@ -134,6 +134,16 @@ h2 {
     text-align: center;
 }
 
+/* Add specific styles to restore original spacing for team images inside the modal */
+.modal .team-images {
+    justify-content: space-between; /* Original justification for modal */
+}
+
+.modal .team-images img {
+    margin-left: 20px;  /* Original margin for modal */
+    margin-right: 20px; /* Original margin for modal */
+}
+
 .popup {
     display: none;
 }
@@ -220,17 +230,18 @@ img[alt="Romania"] {
     font-weight: bold;
 }
 
+/* Global styles - keep the adjusted spacing for the main page by default */
 .team-images {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around; /* Adjusted justification */
   align-items: center;
 }
 
 .team-images img {
   width: 80px;
   height: auto;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 5px;  /* Adjusted margin */
+  margin-right: 5px; /* Adjusted margin */
 }
 
 .match-item p {
@@ -238,7 +249,6 @@ img[alt="Romania"] {
 }
 
 /* Ajout de flex pour aligner le contenu */
-.match-item .team-images,
 .match-item p {
     flex: 1;
 }
@@ -246,6 +256,34 @@ img[alt="Romania"] {
 @media screen and (max-width: 1200px) {
     .stage-matches {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
+
+/* Media query for smaller screens to revert spacing outside modal */
+@media screen and (max-width: 768px) {
+    /* Apply original spacing outside the modal on small screens */
+    .team-images {
+        justify-content: center; /* Center items for better wrapping */
+        flex-wrap: wrap; /* Allow items to wrap onto the next line */
+        gap: 5px; /* Add some space between wrapped items */
+    }
+
+    /* Ensure logos have some base width and center text */
+    .team-images .team-logo {
+       flex-basis: 40%; /* Adjust as needed, ensures they don't shrink too much */
+       text-align: center;
+    }
+
+     /* Make score take full width and center it, placing it after the first logo */
+    .team-images .match-score {
+        width: 100%;
+        text-align: center;
+        order: 1; /* Ensure score is positioned correctly when wrapped */
+    }
+
+    .team-images img {
+        margin-left: 20px;  /* Revert to original margin */
+        margin-right: 20px; /* Revert to original margin */
     }
 }
 /* ----------------------------------- */
@@ -503,116 +541,7 @@ img[alt="Romania"] {
 /* ------------------------------------ */
 
 /* --------- BOUTTON DARKMODE --------- */
-.switch {
-    position: fixed;
-    top: 30px;
-    right: 40px;
-    z-index: 6;
-    font-size: 17px;
-    display: inline-block;
-    width: 64px;
-    height: 34px;
-}
 
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #73C0FC;
-  transition: .4s;
-  border-radius: 30px;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 30px;
-  width: 30px;
-  border-radius: 20px;
-  left: 2px;
-  bottom: 2px;
-  z-index: 2;
-  background-color: #e8e8e8;
-  transition: .4s;
-}
-
-.sun svg {
-  position: absolute;
-  top: 6px;
-  left: 36px;
-  z-index: 1;
-  width: 24px;
-  height: 24px;
-}
-
-.moon svg {
-  fill: #73C0FC;
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  z-index: 1;
-  width: 24px;
-  height: 24px;
-}
-
-/* .switch:hover */.sun svg {
-  animation: rotate 15s linear infinite;
-}
-
-@keyframes rotate {
-
-  0% {
-    transform: rotate(0);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/* .switch:hover */.moon svg {
-  animation: tilt 5s linear infinite;
-}
-
-@keyframes tilt {
-
-  0% {
-    transform: rotate(0deg);
-  }
-
-  25% {
-    transform: rotate(-10deg);
-  }
-
-  75% {
-    transform: rotate(10deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-.input:checked + .slider {
-  background-color: #183153;
-}
-
-.input:focus + .slider {
-  box-shadow: 0 0 1px #183153;
-}
-
-.input:checked + .slider:before {
-  transform: translateX(30px);
-}
 /* ------------------------------------ */
 
 /* ----------- STYLE FOOTER ----------- */
@@ -789,4 +718,48 @@ footer {
     content: "";
     right: 0;
   }
+}
+
+/* ----------- HOME BUTTON ----------- */
+.home-button {
+    color: #111;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    position: absolute; /* Ensure this is set to fixed */
+    top: 30px; /* Adjusted top position */
+    left: 40px; /* Positioned to the left */
+    text-decoration: none;
+    transition: all 0.3s;
+    z-index: 6; /* Ensure it has a high z-index */
+}
+
+.home-button:hover {
+    box-shadow: none;
+    color: #292929;
+}
+
+.home-button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.dark-mode .home-button {
+    color: #fff;
+    background: #1a1a1a;
+    border: 1px solid #292929;
+    box-shadow: 6px 6px 12px #111, -6px -6px 12px #232323; /* Adjusted dark mode shadow */
+}
+
+.dark-mode .home-button:hover {
+    color: #fff;
+    box-shadow: none;
+}
+
+.dark-mode .home-button:active {
+    color: #aaa;
+    box-shadow: inset 4px 4px 12px #111, inset -4px -4px 12px #232323; /* Adjusted dark mode active shadow */
 }

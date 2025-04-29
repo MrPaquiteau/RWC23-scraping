@@ -20,24 +20,13 @@ def fetch_data_from_selenium():
     fetch_players_selenium()
     fetch_matches_selenium()
 
-def make_html():
-    build()
-    choice = input("Which site do you want to view? (1) Teams, (2) Matches: ").strip()
-    
-    if choice == "1":
-        site_file = "teams.html"
-    elif choice == "2":
-        site_file = "matches.html"
-    else:
-        print("Invalid choice. Exiting.")
-        return
-
+def open_html_file():
     PORT = 8000
 
-    url = f"http://localhost:{PORT}/web/{site_file}"
+    url = f"http://localhost:{PORT}/web/index.html"
 
     with TCPServer(("", PORT), SimpleHTTPRequestHandler) as httpd:
-        print(f"Serving {site_file} on {url}")
+        print(f"Serving on {url}")
         webbrowser.open(url)
         try:
             httpd.serve_forever()
@@ -45,17 +34,18 @@ def make_html():
             print("\nShutting down server.")
             httpd.shutdown()
 
-
 def main():
     if not os.path.exists("data"):
         os.makedirs("data")
-    action = input("What do you want to do? (1) Fetch data from API, (2) Fetch data from Selenium, (3) Make HTML: ")
+    action = input("What do you want to do? (1) Fetch data from API, (2) Fetch data from Selenium, (3) Make HTML, (4) Open website: ")
     if action == "1":
         fetch_data_from_api()
     elif action == "2":
         fetch_data_from_selenium()
     elif action == "3":
-        make_html()
+        build()
+    elif action == "4":
+        open_html_file()
     else:
         print("Invalid action")
 

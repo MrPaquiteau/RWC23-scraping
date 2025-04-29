@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rugby World Cup 2023</title>
+    <link rel="icon" href="https://static.wikia.nocookie.net/logopedia/images/3/38/RWC2023_2018-symbol.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/teams.css">
+    <link rel="stylesheet" href="css/switch.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <a href="index.html" class="home-button">Home</a>
+    <label class="switch">
+        <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="#ffd43b"><circle r="5" cy="12" cx="12"></circle><path d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"></path></g></svg></span>
+        <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg></span>
+        <input type="checkbox" onclick="toggleDarkMode()" id="dark-button" class="input">
+        <span class="slider"></span>
+    </label>
+    <h1 class="page-title"><img class="title-icon" src="https://static.wikia.nocookie.net/logopedia/images/3/38/RWC2023_2018-symbol.svg" alt="Rugby World cup 2023 Logo"> 2023's Rugby World cup Teams</h1>
+    <div class="grid-container">
+        
+            <div class="grid-item" data-name="Argentina">
+                <a href="team.html?team=Argentina">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina.svg" alt="Argentina" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-argentina-alt.svg" alt="Argentina" loading="lazy" style="display: none;">
+                </a>
+                <p>Argentina</p>
+            </div>
+        
+            <div class="grid-item" data-name="Australia">
+                <a href="team.html?team=Australia">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia.svg" alt="Australia" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-australia-alt.svg" alt="Australia" loading="lazy" style="display: none;">
+                </a>
+                <p>Australia</p>
+            </div>
+        
+            <div class="grid-item" data-name="Chile">
+                <a href="team.html?team=Chile">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg" alt="Chile" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-chile.svg" alt="Chile" loading="lazy" style="display: none;">
+                </a>
+                <p>Chile</p>
+            </div>
+        
+            <div class="grid-item" data-name="England">
+                <a href="team.html?team=England">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england.svg" alt="England" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-england-alt.svg" alt="England" loading="lazy" style="display: none;">
+                </a>
+                <p>England</p>
+            </div>
+        
+            <div class="grid-item" data-name="Fiji">
+                <a href="team.html?team=Fiji">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji.svg" alt="Fiji" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-fiji-alt.svg" alt="Fiji" loading="lazy" style="display: none;">
+                </a>
+                <p>Fiji</p>
+            </div>
+        
+            <div class="grid-item" data-name="France">
+                <a href="team.html?team=France">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france.svg" alt="France" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-france-alt.svg" alt="France" loading="lazy" style="display: none;">
+                </a>
+                <p>France</p>
+            </div>
+        
+            <div class="grid-item" data-name="Georgia">
+                <a href="team.html?team=Georgia">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia.svg" alt="Georgia" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-georgia-alt.svg" alt="Georgia" loading="lazy" style="display: none;">
+                </a>
+                <p>Georgia</p>
+            </div>
+        
+            <div class="grid-item" data-name="Ireland">
+                <a href="team.html?team=Ireland">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland.svg" alt="Ireland" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-ireland-alt.svg" alt="Ireland" loading="lazy" style="display: none;">
+                </a>
+                <p>Ireland</p>
+            </div>
+        
+            <div class="grid-item" data-name="Italy">
+                <a href="team.html?team=Italy">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy-alt.svg" alt="Italy" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-italy-alt.svg" alt="Italy" loading="lazy" style="display: none;">
+                </a>
+                <p>Italy</p>
+            </div>
+        
+            <div class="grid-item" data-name="Japan">
+                <a href="team.html?team=Japan">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg" alt="Japan" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-japan.svg" alt="Japan" loading="lazy" style="display: none;">
+                </a>
+                <p>Japan</p>
+            </div>
+        
+            <div class="grid-item" data-name="Namibia">
+                <a href="team.html?team=Namibia">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia.svg" alt="Namibia" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-namibia-alt.svg" alt="Namibia" loading="lazy" style="display: none;">
+                </a>
+                <p>Namibia</p>
+            </div>
+        
+            <div class="grid-item" data-name="New Zealand">
+                <a href="team.html?team=New Zealand">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand.svg" alt="New Zealand" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-new-zealand-alt.svg" alt="New Zealand" loading="lazy" style="display: none;">
+                </a>
+                <p>New Zealand</p>
+            </div>
+        
+            <div class="grid-item" data-name="Portugal">
+                <a href="team.html?team=Portugal">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal.svg" alt="Portugal" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-portugal-alt.svg" alt="Portugal" loading="lazy" style="display: none;">
+                </a>
+                <p>Portugal</p>
+            </div>
+        
+            <div class="grid-item" data-name="Romania">
+                <a href="team.html?team=Romania">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg" alt="Romania" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-romania.svg" alt="Romania" loading="lazy" style="display: none;">
+                </a>
+                <p>Romania</p>
+            </div>
+        
+            <div class="grid-item" data-name="Samoa">
+                <a href="team.html?team=Samoa">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa.svg" alt="Samoa" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-samoa-alt.svg" alt="Samoa" loading="lazy" style="display: none;">
+                </a>
+                <p>Samoa</p>
+            </div>
+        
+            <div class="grid-item" data-name="Scotland">
+                <a href="team.html?team=Scotland">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland.svg" alt="Scotland" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-scotland-alt.svg" alt="Scotland" loading="lazy" style="display: none;">
+                </a>
+                <p>Scotland</p>
+            </div>
+        
+            <div class="grid-item" data-name="South Africa">
+                <a href="team.html?team=South Africa">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa.svg" alt="South Africa" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-south-africa-alt.svg" alt="South Africa" loading="lazy" style="display: none;">
+                </a>
+                <p>South Africa</p>
+            </div>
+        
+            <div class="grid-item" data-name="Tonga">
+                <a href="team.html?team=Tonga">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg" alt="Tonga" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-tonga.svg" alt="Tonga" loading="lazy" style="display: none;">
+                </a>
+                <p>Tonga</p>
+            </div>
+        
+            <div class="grid-item" data-name="Uruguay">
+                <a href="team.html?team=Uruguay">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay.svg" alt="Uruguay" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-uruguay-alt.svg" alt="Uruguay" loading="lazy" style="display: none;">
+                </a>
+                <p>Uruguay</p>
+            </div>
+        
+            <div class="grid-item" data-name="Wales">
+                <a href="team.html?team=Wales">
+                    <img class="lightLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales.svg" alt="Wales" loading="lazy">
+                    <img class="darkLogo" src="https://www.rugbyworldcup.com/rwc2023-resources/prod/rwc2023_v6.8.0/i/svg-files/elements/bg/teams/union-emblem-wales-alt.svg" alt="Wales" loading="lazy" style="display: none;">
+                </a>
+                <p>Wales</p>
+            </div>
+        
+    </div>
+</body>
+</html>
