@@ -23,7 +23,7 @@ def fetch_data_from_selenium():
 def open_html_file():
     PORT = 8000
 
-    url = f"http://localhost:{PORT}/web/index.html"
+    url = f"http://localhost:{PORT}/docs/index.html"
 
     with TCPServer(("", PORT), SimpleHTTPRequestHandler) as httpd:
         print(f"Serving on {url}")

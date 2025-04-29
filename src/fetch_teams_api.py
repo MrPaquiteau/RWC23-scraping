@@ -8,7 +8,7 @@ def run():
     """
     RugbyDataFetcher.fetch_teams()
     teams_data = {team.country: team.to_dict() for team in sorted(Team.get_teams(), key=lambda t: t.country)}
-    save_to_json(teams_data, "web/data/teams_api.json")
+    save_to_json(teams_data, "docs/data/teams_api.json")
 
 if __name__ == '__main__':
     run()

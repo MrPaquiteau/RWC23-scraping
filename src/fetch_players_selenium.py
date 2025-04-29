@@ -118,7 +118,7 @@ def run():
     # Load team data from JSON if not already loaded
     if len(Team.get_teams()) != 20:
         Team.clear_registry()
-        load_teams_from_json("web/data/teams_selenium.json")
+        load_teams_from_json("docs/data/teams_selenium.json")
     
     # Fetch players for all teams
     driver = get_driver()
@@ -129,7 +129,7 @@ def run():
 
         # Save updated data for all teams to JSON
         teams_data = {team.country: team.to_dict() for team in sorted(Team.get_teams(), key=lambda t: t.country)}
-        save_to_json(teams_data, "web/data/teams_players_selenium.json")
+        save_to_json(teams_data, "docs/data/teams_players_selenium.json")
     
     finally:
         driver.quit()
