@@ -1610,7 +1610,7 @@
             {
                 "id": "61373",
                 "name": "Alfonso Escobar",
-                "age": 27,
+                "age": 28,
                 "position": null,
                 "height": 182,
                 "weight": 92,
@@ -1946,7 +1946,7 @@
             {
                 "id": "61360",
                 "name": "Javier Carrasco",
-                "age": 27,
+                "age": 28,
                 "position": null,
                 "height": 178,
                 "weight": 103,
@@ -2114,7 +2114,7 @@
             {
                 "id": "69115",
                 "name": "Matias Garafulic",
-                "age": 24,
+                "age": 25,
                 "position": null,
                 "height": 183,
                 "weight": 90,
@@ -2491,7 +2491,7 @@
             {
                 "id": "65787",
                 "name": "Bevan Rodd",
-                "age": 24,
+                "age": 25,
                 "position": null,
                 "height": 183,
                 "weight": 117,
@@ -2611,7 +2611,7 @@
             {
                 "id": "69817",
                 "name": "David Ribbans",
-                "age": 29,
+                "age": 30,
                 "position": null,
                 "height": 202,
                 "weight": 120,
@@ -3250,6 +3250,30 @@
                 }
             },
             {
+                "id": "36078",
+                "name": "Api Ratuniyarawa",
+                "age": 39,
+                "position": null,
+                "height": 198,
+                "weight": 114,
+                "hometown": "Sigatoka, Fiji",
+                "photo": "https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/36078.png",
+                "stats": {
+                    "Kick from hand": 0.0,
+                    "Runs": 0.0,
+                    "Passes": 0.0,
+                    "Offload": 0.0,
+                    "Tackles": "0 (0.0%)",
+                    "Carries": 0.0,
+                    "Metres made": 0.0,
+                    "Defenders beaten": 0.0,
+                    "Clean breaks": 0.0,
+                    "Handling error": 0.0,
+                    "Red cards": 0.0,
+                    "Yellow cards": 0.0
+                }
+            },
+            {
                 "id": "66911",
                 "name": "Emosi Tuqiri",
                 "age": 24,
@@ -3802,30 +3826,6 @@
                 }
             },
             {
-                "id": "60558",
-                "name": "Temo Mayanavanua",
-                "age": 27,
-                "position": null,
-                "height": 197,
-                "weight": 120,
-                "hometown": null,
-                "photo": "https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/60558.png",
-                "stats": {
-                    "Kick from hand": 0.0,
-                    "Runs": 14.0,
-                    "Passes": 2.0,
-                    "Offload": 0.0,
-                    "Tackles": "10 (68.0%)",
-                    "Carries": 14.0,
-                    "Metres made": 23.0,
-                    "Defenders beaten": 0.0,
-                    "Clean breaks": 0.0,
-                    "Handling error": 2.0,
-                    "Red cards": 0.0,
-                    "Yellow cards": 0.0
-                }
-            },
-            {
                 "id": "39720",
                 "name": "Teti Tela",
                 "age": 34,
@@ -4277,7 +4277,7 @@
             {
                 "id": "65537",
                 "name": "Dorian Aldegheri",
-                "age": 31,
+                "age": 32,
                 "position": null,
                 "height": 180,
                 "weight": 119,
@@ -4637,7 +4637,7 @@
             {
                 "id": "75596",
                 "name": "Reda Wardi",
-                "age": 29,
+                "age": 30,
                 "position": null,
                 "height": 185,
                 "weight": 110,
@@ -4846,7 +4846,7 @@
             {
                 "id": "62885",
                 "name": "Akaki Tabutsadze",
-                "age": 27,
+                "age": 28,
                 "position": null,
                 "height": 180,
                 "weight": 83,
@@ -5542,7 +5542,7 @@
             {
                 "id": "71463",
                 "name": "Tornike Kakhoidze",
-                "age": 21,
+                "age": 22,
                 "position": null,
                 "height": 183,
                 "weight": 92,
@@ -6351,7 +6351,7 @@
             {
                 "id": "50769",
                 "name": "Stuart McCloskey",
-                "age": 32,
+                "age": 33,
                 "position": null,
                 "height": 193,
                 "weight": 110,
@@ -6584,7 +6584,7 @@
             {
                 "id": "50391",
                 "name": "Federico Ruzza",
-                "age": 30,
+                "age": 31,
                 "position": null,
                 "height": 198,
                 "weight": 108,
@@ -7729,7 +7729,7 @@
             {
                 "id": "57136",
                 "name": "Naoto Saito",
-                "age": 27,
+                "age": 28,
                 "position": null,
                 "height": 165,
                 "weight": 73,
@@ -9491,7 +9491,7 @@
             {
                 "id": "71869",
                 "name": "Samisoni Taukei'aho",
-                "age": 27,
+                "age": 28,
                 "position": null,
                 "height": 183,
                 "weight": 115,
@@ -9587,7 +9587,7 @@
             {
                 "id": "66931",
                 "name": "Tamaiti Williams",
-                "age": 24,
+                "age": 25,
                 "position": null,
                 "height": 196,
                 "weight": 144,
@@ -10012,7 +10012,7 @@
             {
                 "id": "54096",
                 "name": "João Belo",
-                "age": 29,
+                "age": 30,
                 "position": null,
                 "height": 169,
                 "weight": 80,
@@ -10396,7 +10396,7 @@
             {
                 "id": "73193",
                 "name": "Steevy Cerqueira",
-                "age": 31,
+                "age": 32,
                 "position": null,
                 "height": 207,
                 "weight": 120,
@@ -10989,7 +10989,7 @@
             {
                 "id": "65094",
                 "name": "Marius Iftimiciuc",
-                "age": 27,
+                "age": 28,
                 "position": null,
                 "height": 202,
                 "weight": 127,
@@ -11582,7 +11582,7 @@
             {
                 "id": "45275",
                 "name": "Fritz Lee",
-                "age": 36,
+                "age": 37,
                 "position": null,
                 "height": 188,
                 "weight": 108,
@@ -11726,7 +11726,7 @@
             {
                 "id": "43176",
                 "name": "Michael Alaalatoa",
-                "age": 33,
+                "age": 34,
                 "position": null,
                 "height": 189,
                 "weight": 128,
@@ -11750,7 +11750,7 @@
             {
                 "id": "69276",
                 "name": "Miracle Faiilagi",
-                "age": 25,
+                "age": 26,
                 "position": null,
                 "height": 188,
                 "weight": 103,
@@ -11894,7 +11894,7 @@
             {
                 "id": "60530",
                 "name": "Sam Slade",
-                "age": 27,
+                "age": 28,
                 "position": null,
                 "height": 194,
                 "weight": 111,
@@ -12415,7 +12415,7 @@
             {
                 "id": "36676",
                 "name": "Grant Gilchrist",
-                "age": 34,
+                "age": 35,
                 "position": null,
                 "height": 198,
                 "weight": 118,
@@ -12535,7 +12535,7 @@
             {
                 "id": "50434",
                 "name": "Jamie Ritchie",
-                "age": 28,
+                "age": 29,
                 "position": null,
                 "height": 190,
                 "weight": 108,
@@ -12679,7 +12679,7 @@
             {
                 "id": "65717",
                 "name": "Ollie Smith",
-                "age": 24,
+                "age": 25,
                 "position": null,
                 "height": 188,
                 "weight": 90,
@@ -12727,7 +12727,7 @@
             {
                 "id": "34128",
                 "name": "Richie Gray",
-                "age": 35,
+                "age": 36,
                 "position": null,
                 "height": 207,
                 "weight": 126,
@@ -12775,7 +12775,7 @@
             {
                 "id": "56341",
                 "name": "Rory Sutherland",
-                "age": 32,
+                "age": 33,
                 "position": null,
                 "height": 180,
                 "weight": 110,
@@ -13320,7 +13320,7 @@
             {
                 "id": "67415",
                 "name": "Jean Kleyn",
-                "age": 31,
+                "age": 32,
                 "position": null,
                 "height": 203,
                 "weight": 121,
@@ -13464,7 +13464,7 @@
             {
                 "id": "64590",
                 "name": "Marco van Staden",
-                "age": 29,
+                "age": 30,
                 "position": null,
                 "height": 184,
                 "weight": 110,
@@ -13560,7 +13560,7 @@
             {
                 "id": "45550",
                 "name": "Pieter-Steph Du Toit",
-                "age": 32,
+                "age": 33,
                 "position": null,
                 "height": 200,
                 "weight": 115,
@@ -13704,7 +13704,7 @@
             {
                 "id": "49080",
                 "name": "Willie Le Roux",
-                "age": 35,
+                "age": 36,
                 "position": null,
                 "height": 186,
                 "weight": 90,
@@ -13841,7 +13841,7 @@
             {
                 "id": "43516",
                 "name": "Ben Tameifuna",
-                "age": 33,
+                "age": 34,
                 "position": null,
                 "height": 188,
                 "weight": 151,
@@ -14674,7 +14674,7 @@
             {
                 "id": "48433",
                 "name": "Diego Arbelo",
-                "age": 30,
+                "age": 31,
                 "position": null,
                 "height": 190,
                 "weight": 114,
@@ -14914,7 +14914,7 @@
             {
                 "id": "50157",
                 "name": "Ignacio Dotti",
-                "age": 30,
+                "age": 31,
                 "position": null,
                 "height": 193,
                 "weight": 103,
@@ -14938,7 +14938,7 @@
             {
                 "id": "71515",
                 "name": "Ignacio Facciolo",
-                "age": 23,
+                "age": 24,
                 "position": null,
                 "height": 188,
                 "weight": 91,
@@ -15627,7 +15627,7 @@
             {
                 "id": "38914",
                 "name": "Gareth Davies",
-                "age": 34,
+                "age": 35,
                 "position": null,
                 "height": 178,
                 "weight": 88,
@@ -15651,7 +15651,7 @@
             {
                 "id": "45611",
                 "name": "Gareth Thomas",
-                "age": 31,
+                "age": 32,
                 "position": null,
                 "height": 188,
                 "weight": 116,
