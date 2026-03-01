@@ -208,7 +208,7 @@
             {
                 "id": "43433",
                 "name": "Jeronimo de la Fuente",
-                "age": 34,
+                "age": 35,
                 "position": null,
                 "height": 183,
                 "weight": 93,
@@ -376,7 +376,7 @@
             {
                 "id": "50319",
                 "name": "Lautaro Bazan Velez",
-                "age": 29,
+                "age": 30,
                 "position": null,
                 "height": 174,
                 "weight": 80,
@@ -400,7 +400,7 @@
             {
                 "id": "65383",
                 "name": "Lucio Cinti",
-                "age": 25,
+                "age": 26,
                 "position": null,
                 "height": 190,
                 "weight": 90,
@@ -1044,7 +1044,7 @@
             {
                 "id": "63164",
                 "name": "Fraser McReight",
-                "age": 26,
+                "age": 27,
                 "position": null,
                 "height": 184,
                 "weight": 103,
@@ -1428,7 +1428,7 @@
             {
                 "id": "69731",
                 "name": "Pone Fa’amausili",
-                "age": 28,
+                "age": 29,
                 "position": null,
                 "height": 196,
                 "weight": 138,
@@ -2030,7 +2030,7 @@
             {
                 "id": "33687",
                 "name": "Ignacio Silva",
-                "age": 36,
+                "age": 37,
                 "position": null,
                 "height": 182,
                 "weight": 98,
@@ -2390,7 +2390,7 @@
             {
                 "id": "60241",
                 "name": "Rodrigo Fernandez",
-                "age": 29,
+                "age": 30,
                 "position": null,
                 "height": 182,
                 "weight": 85,
@@ -2732,7 +2732,7 @@
                 "position": null,
                 "height": 188,
                 "weight": 126,
-                "hometown": "Sydney, Australia",
+                "hometown": "Sydney | Gadigal, Australia",
                 "photo": "https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/46112.png",
                 "stats": {
                     "Kick from hand": 0.0,
@@ -2752,7 +2752,7 @@
             {
                 "id": "34184",
                 "name": "Courtney Lawes",
-                "age": 36,
+                "age": 37,
                 "position": null,
                 "height": 200,
                 "weight": 119,
@@ -2872,7 +2872,7 @@
             {
                 "id": "55592",
                 "name": "Ellis Genge",
-                "age": 30,
+                "age": 31,
                 "position": null,
                 "height": 187,
                 "weight": 113,
@@ -3184,7 +3184,7 @@
             {
                 "id": "59924",
                 "name": "Marcus Smith",
-                "age": 26,
+                "age": 27,
                 "position": null,
                 "height": 175,
                 "weight": 83,
@@ -3612,7 +3612,7 @@
             {
                 "id": "55246",
                 "name": "Eroni Mawi",
-                "age": 29,
+                "age": 30,
                 "position": null,
                 "height": 189,
                 "weight": 116,
@@ -3756,7 +3756,7 @@
             {
                 "id": "53366",
                 "name": "Josua Tuisova",
-                "age": 31,
+                "age": 32,
                 "position": null,
                 "height": 171,
                 "weight": 92,
@@ -4308,7 +4308,7 @@
             {
                 "id": "72584",
                 "name": "Zuriel Togiatama",
-                "age": 26,
+                "age": 27,
                 "position": null,
                 "height": 183,
                 "weight": 109,
@@ -4540,7 +4540,7 @@
             {
                 "id": "45689",
                 "name": "Bastien Chalureau",
-                "age": 33,
+                "age": 34,
                 "position": null,
                 "height": 199,
                 "weight": 112,
@@ -5348,7 +5348,7 @@
             {
                 "id": "65097",
                 "name": "Beka Gigashvili",
-                "age": 33,
+                "age": 34,
                 "position": null,
                 "height": 177,
                 "weight": 118,
@@ -5564,7 +5564,7 @@
             {
                 "id": "71447",
                 "name": "Irakli Aptsiauri",
-                "age": 22,
+                "age": 23,
                 "position": null,
                 "height": null,
                 "weight": null,
@@ -6406,7 +6406,7 @@
             {
                 "id": "43494",
                 "name": "Iain Henderson",
-                "age": 33,
+                "age": 34,
                 "position": null,
                 "height": 199,
                 "weight": 117,
@@ -6526,7 +6526,7 @@
             {
                 "id": "47498",
                 "name": "Jamison Gibson-Park",
-                "age": 33,
+                "age": 34,
                 "position": null,
                 "height": 176,
                 "weight": 80,
@@ -7118,7 +7118,7 @@
             {
                 "id": "45663",
                 "name": "David Sisi",
-                "age": 32,
+                "age": 33,
                 "position": null,
                 "height": 193,
                 "weight": 117,
@@ -7406,7 +7406,7 @@
             {
                 "id": "39867",
                 "name": "Luca Morisi",
-                "age": 34,
+                "age": 35,
                 "position": null,
                 "height": 183,
                 "weight": 98,
@@ -7554,7 +7554,7 @@
                 "position": null,
                 "height": 182,
                 "weight": 93,
-                "hometown": "Melbourne, Australia",
+                "hometown": "Melbourne | Narrm, Australia",
                 "photo": "https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/69902.png",
                 "stats": {
                     "Kick from hand": 3.0,
@@ -7646,7 +7646,7 @@
             {
                 "id": "56799",
                 "name": "Paolo Odogwu",
-                "age": 28,
+                "age": 29,
                 "position": null,
                 "height": 183,
                 "weight": 105,
@@ -7694,7 +7694,7 @@
             {
                 "id": "45573",
                 "name": "Pietro Ceccarelli",
-                "age": 33,
+                "age": 34,
                 "position": null,
                 "height": 184,
                 "weight": 115,
@@ -8296,7 +8296,7 @@
             {
                 "id": "50605",
                 "name": "Kotaro Matsushima",
-                "age": 32,
+                "age": 33,
                 "position": null,
                 "height": 178,
                 "weight": 87,
@@ -8898,7 +8898,7 @@
             {
                 "id": "60273",
                 "name": "Cliven Loubser",
-                "age": 28,
+                "age": 29,
                 "position": null,
                 "height": 176,
                 "weight": 85,
@@ -9234,7 +9234,7 @@
             {
                 "id": "60268",
                 "name": "Lloyd Jacobs",
-                "age": 32,
+                "age": 33,
                 "position": null,
                 "height": null,
                 "weight": null,
@@ -9258,7 +9258,7 @@
             {
                 "id": "49605",
                 "name": "Louis Van der Westhuizen",
-                "age": 30,
+                "age": 31,
                 "position": null,
                 "height": 178,
                 "weight": 103,
@@ -10004,7 +10004,7 @@
             {
                 "id": "66918",
                 "name": "Fletcher Newell",
-                "age": 25,
+                "age": 26,
                 "position": null,
                 "height": 186,
                 "weight": 112,
@@ -10028,7 +10028,7 @@
             {
                 "id": "57717",
                 "name": "Jordie Barrett",
-                "age": 28,
+                "age": 29,
                 "position": null,
                 "height": 194,
                 "weight": 102,
@@ -10316,7 +10316,7 @@
             {
                 "id": "50136",
                 "name": "Shannon Frizell",
-                "age": 31,
+                "age": 32,
                 "position": null,
                 "height": 188,
                 "weight": 114,
@@ -10412,7 +10412,7 @@
             {
                 "id": "60537",
                 "name": "Will Jordan",
-                "age": 27,
+                "age": 28,
                 "position": null,
                 "height": 188,
                 "weight": 91,
@@ -10888,7 +10888,7 @@
             {
                 "id": "61037",
                 "name": "João Granate",
-                "age": 28,
+                "age": 29,
                 "position": null,
                 "height": 186,
                 "weight": 102,
@@ -11490,7 +11490,7 @@
             {
                 "id": "65093",
                 "name": "Alexandru Savin",
-                "age": 30,
+                "age": 31,
                 "position": null,
                 "height": 187,
                 "weight": 121,
@@ -12018,7 +12018,7 @@
             {
                 "id": "76040",
                 "name": "Robert Irimescu",
-                "age": 29,
+                "age": 30,
                 "position": null,
                 "height": 180,
                 "weight": 103,
@@ -12114,7 +12114,7 @@
             {
                 "id": "48893",
                 "name": "Tevita Manumua",
-                "age": 32,
+                "age": 33,
                 "position": null,
                 "height": 189,
                 "weight": 118,
@@ -12404,7 +12404,7 @@
             {
                 "id": "48619",
                 "name": "Chris Vui",
-                "age": 32,
+                "age": 33,
                 "position": null,
                 "height": 198,
                 "weight": 119,
@@ -12644,7 +12644,7 @@
             {
                 "id": "43515",
                 "name": "Lima Sopoaga",
-                "age": 34,
+                "age": 35,
                 "position": null,
                 "height": 175,
                 "weight": 91,
@@ -12740,7 +12740,7 @@
             {
                 "id": "52181",
                 "name": "Neria Fomai",
-                "age": 33,
+                "age": 34,
                 "position": null,
                 "height": 180,
                 "weight": 94,
@@ -12884,7 +12884,7 @@
             {
                 "id": "60424",
                 "name": "Sama Malolo",
-                "age": 27,
+                "age": 28,
                 "position": null,
                 "height": 183,
                 "weight": 109,
@@ -12908,7 +12908,7 @@
             {
                 "id": "49195",
                 "name": "Seilala Lam",
-                "age": 36,
+                "age": 37,
                 "position": null,
                 "height": 183,
                 "weight": 110,
@@ -13774,7 +13774,7 @@
             {
                 "id": "62457",
                 "name": "Rory Darge",
-                "age": 25,
+                "age": 26,
                 "position": null,
                 "height": 185,
                 "weight": 98,
@@ -13870,7 +13870,7 @@
             {
                 "id": "60435",
                 "name": "Sione Tuipulotu",
-                "age": 28,
+                "age": 29,
                 "position": null,
                 "height": 178,
                 "weight": 104,
@@ -14088,7 +14088,7 @@
             {
                 "id": "53956",
                 "name": "Cobus Reinach",
-                "age": 35,
+                "age": 36,
                 "position": null,
                 "height": 175,
                 "weight": 84,
@@ -14424,7 +14424,7 @@
             {
                 "id": "49029",
                 "name": "Jesse Kriel",
-                "age": 31,
+                "age": 32,
                 "position": null,
                 "height": 186,
                 "weight": 96,
@@ -14568,7 +14568,7 @@
             {
                 "id": "45532",
                 "name": "Marvin Orie",
-                "age": 32,
+                "age": 33,
                 "position": null,
                 "height": 197,
                 "weight": 109,
@@ -14712,7 +14712,7 @@
             {
                 "id": "45555",
                 "name": "Steven Kitshoff",
-                "age": 33,
+                "age": 34,
                 "position": null,
                 "height": 183,
                 "weight": 120,
@@ -15212,7 +15212,7 @@
             {
                 "id": "4dc1b102-c8c5-46d9-9238-07d03a5c11bd",
                 "name": "Paula Latu",
-                "age": 29,
+                "age": 30,
                 "position": null,
                 "height": 187,
                 "weight": 123,
@@ -15236,7 +15236,7 @@
             {
                 "id": "50000",
                 "name": "Paula Ngauamo",
-                "age": 35,
+                "age": 36,
                 "position": null,
                 "height": 185,
                 "weight": 122,
@@ -15456,7 +15456,7 @@
                 "position": null,
                 "height": 180,
                 "weight": 106,
-                "hometown": "Sydney, Australia",
+                "hometown": "Sydney | Gadigal, Australia",
                 "photo": "https://www.rugbyworldcup.com/rwc2023/person-images-site/player-profile/56199.png",
                 "stats": {
                     "Kick from hand": 0.0,
@@ -15934,7 +15934,7 @@
             {
                 "id": "55333",
                 "name": "Eric Dosantos",
-                "age": 30,
+                "age": 31,
                 "position": null,
                 "height": 187,
                 "weight": 95,
@@ -16126,7 +16126,7 @@
             {
                 "id": "57461",
                 "name": "Guillermo Pujadas",
-                "age": 28,
+                "age": 29,
                 "position": null,
                 "height": 180,
                 "weight": 100,
@@ -16198,7 +16198,7 @@
             {
                 "id": "61317",
                 "name": "Ignacio Peculo",
-                "age": 26,
+                "age": 27,
                 "position": null,
                 "height": 190,
                 "weight": 120,
@@ -16534,7 +16534,7 @@
             {
                 "id": "60291",
                 "name": "Santiago Civetta",
-                "age": 27,
+                "age": 28,
                 "position": null,
                 "height": 184,
                 "weight": 93,
@@ -17136,7 +17136,7 @@
             {
                 "id": "68956",
                 "name": "Louis Rees-Zammit",
-                "age": 24,
+                "age": 25,
                 "position": null,
                 "height": 191,
                 "weight": 87,
@@ -17184,7 +17184,7 @@
             {
                 "id": "50353",
                 "name": "Nick Tompkins",
-                "age": 30,
+                "age": 31,
                 "position": null,
                 "height": 183,
                 "weight": 87,
