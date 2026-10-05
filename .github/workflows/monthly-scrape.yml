@@ -28,7 +28,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Scrape data and build HTML
-        run: python main.py
+        run: python main.py --ci
 
       - name: Commit and push changes
         env:
