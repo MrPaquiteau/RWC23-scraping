@@ -16,15 +16,21 @@ def load_teams_from_json(filename: str) -> list:
         teams_data = json.load(f)
     
     for country, data in teams_data.items():
-        Team(
-            id=data["id"],
-            name=data["name"],
-            code=data["code"],
-            images=data["images"],
-            country=data["country"],
-            players=[Player(**player) for player in data["players"]],
-            matches=[Match(**match) for match in data["matches"]]
-        )
+        if not isinstance(data, dict):
+            print(f"Skipping malformed team entry {country}")
+            continue
+        try:
+            Team(
+                id=data.get("id"),
+                name=data.get("name"),
+                code=data.get("code"),
+                images=data.get("images"),
+                country=data.get("country", country),
+                players=[Player(**player) for player in data.get("players", []) if isinstance(player, dict)],
+                matches=[Match(**match) for match in data.get("matches", []) if isinstance(match, dict)]
+            )
+        except Exception as e:
+            print(f"Skipping team {country} after load error: {e}")
     return Team.get_teams()
 
 
